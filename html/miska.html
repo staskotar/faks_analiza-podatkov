@@ -1,0 +1,2428 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xp:editor="" xp:id="606" xp:peak="" xmlns:xp="http://www.plezanje.net/climbing/db" xmlns="http://www.w3.org/1999/xhtml"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xp:editor="" xp:id="606" xp:peak="" xmlns:xp="http://www.plezanje.net/climbing/db" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Plezališèe: Mišja peè</title>
+<meta http-equiv="Content-Language" content="sl"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script src="/common/js/jquery.min.js" type="text/javascript"></script>
+<script src="/common/js/jquery-ui.min.js" type="text/javascript"></script>
+<script src="/common/js/jquery.dimensions.min.js" type="text/javascript"></script>
+<script src="/common/js/jquery.plugin.min.js" type="text/javascript"></script>
+<script src="/common/js/localFunctions.js?rev=101" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="/common/css/common.css?rev=102"/>
+<link rel="stylesheet" type="text/css" href="/common/css/ui.dialog.css"/>
+<script type="text/javascript">
+  var userRights = '' ;
+  var userName   = ' () ' ;
+  var userid     = '' ;
+  </script>
+<script src="/forms/lib/jsEditWithMask.js"></script>
+<script src="showCrag.js?rev=229"></script>
+<script src="comments.js?rev=100"></script>
+<style>   
+    #routeTable .showGrade { position: absolute; top: 0.1em; left: 0; border: inset 2px rgb(151,144,151); padding: 0.5em; background-color: rgb(252,252,254); z-index: 10000; }
+    #routeTable .showGrade div { width: 40em; }
+    #routeTable .showGrade .valid { font-weight: bold; }
+    #routeTable .showGrade h3 { margin-top: 0; }
+    #routeTable .dg { position: relative; z-index: 100; }
+    #routeTable .showGrade .formSection { border: none; }
+    #routeTable .authCell { width: 20em; }
+    #routeTable .authText { max-width: 18em; height: 1.5em; overflow: hidden; float: left; }
+    #routeTable .authMore { float: left; }
+    .warnBox { font-size: 8pt; }
+    
+    #addMenu_drop { width: 23em; }
+    .boltedImage { height: 1.2em; padding-left: 0.5em; float: right }
+  </style>
+</head>
+<body id="body">
+<div id="debug"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="noPrint" id="bannerTable">
+<tr><td class="noMargin" style="background-color: rgb(0,0,0);"><p class="noMargin" style="height: 57px; width: 290px; overflow: hidden;">
+<img border="0" src="/images/climbing_banner.gif" alt="Climbing banner"/></p></td>
+<td width="90%" class="tb_banner" valign="bottom">
+<table cellspacing="0" cellpadding="0" border="0"><tr>
+<td class="noMargin">
+<p class="tb_button">
+<a href="/climbing/index.asp">Domaèa stran</a>
+</p>
+</td>
+<td class="noMargin">
+<p class="tb_button" id="tpb_login">
+<a href="/forms/login.asp?URL=back">Prijava</a>
+</p>
+</td>
+<td class="noMargin">
+<p class="tb_button" style="display: none;" id="tpb_logout">
+<a href="/climbing/index.asp">Odjava</a>
+</p>
+</td>
+<td class="noMargin">
+<p class="tb_button">
+<a href="/climbing/myClimbs">Plezalni dnevnik</a>
+</p>
+</td>
+<td class="noMargin">
+<p class="tb_button">
+<a href="/climbing/db/countryIntro.asp?otype=C">Plezališèa</a>
+</p>
+</td>
+<td class="noMargin">
+<p class="tb_button">
+<a href="/climbing/db/cragIntro.asp?cc=SI&amp;type=L">Dolge športne smeri</a>
+</p>
+</td>
+<td class="noMargin">
+<p class="tb_button">
+<a href="/climbing/db/index.asp?file=iceKamSavAlpe.xml">Slapovi</a>
+</p>
+</td>
+</tr></table>
+</td>
+</tr></table>
+<div id="breadcrumbs">
+<p>
+<a href="/">plezanje.net</a> &gt;&gt; <a href="countryIntro.asp">Vodnièki</a> &gt;&gt; <a href="countryIntro.asp?otype=C">Plezališèa</a> &gt;&gt; <a href="cragIntro.asp?type=C&amp;ord=n&amp;cc=SI">Slovenija</a> &gt;&gt; <a href="showArea.asp?area=663">Primorska</a> &gt;&gt; Mišja peè</p>
+</div>
+<div class="inHeaderX dropdown" style="display: none" id="adminMenu"></div>
+<div class="inHeaderX dropdown" id="addMenu"></div>
+<p class="btx100 inHeaderX" id="editButton" style="display: none"><a tabindex="4999" accesskey="U" href="javascript:editCrag()">Uredi</a></p>
+<h2 class="hdrButtons">Mišja peè</h2>
+<script>$(setupCrag);</script>
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="formCellRpad" valign="top"><b>Literatura</b></td>
+<td class="formCell">Plezališèa Slovenije (3. izdaja)
+      (Tomo Èesen,
+      Sidarta, 1997)
+    </td>
+</tr>
+<tr>
+<td class="formCellRpad" valign="top"/>
+<td class="formCell">Plezališèa brez meja
+      (Erik Švab, Janez Skok, Doriano Perhat,
+      Sidarta, 2003)
+    </td>
+</tr>
+<tr>
+<td class="formCellRpad" valign="top"/>
+<td class="formCell">Slovenija (športnoplezalni vodnik)
+      (Betka Galièiè, Janez Skok, Danilo Cedilnik - Den,
+      Sidarta, 2005)
+    </td>
+</tr>
+<tr>
+<td class="formCellRpad" valign="top"/>
+<td class="formCell">Slovenija (športnoplezalni vodnik) - 2007
+      (Betka Galièiè, Janez Skok, Danilo Cedilnik,
+      Sidarta, 2007)
+    </td>
+</tr>
+</table>
+<div class="image" style="float: left; width: 160px; border-style: outset; border-width: 2px; margin: 0.5em 4px;">
+<a href="/asp/getImage.asp?id=929" class="pus">
+<img border="0" src="/asp/getImage.asp?id=929&amp;h=200&amp;w=150" xp:uid="{EBB3861D-448C-46B2-A080-F402ED231EC1}"/>
+</a>
+<br/>Mišja Peè</div>
+<div class="image" style="float: left; width: 160px; border-style: outset; border-width: 2px; margin: 0.5em 4px;">
+<a href="/asp/getImage.asp?id=1041" class="pus">
+<img border="0" src="/asp/getImage.asp?id=1041&amp;h=200&amp;w=150" xp:uid="{BD302CCA-FC66-4880-83D7-3B78133D4350}"/>
+</a>
+<br/>sektor A/IV</div>
+<div class="image" style="float: left; width: 160px; border-style: outset; border-width: 2px; margin: 0.5em 4px;">
+<a href="/asp/getImage.asp?id=1046" class="pus">
+<img border="0" src="/asp/getImage.asp?id=1046&amp;h=200&amp;w=150" xp:uid="{BD302CCA-FC66-4880-83D7-3B78133D4350}"/>
+</a>
+<br/>centralni sektor (B/III)</div>
+<div class="image" style="float: left; width: 160px; border-style: outset; border-width: 2px; margin: 0.5em 4px;">
+<a href="/asp/getImage.asp?id=1042" class="pus">
+<img border="0" src="/asp/getImage.asp?id=1042&amp;h=200&amp;w=150" xp:uid="{BD302CCA-FC66-4880-83D7-3B78133D4350}"/>
+</a>
+<br/>centralni sektor (B/II)</div>
+<div class="image" style="float: left; width: 160px; border-style: outset; border-width: 2px; margin: 0.5em 4px;">
+<a href="/asp/getImage.asp?id=1415" class="pus">
+<img border="0" src="/asp/getImage.asp?id=1415&amp;h=200&amp;w=150" xp:uid="{BD302CCA-FC66-4880-83D7-3B78133D4350}"/>
+</a>
+<br/>sektor C/II</div>
+<div class="image" style="float: left; width: 160px; border-style: outset; border-width: 2px; margin: 0.5em 4px;">
+<a href="/asp/getImage.asp?id=1414" class="pus">
+<img border="0" src="/asp/getImage.asp?id=1414&amp;h=200&amp;w=150" xp:uid="{BD302CCA-FC66-4880-83D7-3B78133D4350}"/>
+</a>
+<br/>sektor C/I</div>
+<div style="clear: left;">
+<h3 style="clear: left;">Pregled težavnosti</h3>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td style="padding-right: 2em;"><table border="0" cellspacing="2">
+<tr>
+<td class="formCell" align="center" style="background-color: #CCC; padding: 0 3px;">4a ... 4c+</td>
+<td class="formCell" align="center" style="background-color: #CCC; padding: 0 3px;">5a ... 5c+</td>
+<td class="formCell" align="center" style="background-color: #CCC; padding: 0 3px;">6a ... 6b+</td>
+<td class="formCell" align="center" style="background-color: #CCC; padding: 0 3px;">6c ... 7a+</td>
+<td class="formCell" align="center" style="background-color: #CCC; padding: 0 3px;">7b ... 7c+</td>
+<td class="formCell" align="center" style="background-color: #CCC; padding: 0 3px;">8a ... 9b</td>
+</tr>
+<tr>
+<td class="formCell" align="center">1</td>
+<td class="formCell" align="center">10</td>
+<td class="formCell" align="center">21</td>
+<td class="formCell" align="center">38</td>
+<td class="formCell" align="center">58</td>
+<td class="formCell" align="center">72</td>
+</tr>
+</table>
+</td>
+<td style="padding-right: 2em;"><table border="0" cellspacing="2">
+<tr>
+</tr>
+<tr>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="inHeaderX dropdown" id="showMenu"></div>
+<div class="inHeaderX" style="display:none;" id="loadWait"><p class="error">Poèakaj, nalagam podatke</p></div>
+<h3 class="hdrButtons" style="clear: left;">Smeri
+        </h3>
+<table class="fmtTable expandable active striped" id="routeTable">
+<thead>
+<tr>
+<th>Ime</th>
+<th>Težavnost</th>
+<th>Dolžina</th>
+<th class="tableHeader" id="climbTableHeader"></th>
+<th class="auth">Avtor/prvi vzpon</th><th>Druge informacije</th>
+</tr>
+</thead>
+<tbody>
+<tr class="sectorRow expandable">
+<td colspan="6">
+<p class="sectionHeader expandTitle" style="text-align: left;" id="S-46">A</p>
+</td>
+</tr>
+<tr id="r_1441">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1441">Slinavka</a></td>
+<td id="g_1441" class="grade">
+<p><a href="javascript:showGrades(1441)">5a/a+</a></p>
+</td>
+<td class="right">14 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1442">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1442">Parkljevka</a></td>
+<td id="g_1442" class="grade">
+<p><a href="javascript:showGrades(1442)">5b</a></p>
+</td>
+<td class="right">14 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1443">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1443">Brbonèica</a></td>
+<td id="g_1443" class="grade">
+<p><a href="javascript:showGrades(1443)">6a+/b</a></p>
+</td>
+<td class="right">14 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1444">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1444">Harry Potter</a></td>
+<td id="g_1444" class="grade">
+<p><a href="javascript:showGrades(1444)">6a+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1444">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1445">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1445">Bradavièarka</a></td>
+<td id="g_1445" class="grade">
+<p><a href="javascript:showGrades(1445)">6a+</a></p>
+</td>
+<td class="right">17 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1445">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1446">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1446">Mojèina</a></td>
+<td id="g_1446" class="grade">
+<p><a href="javascript:showGrades(1446)">5a+</a></p>
+</td>
+<td class="right">17 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1447">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1447">Ksenjina</a></td>
+<td id="g_1447" class="grade">
+<p><a href="javascript:showGrades(1447)">5a</a></p>
+</td>
+<td class="right">17 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1447">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1448">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1448">Naritko Mitko</a></td>
+<td id="g_1448" class="grade">
+<p><a href="javascript:showGrades(1448)">5a+/b</a></p>
+</td>
+<td class="right">17 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1449">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1449">Lukova</a></td>
+<td id="g_1449" class="grade">
+<p><a href="javascript:showGrades(1449)">6c</a></p>
+</td>
+<td class="right">17 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1449">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1450">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1450">Jožetova</a></td>
+<td id="g_1450" class="grade">
+<p><a href="javascript:showGrades(1450)">6a/a+</a></p>
+</td>
+<td class="right">20 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1451">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1451">Dragotova</a></td>
+<td id="g_1451" class="grade">
+<p><a href="javascript:showGrades(1451)">6b</a></p>
+</td>
+<td class="right">20 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1452">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1452">Sorinina</a></td>
+<td id="g_1452" class="grade">
+<p><a href="javascript:showGrades(1452)">6c</a></p>
+</td>
+<td class="right">20 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1453">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1453">Pepel</a></td>
+<td id="g_1453" class="grade">
+<p><a href="javascript:showGrades(1453)">6b+</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1454">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1454">Varianta pepela</a></td>
+<td id="g_1454" class="grade">
+<p><a href="javascript:showGrades(1454)">6b</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1454">2 komentarja</a> ] </td>
+</tr>
+<tr id="r_1455">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1455">Jumbo</a></td>
+<td id="g_1455" class="grade">
+<p><a href="javascript:showGrades(1455)">7a/a+</a></p>
+</td>
+<td class="right">17 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1455">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1457">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1457">Meteorit</a></td>
+<td id="g_1457" class="grade">
+<p><a href="javascript:showGrades(1457)">7c</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1458">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1458">Poontang</a></td>
+<td id="g_1458" class="grade">
+<p><a href="javascript:showGrades(1458)">7b+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td>Jurij Ravnik(2004)</td>
+<td/>
+</tr>
+<tr id="r_1456">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1456">Sternschnuppe</a></td>
+<td id="g_1456" class="grade">
+<p><a href="javascript:showGrades(1456)">7b</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1459">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1459">Mièkena</a></td>
+<td id="g_1459" class="grade">
+<p><a href="javascript:showGrades(1459)">6c+</a></p>
+</td>
+<td class="right">12 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1460">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1460">Frenkova</a></td>
+<td id="g_1460" class="grade">
+<p><a href="javascript:showGrades(1460)">7a</a></p>
+</td>
+<td class="right">23 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1461">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1461">Johanova</a></td>
+<td id="g_1461" class="grade">
+<p><a href="javascript:showGrades(1461)">7c</a></p>
+</td>
+<td class="right">20 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1461">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1462">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1462">Nido</a></td>
+<td id="g_1462" class="grade">
+<p><a href="javascript:showGrades(1462)">7b</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1463">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1463">Kinder garten</a></td>
+<td id="g_1463" class="grade">
+<p><a href="javascript:showGrades(1463)">7a+</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_5864">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=5864">Kinder garten direkt</a></td>
+<td id="g_5864" class="grade">
+<p><a href="javascript:showGrades(5864)">7b</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td>Mitja Peternelj(2006)</td>
+<td/>
+</tr>
+<tr id="r_1464">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1464">Matamoros</a></td>
+<td id="g_1464" class="grade">
+<p><a href="javascript:showGrades(1464)">7c</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1465">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1465">Tekila</a></td>
+<td id="g_1465" class="grade">
+<p><a href="javascript:showGrades(1465)">8a</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1465">2 komentarja</a> ] </td>
+</tr>
+<tr id="r_1466">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1466">Durango</a></td>
+<td id="g_1466" class="grade">
+<p><a href="javascript:showGrades(1466)">7b+</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_31558">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=31558">Ninja želva</a></td>
+<td id="g_31558">
+<p>8c</p></td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td>Janja Garnbret(2016)/Mitja Bizjak …</td>
+<td/>
+</tr>
+<tr id="r_1467">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1467">Tortuga a</a></td>
+<td id="g_1467" class="grade">
+<p><a href="javascript:showGrades(1467)">7b</a></p>
+</td>
+<td class="right">13 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1468">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1468">Tortuga b</a></td>
+<td id="g_1468" class="grade">
+<p><a href="javascript:showGrades(1468)">7c</a></p>
+</td>
+<td class="right">13 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1469">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1469">Corto</a></td>
+<td id="g_1469" class="grade">
+<p><a href="javascript:showGrades(1469)">8a</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td>Vili Guèek(1992)</td>
+<td/>
+</tr>
+<tr id="r_15401">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=15401">White power</a></td>
+<td id="g_15401">
+<p>8a/a+</p></td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a href="showRoute.asp?route=15401">Opis</a> ] </td>
+</tr>
+<tr id="r_1470">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1470">Lazuret</a></td>
+<td id="g_1470" class="grade">
+<p><a href="javascript:showGrades(1470)">8b</a></p>
+</td>
+<td class="right">20 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1471">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1471">Mr. Bighand</a></td>
+<td id="g_1471">
+<p>8b+</p></td>
+<td class="right">28 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1472">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1472">Gospodar prstanov</a></td>
+<td id="g_1472" class="grade">
+<p><a href="javascript:showGrades(1472)">7c+</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1473">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1473">Manana</a></td>
+<td id="g_1473" class="grade">
+<p><a href="javascript:showGrades(1473)">7c/c+</a></p>
+</td>
+<td class="right">12 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1473">2 komentarja</a> ] </td>
+</tr>
+<tr id="r_1474">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1474">Hobit</a></td>
+<td id="g_1474" class="grade">
+<p><a href="javascript:showGrades(1474)">7c</a></p>
+</td>
+<td class="right">17 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1475">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1475">Talk is cheap!</a></td>
+<td id="g_1475" class="grade">
+<p><a href="javascript:showGrades(1475)">8c</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1475">1 komentar</a> ] </td>
+</tr>
+<tr id="r_30308">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=30308">Vicious circle</a></td>
+<td id="g_30308">
+<p>9a+/b</p></td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td>Adam Ondra(2016)/Adam Ondra(2015)</td>
+<td/>
+</tr>
+<tr id="r_1476">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1476">Za staro kolo in majhnega psa</a></td>
+<td id="g_1476" class="grade">
+<p><a href="javascript:showGrades(1476)">8c+</a></p>
+</td>
+<td class="right">13 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1477">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1477">Sanjski par</a></td>
+<td id="g_1477" class="grade">
+<p><a href="javascript:showGrades(1477)">8c</a></p>
+</td>
+<td class="right">10 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_30309">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=30309">Sanjski par extension</a></td>
+<td id="g_30309">
+<p>9a</p></td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1478">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1478">Peskovnik</a></td>
+<td id="g_1478" class="grade">
+<p><a href="javascript:showGrades(1478)">7b/b+</a></p>
+</td>
+<td class="right">9 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1479">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1479">Sistolitièni vrt</a></td>
+<td id="g_1479" class="grade">
+<p><a href="javascript:showGrades(1479)">7b+</a></p>
+</td>
+<td class="right">4 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr class="sectorRow expandable">
+<td colspan="6">
+<p class="sectionHeader expandTitle" style="text-align: left;" id="S-47">B</p>
+</td>
+</tr>
+<tr id="r_1480">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1480">Pièkin dim</a></td>
+<td id="g_1480" class="grade">
+<p><a href="javascript:showGrades(1480)">6b+</a></p>
+</td>
+<td class="right">14 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1481">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1481">Tazio</a></td>
+<td id="g_1481" class="grade">
+<p><a href="javascript:showGrades(1481)">6c</a></p>
+</td>
+<td class="right">14 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1482">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1482">Kurèji rock</a></td>
+<td id="g_1482" class="grade">
+<p><a href="javascript:showGrades(1482)">6c+</a></p>
+</td>
+<td class="right">14 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1483">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1483">Ribalton</a></td>
+<td id="g_1483" class="grade">
+<p><a href="javascript:showGrades(1483)">7a+</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1484">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1484">Èao bejbe</a></td>
+<td id="g_1484" class="grade">
+<p><a href="javascript:showGrades(1484)">7c+/8a</a></p>
+</td>
+<td class="right">20 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1485">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1485">Iglu</a></td>
+<td id="g_1485" class="grade">
+<p><a href="javascript:showGrades(1485)">8a</a></p>
+</td>
+<td class="right">20 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1486">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1486">Flash dance</a></td>
+<td id="g_1486" class="grade">
+<p><a href="javascript:showGrades(1486)">7c</a></p>
+</td>
+<td class="right">20 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1486">1 komentar</a> ] </td>
+</tr>
+<tr id="r_17323">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=17323">Angie wall</a></td>
+<td id="g_17323" class="grade">
+<p><a href="javascript:showGrades(17323)">7c</a></p>
+</td>
+<td class="right">24 m</td>
+<td class="showClimbs"></td>
+<td>Luka Zazvonil(2009)/Blaž Zazvonil …</td>
+<td/>
+</tr>
+<tr id="r_1487">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1487">Rock'n roll</a></td>
+<td id="g_1487" class="grade">
+<p><a href="javascript:showGrades(1487)">7c+</a></p>
+</td>
+<td class="right">22 m</td>
+<td class="showClimbs"></td>
+<td>Vili Guèek(1991)</td>
+<td/>
+</tr>
+<tr id="r_1488">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1488">Galaktika</a></td>
+<td id="g_1488" class="grade">
+<p><a href="javascript:showGrades(1488)">8a/a+</a></p>
+</td>
+<td class="right">25 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_27134">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=27134">The very long engagement</a></td>
+<td id="g_27134">
+<p>8a+/b</p></td>
+<td class="right">10 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a href="showRoute.asp?route=27134">Opis</a> ] </td>
+</tr>
+<tr id="r_1489">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1489">Strta srca</a></td>
+<td id="g_1489" class="grade">
+<p><a href="javascript:showGrades(1489)">8a+</a></p>
+</td>
+<td class="right">9 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1490">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1490">Twin peaks</a></td>
+<td id="g_1490" class="grade">
+<p><a href="javascript:showGrades(1490)">7c/c+</a></p>
+</td>
+<td class="right">7 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1491">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1491">Stinger</a></td>
+<td id="g_1491" class="grade">
+<p><a href="javascript:showGrades(1491)">7c</a></p>
+</td>
+<td class="right">24 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1492">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1492">No fly zone</a></td>
+<td id="g_1492" class="grade">
+<p><a href="javascript:showGrades(1492)">8b</a></p>
+</td>
+<td class="right">24 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1493">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1493">Skodelica kave</a></td>
+<td id="g_1493" class="grade">
+<p><a href="javascript:showGrades(1493)">7b</a></p>
+</td>
+<td class="right">23 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1494">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1494">Nina</a></td>
+<td id="g_1494" class="grade">
+<p><a href="javascript:showGrades(1494)">7b</a></p>
+</td>
+<td class="right">21 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1495">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1495">Danger zone</a></td>
+<td id="g_1495" class="grade">
+<p><a href="javascript:showGrades(1495)">7a</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1495">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1496">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1496">Nikita</a></td>
+<td id="g_1496" class="grade">
+<p><a href="javascript:showGrades(1496)">7b+</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1496">2 komentarja</a> ] </td>
+</tr>
+<tr id="r_1497">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1497">Minulet</a></td>
+<td id="g_1497" class="grade">
+<p><a href="javascript:showGrades(1497)">7b+</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_17472">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=17472">Ponarejeni Minulet</a></td>
+<td id="g_17472" class="grade">
+<p><a href="javascript:showGrades(17472)">6c+</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td>Betka Galièiè(2011)</td>
+<td/>
+</tr>
+<tr id="r_1498">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1498">Ponarejena želva</a></td>
+<td id="g_1498" class="grade">
+<p><a href="javascript:showGrades(1498)">7a+/b</a></p>
+</td>
+<td class="right">20 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1498">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1499">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1499">Oro puro</a></td>
+<td id="g_1499" class="grade">
+<p><a href="javascript:showGrades(1499)">7c</a></p>
+</td>
+<td class="right">20 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1500">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1500">Teta Liza</a></td>
+<td id="g_1500" class="grade">
+<p><a href="javascript:showGrades(1500)">7a</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1500">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1501">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1501">Moving shadow</a></td>
+<td id="g_1501" class="grade">
+<p><a href="javascript:showGrades(1501)">7b+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1502">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1502">9A - 1 del</a></td>
+<td id="g_1502" class="grade">
+<p><a href="javascript:showGrades(1502)">6c</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1503">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1503">9A - 2 del</a></td>
+<td id="g_1503" class="grade">
+<p><a href="javascript:showGrades(1503)">7c</a></p>
+</td>
+<td class="right">30 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1504">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1504">Uncle Ben</a></td>
+<td id="g_1504" class="grade">
+<p><a href="javascript:showGrades(1504)">7b</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_22152">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=22152">Ljubezen na prvi pogled (1.del)</a></td>
+<td id="g_22152" class="grade">
+<p><a href="javascript:showGrades(22152)">7a+</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_20502">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=20502">Ljubezen na prvi pogled</a></td>
+<td id="g_20502" class="grade">
+<p><a href="javascript:showGrades(20502)">7c+</a></p>
+</td>
+<td class="right">30 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1505">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1505">Eagles</a></td>
+<td id="g_1505" class="grade">
+<p><a href="javascript:showGrades(1505)">8b</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td>Vili Guèek(1994)/Borut Kavzar(1992)</td>
+<td/>
+</tr>
+<tr id="r_1506">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1506">Caffe expresso</a></td>
+<td id="g_1506" class="grade">
+<p><a href="javascript:showGrades(1506)">8a+</a></p>
+</td>
+<td class="right">30 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_10431">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=10431">Dolga kava</a></td>
+<td id="g_10431" class="grade">
+<p><a href="javascript:showGrades(10431)">7c</a></p>
+</td>
+<td class="right">30 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1507">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1507">Noèna kronika</a></td>
+<td id="g_1507" class="grade">
+<p><a href="javascript:showGrades(1507)">8b</a></p>
+</td>
+<td class="right">30 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1507">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1508">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1508">Noèna kronika - 1 del</a></td>
+<td id="g_1508" class="grade">
+<p><a href="javascript:showGrades(1508)">7c+</a></p>
+</td>
+<td class="right">23 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1508">2 komentarja</a> ] </td>
+</tr>
+<tr id="r_1509">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1509">Urbanova</a></td>
+<td id="g_1509" class="grade">
+<p><a href="javascript:showGrades(1509)">8a</a></p>
+</td>
+<td class="right">30 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1509">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1510">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1510">Uživancija</a></td>
+<td id="g_1510" class="grade">
+<p><a href="javascript:showGrades(1510)">8a</a></p>
+</td>
+<td class="right">30 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_30307">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=30307">Delni mrk</a></td>
+<td id="g_30307">
+<p>8a+</p></td>
+<td class="right">30 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a href="showRoute.asp?route=30307">Opis</a> ] </td>
+</tr>
+<tr id="r_1511">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1511">Veseli tobogan</a></td>
+<td id="g_1511" class="grade">
+<p><a href="javascript:showGrades(1511)">8a/a+</a></p>
+</td>
+<td class="right">10 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1511">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1512">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1512">Popolni mrk</a></td>
+<td id="g_1512">
+<p>8c</p></td>
+<td class="right">30 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1513">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1513">Sreèa vrtnice</a></td>
+<td id="g_1513" class="grade">
+<p><a href="javascript:showGrades(1513)">8b</a></p>
+</td>
+<td class="right">32 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1514">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1514">Sreèa vrtnice - 1 del</a></td>
+<td id="g_1514" class="grade">
+<p><a href="javascript:showGrades(1514)">7a+</a></p>
+</td>
+<td class="right">21 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_5433">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=5433">Gorenjski šnops</a></td>
+<td id="g_5433">
+<p>8b</p></td>
+<td class="right">32 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_5434">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=5434">Gorenjski šnops - 1 del</a></td>
+<td id="g_5434" class="grade">
+<p><a href="javascript:showGrades(5434)">7a</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=5434">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1515">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1515">Albanski konjak</a></td>
+<td id="g_1515" class="grade">
+<p><a href="javascript:showGrades(1515)">8a</a></p>
+</td>
+<td class="right">31 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1515">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1516">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1516">Albanski konjak - 1 del</a></td>
+<td id="g_1516" class="grade">
+<p><a href="javascript:showGrades(1516)">6c+</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1516">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1517">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1517">Rodeo</a></td>
+<td id="g_1517" class="grade">
+<p><a href="javascript:showGrades(1517)">7a</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_5435">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=5435">Corrida</a></td>
+<td id="g_5435">
+<p>8c</p></td>
+<td class="right">31 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_5436">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=5436">Histerija</a></td>
+<td id="g_5436">
+<p>8c+</p></td>
+<td class="right">32 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1518">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1518">Ptièja perspektiva</a></td>
+<td id="g_1518" class="grade">
+<p><a href="javascript:showGrades(1518)">8a+</a></p>
+</td>
+<td class="right">32 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1519">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1519">Ptièja perspektiva - 1 del</a></td>
+<td id="g_1519" class="grade">
+<p><a href="javascript:showGrades(1519)">7b</a></p>
+</td>
+<td class="right">20 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1519">1 komentar</a> ] </td>
+</tr>
+<tr id="r_17322">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=17322">Ptièja Vizija</a></td>
+<td id="g_17322" class="grade">
+<p><a href="javascript:showGrades(17322)">7c/c+</a></p>
+</td>
+<td class="right">33 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1520">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1520">Krvave dimlje</a></td>
+<td id="g_1520" class="grade">
+<p><a href="javascript:showGrades(1520)">7b+/c</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td>Jurij Ravnik(2004)</td>
+<td/>
+</tr>
+<tr id="r_1521">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1521">Pikova dama</a></td>
+<td id="g_1521" class="grade">
+<p><a href="javascript:showGrades(1521)">8b</a></p>
+</td>
+<td class="right">32 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_5437">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=5437">Vizija</a></td>
+<td id="g_5437" class="grade">
+<p><a href="javascript:showGrades(5437)">8c</a></p>
+</td>
+<td class="right">30 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1522">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1522">Karizma</a></td>
+<td id="g_1522">
+<p>8b+</p></td>
+<td class="right">32 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1523">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1523">Triad</a></td>
+<td id="g_1523" class="grade">
+<p><a href="javascript:showGrades(1523)">8a</a></p>
+</td>
+<td class="right">23 m</td>
+<td class="showClimbs"></td>
+<td>Vili Guèek(1992)</td>
+<td/>
+</tr>
+<tr id="r_1524">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1524">Èlovek ne jezi se</a></td>
+<td id="g_1524">
+<p>8c</p></td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_7941">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=7941">Ekstaza</a></td>
+<td id="g_7941">
+<p>8c+/9a</p></td>
+<td class="right">40 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_7939">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=7939">Èlovek ne jezi se (do vrha)</a></td>
+<td id="g_7939">
+<p>8c+</p></td>
+<td class="right">41 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1525">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1525">Sanje za dušo</a></td>
+<td id="g_1525" class="grade">
+<p><a href="javascript:showGrades(1525)">8b+</a></p>
+</td>
+<td class="right">40 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1525">1 komentar</a> ] </td>
+</tr>
+<tr id="r_12413">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=12413">Xaxid hostel</a></td>
+<td id="g_12413">
+<p>9a/a+</p></td>
+<td class="right">42 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a href="showRoute.asp?route=12413">Opis</a> ] </td>
+</tr>
+<tr id="r_1526">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1526">J.S.F.K.</a></td>
+<td id="g_1526" class="grade">
+<p><a href="javascript:showGrades(1526)">7c+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_7940">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=7940">J.S.F.K. (do vrha)</a></td>
+<td id="g_7940">
+<p>8b</p></td>
+<td class="right">41 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1527">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1527">Figa</a></td>
+<td id="g_1527" class="grade">
+<p><a href="javascript:showGrades(1527)">7b/b+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1528">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1528">Figaro</a></td>
+<td id="g_1528">
+<p>8a+</p></td>
+<td class="right">40 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1529">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1529">Blood, sugar, sex, magic</a></td>
+<td id="g_1529" class="grade">
+<p><a href="javascript:showGrades(1529)">8a/a+</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1530">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1530">Bula</a></td>
+<td id="g_1530" class="grade">
+<p><a href="javascript:showGrades(1530)">7b+</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1530">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1532">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1532">Giljotina</a></td>
+<td id="g_1532" class="grade">
+<p><a href="javascript:showGrades(1532)">8a</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1533">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1533">Bastilla</a></td>
+<td id="g_1533" class="grade">
+<p><a href="javascript:showGrades(1533)">8a+</a></p>
+</td>
+<td class="right">27 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1531">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1531">Bastilla do vrha</a></td>
+<td id="g_1531" class="grade">
+<p><a href="javascript:showGrades(1531)">8b+</a></p>
+</td>
+<td class="right">40 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1534">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1534">Highlander</a></td>
+<td id="g_1534" class="grade">
+<p><a href="javascript:showGrades(1534)">8a+</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1535">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1535">Izgubljeni sin</a></td>
+<td id="g_1535" class="grade">
+<p><a href="javascript:showGrades(1535)">8a+</a></p>
+</td>
+<td class="right">40 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1536">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1536">Samsara</a></td>
+<td id="g_1536" class="grade">
+<p><a href="javascript:showGrades(1536)">8a</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1537">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1537">Mrtvaški ples</a></td>
+<td id="g_1537" class="grade">
+<p><a href="javascript:showGrades(1537)">8b</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1538">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1538">Marioneta</a></td>
+<td id="g_1538" class="grade">
+<p><a href="javascript:showGrades(1538)">8b/b+</a></p>
+</td>
+<td class="right">19 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1539">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1539">Lahko noè, Irena</a></td>
+<td id="g_1539" class="grade">
+<p><a href="javascript:showGrades(1539)">8a+/b</a></p>
+</td>
+<td class="right">25 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1540">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1540">Mozaik</a></td>
+<td id="g_1540" class="grade">
+<p><a href="javascript:showGrades(1540)">7c+/8a</a></p>
+</td>
+<td class="right">25 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1541">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1541">Milennium</a></td>
+<td id="g_1541">
+<p>8b+</p></td>
+<td class="right">40 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1542">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1542">Hugo</a></td>
+<td id="g_1542" class="grade">
+<p><a href="javascript:showGrades(1542)">7c+</a></p>
+</td>
+<td class="right">25 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1543">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1543">Popaj</a></td>
+<td id="g_1543" class="grade">
+<p><a href="javascript:showGrades(1543)">8a+</a></p>
+</td>
+<td class="right">32 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1544">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1544">Lucky luke</a></td>
+<td id="g_1544" class="grade">
+<p><a href="javascript:showGrades(1544)">8b</a></p>
+</td>
+<td class="right">32 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1545">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1545">Chiquita</a></td>
+<td id="g_1545" class="grade">
+<p><a href="javascript:showGrades(1545)">8b/b+</a></p>
+</td>
+<td class="right">32 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1545">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1546">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1546">Chiquita - 1 del</a></td>
+<td id="g_1546" class="grade">
+<p><a href="javascript:showGrades(1546)">8a</a></p>
+</td>
+<td class="right">25 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1547">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1547">Preobrazba</a></td>
+<td id="g_1547" class="grade">
+<p><a href="javascript:showGrades(1547)">7c+</a></p>
+</td>
+<td class="right">23 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1549">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1549">Klobasa - Preobrazba</a></td>
+<td id="g_1549" class="grade">
+<p><a href="javascript:showGrades(1549)">7c</a></p>
+</td>
+<td class="right">23 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1549">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1548">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1548">Klobasa</a></td>
+<td id="g_1548" class="grade">
+<p><a href="javascript:showGrades(1548)">8a+</a></p>
+</td>
+<td class="right">23 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1548">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1550">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1550">Kaj ti je deklica?</a></td>
+<td id="g_1550" class="grade">
+<p><a href="javascript:showGrades(1550)">8b+</a></p>
+</td>
+<td class="right">32 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1551">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1551">Oktoberfest</a></td>
+<td id="g_1551" class="grade">
+<p><a href="javascript:showGrades(1551)">8a</a></p>
+</td>
+<td class="right">29 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1552">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1552">Pasja radost</a></td>
+<td id="g_1552" class="grade">
+<p><a href="javascript:showGrades(1552)">7b+</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_22113">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=22113">Šunka</a></td>
+<td id="g_22113" class="grade">
+<p><a href="javascript:showGrades(22113)">7c+</a></p>
+</td>
+<td class="right">33 m</td>
+<td class="showClimbs"></td>
+<td>Luka Bišèak(2013)/Luka Bišèak(2013)</td>
+<td/>
+</tr>
+<tr id="r_1553">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1553">Krvavica</a></td>
+<td id="g_1553" class="grade">
+<p><a href="javascript:showGrades(1553)">7a+</a></p>
+</td>
+<td class="right">29 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1553">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1554">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1554">Krvavica - 1 del</a></td>
+<td id="g_1554" class="grade">
+<p><a href="javascript:showGrades(1554)">7a</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1555">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1555">Godla</a></td>
+<td id="g_1555" class="grade">
+<p><a href="javascript:showGrades(1555)">7c+</a></p>
+</td>
+<td class="right">35 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_6960">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=6960">Godla - 1. del</a></td>
+<td id="g_6960" class="grade">
+<p><a href="javascript:showGrades(6960)">7b</a></p>
+</td>
+<td class="right">25 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1556">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1556">Kamnolom</a></td>
+<td id="g_1556" class="grade">
+<p><a href="javascript:showGrades(1556)">6a</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1557">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1557">Tretje tisoèletje</a></td>
+<td id="g_1557" class="grade">
+<p><a href="javascript:showGrades(1557)">8a</a></p>
+</td>
+<td class="right">29 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1558">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1558">Tretje tisoèletje - 1 del</a></td>
+<td id="g_1558" class="grade">
+<p><a href="javascript:showGrades(1558)">6a+/b</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1559">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1559">Peèenica</a></td>
+<td id="g_1559" class="grade">
+<p><a href="javascript:showGrades(1559)">6b+</a></p>
+</td>
+<td class="right">25 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1560">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1560">Peèenica - 1 del</a></td>
+<td id="g_1560" class="grade">
+<p><a href="javascript:showGrades(1560)">6b+</a></p>
+</td>
+<td class="right">17 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1561">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1561">Pleskavica</a></td>
+<td id="g_1561" class="grade">
+<p><a href="javascript:showGrades(1561)">7a</a></p>
+</td>
+<td class="right">17 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_17308">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=17308">Lisièji raz</a></td>
+<td id="g_17308" class="grade">
+<p><a href="javascript:showGrades(17308)">7b</a></p>
+</td>
+<td class="right">26 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1562">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1562">Hugolina</a></td>
+<td id="g_1562" class="grade">
+<p><a href="javascript:showGrades(1562)">7b+</a></p>
+</td>
+<td class="right">24 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1562">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1563">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1563">Pinot</a></td>
+<td id="g_1563" class="grade">
+<p><a href="javascript:showGrades(1563)">7c</a></p>
+</td>
+<td class="right">24 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr class="sectorRow expandable">
+<td colspan="6">
+<p class="sectionHeader expandTitle" style="text-align: left;" id="S-48">C</p>
+</td>
+</tr>
+<tr id="r_1564">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1564">Deževna sodba</a></td>
+<td id="g_1564" class="grade">
+<p><a href="javascript:showGrades(1564)">7c</a></p>
+</td>
+<td class="right">24 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1565">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1565">Hrenovka</a></td>
+<td id="g_1565" class="grade">
+<p><a href="javascript:showGrades(1565)">6b/b+</a></p>
+</td>
+<td class="right">23 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1566">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1566">Euro</a></td>
+<td id="g_1566" class="grade">
+<p><a href="javascript:showGrades(1566)">7a+</a></p>
+</td>
+<td class="right">4 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1567">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1567">Èevapèiè</a></td>
+<td id="g_1567" class="grade">
+<p><a href="javascript:showGrades(1567)">6c</a></p>
+</td>
+<td class="right">22 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1569">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1569">Sneguljèica</a></td>
+<td id="g_1569" class="grade">
+<p><a href="javascript:showGrades(1569)">5c+</a></p>
+</td>
+<td class="right">7 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_5438">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=5438">Bedarija</a></td>
+<td id="g_5438" class="grade">
+<p><a href="javascript:showGrades(5438)">7a+</a></p>
+</td>
+<td class="right">13 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1570">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1570">7 palèkov</a></td>
+<td id="g_1570" class="grade">
+<p><a href="javascript:showGrades(1570)">6c</a></p>
+</td>
+<td class="right">7 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1568">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1568">Timo</a></td>
+<td id="g_1568" class="grade">
+<p><a href="javascript:showGrades(1568)">6c</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1571">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1571">Truplojedka</a></td>
+<td id="g_1571" class="grade">
+<p><a href="javascript:showGrades(1571)">8a+</a></p>
+</td>
+<td class="right">7 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1572">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1572">Matrix</a></td>
+<td id="g_1572">
+<p>8b</p></td>
+<td class="right">9 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1573">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1573">Missing drink</a></td>
+<td id="g_1573">
+<p>8b+</p></td>
+<td class="right">13 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1574">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1574">Missing link</a></td>
+<td id="g_1574" class="grade">
+<p><a href="javascript:showGrades(1574)">8b+</a></p>
+</td>
+<td class="right">13 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_17326">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=17326">Natural link</a></td>
+<td id="g_17326">
+<p>8c</p></td>
+<td class="right">13 m</td>
+<td class="showClimbs"></td>
+<td>Uroš Perko(2003)</td>
+<td>[ <a href="showRoute.asp?route=17326">Opis</a> ] </td>
+</tr>
+<tr id="r_1575">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1575">Konec mira</a></td>
+<td id="g_1575">
+<p>8c/c+</p></td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1576">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1576">Marjetica</a></td>
+<td id="g_1576" class="grade">
+<p><a href="javascript:showGrades(1576)">8b/b+</a></p>
+</td>
+<td class="right">14 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1577">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1577">Pingvin</a></td>
+<td id="g_1577" class="grade">
+<p><a href="javascript:showGrades(1577)">8a+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1578">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1578">Pingvin a</a></td>
+<td id="g_1578" class="grade">
+<p><a href="javascript:showGrades(1578)">7c+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1579">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1579">Sonce v oèeh</a></td>
+<td id="g_1579" class="grade">
+<p><a href="javascript:showGrades(1579)">8a+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1579">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1580">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1580">Martin Krpan</a></td>
+<td id="g_1580">
+<p>9a</p></td>
+<td class="right">22 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1581">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1581">Strelovod</a></td>
+<td id="g_1581">
+<p>8c</p></td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1582">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1582">Runo</a></td>
+<td id="g_1582" class="grade">
+<p><a href="javascript:showGrades(1582)">7b+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1582">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1583">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1583">Reksi</a></td>
+<td id="g_1583" class="grade">
+<p><a href="javascript:showGrades(1583)">7b</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1583">2 komentarja</a> ] </td>
+</tr>
+<tr id="r_8983">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=8983">Lesi</a></td>
+<td id="g_8983" class="grade">
+<p><a href="javascript:showGrades(8983)">7b</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=8983">1 komentar</a> ] </td>
+</tr>
+<tr id="r_1584">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1584">VR6</a></td>
+<td id="g_1584" class="grade">
+<p><a href="javascript:showGrades(1584)">7c</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1585">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1585">Zajèek</a></td>
+<td id="g_1585" class="grade">
+<p><a href="javascript:showGrades(1585)">8a+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1586">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1586">Platfus</a></td>
+<td id="g_1586" class="grade">
+<p><a href="javascript:showGrades(1586)">7a+</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1586">1 komentar</a> ] </td>
+</tr>
+<tr id="r_5439">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=5439">JSKŽ</a></td>
+<td id="g_5439" class="grade">
+<p><a href="javascript:showGrades(5439)">7a+</a></p>
+</td>
+<td class="right">18 m</td>
+<td class="showClimbs"></td>
+<td>Mitja Peternelj, Jure Bobnar(2004)</td>
+<td/>
+</tr>
+<tr id="r_6561">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=6561">Afrodita</a></td>
+<td id="g_6561" class="grade">
+<p><a href="javascript:showGrades(6561)">6a+</a></p>
+</td>
+<td class="right">17 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_6562">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=6562">Afrodiziak</a></td>
+<td id="g_6562" class="grade">
+<p><a href="javascript:showGrades(6562)">6c+/7a</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1587">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1587">Švejk</a></td>
+<td id="g_1587" class="grade">
+<p><a href="javascript:showGrades(1587)">7a</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1588">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1588">Krjavelj</a></td>
+<td id="g_1588" class="grade">
+<p><a href="javascript:showGrades(1588)">6a+/b</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_6563">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=6563">Mišja luknja</a></td>
+<td id="g_6563" class="grade">
+<p><a href="javascript:showGrades(6563)">5b/b+</a></p>
+</td>
+<td class="right">14 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_6564">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=6564">Podgana</a></td>
+<td id="g_6564" class="grade">
+<p><a href="javascript:showGrades(6564)">6a+</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1589">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1589">Prehod za pešce</a></td>
+<td id="g_1589" class="grade">
+<p><a href="javascript:showGrades(1589)">4a/a+</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1589">1 komentar</a> ] </td>
+</tr>
+<tr id="r_6565">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=6565">Prijateljica noèi</a></td>
+<td id="g_6565" class="grade">
+<p><a href="javascript:showGrades(6565)">7a</a></p>
+</td>
+<td class="right">12 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_6566">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=6566">Sovražnica</a></td>
+<td id="g_6566" class="grade">
+<p><a href="javascript:showGrades(6566)">7b+</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_6567">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=6567">Èrna luknja</a></td>
+<td id="g_6567" class="grade">
+<p><a href="javascript:showGrades(6567)">6c+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_6568">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=6568">Sexy zajeda</a></td>
+<td id="g_6568" class="grade">
+<p><a href="javascript:showGrades(6568)">6c+</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1590">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1590">Za star moped in hudga psa</a></td>
+<td id="g_1590" class="grade">
+<p><a href="javascript:showGrades(1590)">7a+</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=1590">1 komentar</a> ] </td>
+</tr>
+<tr id="r_6569">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=6569">Dežela šalc</a></td>
+<td id="g_6569" class="grade">
+<p><a href="javascript:showGrades(6569)">5a+/b</a></p>
+</td>
+<td class="right">15 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_7145">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=7145">Igra</a></td>
+<td id="g_7145" class="grade">
+<p><a href="javascript:showGrades(7145)">7b</a></p>
+</td>
+<td class="right">16 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_7146">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=7146">Grom</a></td>
+<td id="g_7146" class="grade">
+<p><a href="javascript:showGrades(7146)">6a/a+</a></p>
+</td>
+<td class="right">9 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=7146">1 komentar</a> ] </td>
+</tr>
+<tr id="r_7147">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=7147">Strela</a></td>
+<td id="g_7147" class="grade">
+<p><a href="javascript:showGrades(7147)">5b/b+</a></p>
+</td>
+<td class="right">9 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1591">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1591">Milky way</a></td>
+<td id="g_1591" class="grade">
+<p><a href="javascript:showGrades(1591)">6b/b+</a></p>
+</td>
+<td class="right">9 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1592">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1592">Bounty</a></td>
+<td id="g_1592" class="grade">
+<p><a href="javascript:showGrades(1592)">6c/c+</a></p>
+</td>
+<td class="right">9 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1593">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1593">Rest day</a></td>
+<td id="g_1593" class="grade">
+<p><a href="javascript:showGrades(1593)">7b+</a></p>
+</td>
+<td class="right">9 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_1594">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=1594">Snickers</a></td>
+<td id="g_1594" class="grade">
+<p><a href="javascript:showGrades(1594)">6c</a></p>
+</td>
+<td class="right">9 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_7148">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=7148">Mars</a></td>
+<td id="g_7148" class="grade">
+<p><a href="javascript:showGrades(7148)">6b+</a></p>
+</td>
+<td class="right">14 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_7149">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=7149">Milka</a></td>
+<td id="g_7149" class="grade">
+<p><a href="javascript:showGrades(7149)">6a/a+</a></p>
+</td>
+<td class="right">14 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_7150">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=7150">Gorenjka</a></td>
+<td id="g_7150" class="grade">
+<p><a href="javascript:showGrades(7150)">6c</a></p>
+</td>
+<td class="right">13 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_7151">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=7151">Raffaelo</a></td>
+<td id="g_7151" class="grade">
+<p><a href="javascript:showGrades(7151)">6b</a></p>
+</td>
+<td class="right">13 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td/>
+</tr>
+<tr id="r_7152">
+<td style="padding-left: 1em;">
+<a href="showRoute.asp?route=7152">Twix</a></td>
+<td id="g_7152" class="grade">
+<p><a href="javascript:showGrades(7152)">5b</a></p>
+</td>
+<td class="right">14 m</td>
+<td class="showClimbs"></td>
+<td></td>
+<td>[ <a class="comment" href="showRoute.asp?route=7152">1 komentar</a> ] </td>
+</tr>
+</tbody>
+</table>
+<table class="formTable" id="commentTable">
+<tr>
+<td class="formCell">
+<div class="formSection">
+<p class="formSectionTitle">Komentarji</p>
+<div class="padLR">Opozorilo in v vednost! Nekateri limani svedri v Mišji peèi so v slabem stanju (se vrtijo in so razrahljani, nekatere pa se da lahko brez truda potegniti celo ven- kokretno v smeri Corto, pa tudi v drugih-Reksi/Runo...). Priporoèam previdnost oz. odsvetujem pleznanje omejenih smeri, dokler se ne sanirajo z ekspanderji.<p class="formText" style="margin: 0.3em 0 0.5em 0; text-align: right; clear: right;">jernej vidmar, 9.5.2014 8:48:24</p>
+<hr/>Tisti ki prepleza Hostel Xaxid smer dobi gratis noèitev v Hostlu Xaxid  ...z dokaznim gradivom seveda  <img src="http://www.plezanje.net/images/smiles/icon_smile.gif" border="0" alt=":)" xmlns=""><p class="formText" style="margin: 0.3em 0 0.5em 0; text-align: right; clear: right;">Hostel Xaxid, 30.9.2013 22:11:52</p>
+<hr/>NOV HOSTEL NA PRIMORSKEM! V bližini hostla se nahajajo znane plezalne stene v Ospu (12km), Èrnemu Kalu (8km), Risnik v Divaèi in plezališèa v Dolini reke Glinšèice (Italija). Lepo vabljeni, da nas obišèeste v hostlu Ociski Raj (Ocizla)! www.hostel-ocizla.si  <img src="http://www.plezanje.net/images/smiles/icon_smile.gif" border="0" alt=":)" xmlns=""><p class="formText" style="margin: 0.3em 0 0.5em 0; text-align: right; clear: right;">Jana Juriè, 27.8.2012 11:51:43</p>
+<hr/>V mišji peèi je zamenjana veèina dotrajanih vponk nasidrišèih. Plezanje je sedaj veliko bolj varno. <br xmlns=""> Lp in èim veè plezanja<p class="formText" style="margin: 0.3em 0 0.5em 0; text-align: right; clear: right;">benjamin marjanoviè, 25.11.2009 9:06:35</p>
+<hr/>Do neke mere se strinjam z Benjaminom glede dolžnosti vsakega plezalca, da sem ter tja doda (zamenja) kakšno vponko ali dotrajan sistem. Se je tudi meni že primerilo, da sem kaj takega storil <img src="http://www.plezanje.net/images/smiles/icon_smile.gif" border="0" alt=":)" xmlns=""> . Vendar gre tukaj za naše najveèje in najbolj obremenjeno plezališèe, zato predlagam, da KŠP da preopremljanje Mišje peèi na prednostno listo, pred druga manjša lokalna plezališèa.<p class="formText" style="margin: 0.3em 0 0.5em 0; text-align: right; clear: right;">Martin Bombaè, 30.10.2009 9:31:30</p>
+<hr/>V mišji je pri veèini zelo plezanih smereh veriga, oz vponka v verigi vprašljiva. Jaz že nekaj let menjujem najbolj znucane vponke in fiksne komplete. Mislim da èe bi vsak izmed plezalcev, ki bolj pogosto zahaja v mišjo vsako tolko kaj zamenjav, ne bi bilo težav. Sigurno se bo kaj zgodilo. Vprašanje je le kdaj in kolko hude bodo posledice. <br xmlns=""><br xmlns=""> Benjamin Marjanoviè<p class="formText" style="margin: 0.3em 0 0.5em 0; text-align: right; clear: right;">benjamin marjanoviè, 28.10.2009 11:20:06</p>
+<hr/>Dodane nove smeri (avtor Mitja Peternelj): <br xmlns=""><br xmlns=""> Igra, 6c+, 16m, desno od Dežela šalc  <br xmlns=""> Grom, 5c, 9m, še ena desno  <br xmlns=""> Strela, 5a, 9m, še ena desno  <br xmlns=""> Mars, 6a+, 14m, desno od Snickers  <br xmlns=""> Milka, 5b, 14m, še ena desno  <br xmlns=""> Gorenjka, 6b, 13m, še ena desno  <br xmlns=""> Raffaelo, 6a, 13m, še ena desno  <br xmlns=""> Twix, 5b, 14m, še ena desno<p class="formText" style="margin: 0.3em 0 0.5em 0; text-align: right; clear: right;">Ivan Pepelnjak, 1.2.2007 9:25:05</p>
+</div>
+</div>
+</td>
+</tr>
+<tr><td colspan="2" id="afterComments"/></tr>
+</table>
+<div style="clear: both;">
+<p class="formText" style="margin-top: 2em; text-align: center;">
+<a id="actState" href="../comments/editComment.asp?ot=C&amp;ct=S&amp;a=add&amp;oid=606" class="wo dim_830x450 login">Dodaj opis razmer</a> | <a id="actComment" href="../comments/editComment.asp?ot=C&amp;ct=C&amp;a=add&amp;oid=606" class="wo dim_830x450 login">Dodaj komentar</a> | <a id="actPhoto" href="../adm/pics/showPics.asp?type=crag&amp;id=606" class="wo dim_900x700 login">Dodaj skico ali fotografijo plezališèa</a> | <a id="actRoute" href="../adm/routes/editRoute.asp?a=add&amp;crag=606" class="wo dim_800x750 login">Dodaj smer</a> | <a id="actWarning" href="../comments/editComment.asp?ot=C&amp;ct=W&amp;a=add&amp;oid=606" class="wo dim_830x450 login">Dodaj opozorilo</a>
+</p>
+</div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="noPrint" style="clear: both;">
+<tr>
+<td valign="top" colspan="2"><hr/></td>
+</tr>
+<tr>
+<td valign="top"><p style="font-size: 9pt; margin: 0 0;">© www.plezanje.net, 2004-2010</p></td>
+<td valign="top" align="right">
+<p align="right" style="font-size: 9pt; margin: 0 0;">Predloge za izboljšave ali obvestila o napakah nam lahko 
+          <a href="/forms/SIsendmsg.asp" target="_blank">pošljete s tem obrazcem</a>.</p>
+</td>
+</tr>
+</table>
+<script>setupRoutesMenu('');</script>
+</body>
+</html>
