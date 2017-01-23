@@ -26,17 +26,24 @@ id,ime,ocena,dolzina,vzponi
 1464,Matamoros,7c,18,30 (14 plezalcev)
 1465,Tekila,8a,19,43 (13 plezalcev)
 1466,Durango,7b+,19,66 (33 plezalcev)
-31558,Ninja želva,8c,19,119 (45 plezalcev)
+31558,Ninja želva,8c,19,
+1467,Tortuga a,7b,13,119 (45 plezalcev)
 1468,Tortuga b,7c,13,26 (8 plezalcev)
 1469,Corto,8a,18,150 (26 plezalcev)
 15401,White power,8a/a+,18,8
-1471,Mr. Bighand,8b+,28,90 (17 plezalcev)
+1470,Lazuret,8b,20,33
+1471,Mr. Bighand,8b+,28,
+1472,Gospodar prstanov,7c+,15,90 (17 plezalcev)
 1473,Manana,7c/c+,12,35 (17 plezalcev)
 1474,Hobit,7c,17,74 (30 plezalcev)
 1475,Talk is cheap!,8c,15,2
-30308,Vicious circle,9a+/b,16,1
-1477,Sanjski par,8c,10,12
-1479,Sistolitièni vrt,7b+,4,120 (51 plezalcev)
+30308,Vicious circle,9a+/b,16,
+1476,Za staro kolo in majhnega psa,8c+,13,1
+1477,Sanjski par,8c,10,
+30309,Sanjski par extension,9a,16,
+1478,Peskovnik,7b/b+,9,12
+1479,Sistolitièni vrt,7b+,4,
+1480,Pièkin dim,6b+,14,120 (51 plezalcev)
 1481,Tazio,6c,14,129 (50 plezalcev)
 1482,Kurèji rock,6c+,14,141 (48 plezalcev)
 1483,Ribalton,7a+,18,101 (37 plezalcev)
@@ -46,7 +53,8 @@ id,ime,ocena,dolzina,vzponi
 17323,Angie wall,7c,24,37 (7 plezalcev)
 1487,Rock'n roll,7c+,22,163 (27 plezalcev)
 1488,Galaktika,8a/a+,25,43
-27134,The very long engagement,8a+/b,10,13
+27134,The very long engagement,8a+/b,10,
+1489,Strta srca,8a+,9,13
 1490,Twin peaks,7c/c+,7,25 (8 plezalcev)
 1491,Stinger,7c,24,33 (11 plezalcev)
 1492,No fly zone,8b,24,1
@@ -72,8 +80,10 @@ id,ime,ocena,dolzina,vzponi
 1508,Noèna kronika - 1 del,7c+,23,71 (14 plezalcev)
 1509,Urbanova,8a,30,38 (7 plezalcev)
 1510,Uživancija,8a,30,40 (10 plezalcev)
-30307,Delni mrk,8a+,30,5
-1512,Popolni mrk,8c,30,22 (8 plezalcev)
+30307,Delni mrk,8a+,30,
+1511,Veseli tobogan,8a/a+,10,5
+1512,Popolni mrk,8c,30,
+1513,Sreèa vrtnice,8b,32,22 (8 plezalcev)
 1514,Sreèa vrtnice - 1 del,7a+,21,413 (68 plezalcev)
 5433,Gorenjski šnops,8b,32,4
 5434,Gorenjski šnops - 1 del,7a,16,50 (24 plezalcev)
@@ -90,15 +100,21 @@ id,ime,ocena,dolzina,vzponi
 5437,Vizija,8c,30,7
 1522,Karizma,8b+,32,14
 1523,Triad,8a,23,14
-1524,Èlovek ne jezi se,8c,16,1
-12413,Xaxid hostel,9a/a+,42,84 (19 plezalcev)
-7940,J.S.F.K. (do vrha),8b,41,66 (28 plezalcev)
+1524,Èlovek ne jezi se,8c,16,
+7941,Ekstaza,8c+/9a,40,
+7939,Èlovek ne jezi se (do vrha),8c+,41,
+1525,Sanje za dušo,8b+,40,1
+12413,Xaxid hostel,9a/a+,42,
+1526,J.S.F.K.,7c+,16,84 (19 plezalcev)
+7940,J.S.F.K. (do vrha),8b,41,
+1527,Figa,7b/b+,16,66 (28 plezalcev)
 1528,Figaro,8a+,40,2
 1529,"Blood, sugar, sex, magic",8a/a+,18,40 (6 plezalcev)
 1530,Bula,7b+,18,91 (26 plezalcev)
 1532,Giljotina,8a,18,84 (17 plezalcev)
 1533,Bastilla,8a+,27,5
-1531,Bastilla do vrha,8b+,40,22
+1531,Bastilla do vrha,8b+,40,
+1534,Highlander,8a+,19,22
 1535,Izgubljeni sin,8a+,40,41 (9 plezalcev)
 1536,Samsara,8a,19,173 (30 plezalcev)
 1537,Mrtvaški ples,8b,19,66 (6 plezalcev)
@@ -143,7 +159,8 @@ id,ime,ocena,dolzina,vzponi
 1572,Matrix,8b,9,9
 1573,Missing drink,8b+,13,6
 1574,Missing link,8b+,13,56
-17326,Natural link,8c,13,2
+17326,Natural link,8c,13,
+1575,Konec mira,8c/c+,16,2
 1576,Marjetica,8b/b+,14,39
 1577,Pingvin,8a+,16,10
 1578,Pingvin a,7c+,16,33 (8 plezalcev)
