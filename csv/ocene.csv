@@ -1,8 +1,8 @@
 id,smer_id,ime,ocena,plezalec,datum,valid
-1,1441,Slinavka,4c,Žan Auersperger,29.3.2014,
-2,1441,Slinavka,5a,Bazna ocena,,
-3,1441,Slinavka,5a,Robert Lakovnik,20.11.2006,
-4,1441,Slinavka,5a,Damjan Gruden,9.6.2008,
+1,1441,Slinavka,4c,Žan Auersperger,29.3.2014,invalid
+2,1441,Slinavka,5a,Bazna ocena,,invalid
+3,1441,Slinavka,5a,Robert Lakovnik,20.11.2006,invalid
+4,1441,Slinavka,5a,Damjan Gruden,9.6.2008,invalid
 5,1441,Slinavka,5a,Davor Zupancic,15.8.2008,valid
 6,1441,Slinavka,5a,Rajko Zajc,28.10.2008,valid
 7,1441,Slinavka,5a,Martin Bombaè,16.3.2009,valid
@@ -17,15 +17,15 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 16,1441,Slinavka,5a+,Primož Romšak,15.10.2012,valid
 17,1441,Slinavka,5a+,Klemen Peterlin,16.11.2013,valid
 18,1441,Slinavka,5b,Ivan Pepelnjak,15.11.2004,valid
-19,1441,Slinavka,5b,Jure Pezdirc,21.10.2007,
-20,1441,Slinavka,5b,Simon Rutar,24.11.2007,
-21,1441,Slinavka,5b,Boštjan Nadluènik,30.7.2011,
-22,1441,Slinavka,5b,Primož Cerar,9.11.2011,
-23,1442,Parkljevka,5a+,Žan Auersperger,5.10.2014,
-24,1442,Parkljevka,5b,Bazna ocena,,
-25,1442,Parkljevka,5b,Robert Lakovnik,20.11.2006,
-26,1442,Parkljevka,5b,Boris Magdalenc,9.9.2007,
-27,1442,Parkljevka,5b,"Nace Pavc  ""PiFo""",21.10.2007,
+19,1441,Slinavka,5b,Jure Pezdirc,21.10.2007,invalid
+20,1441,Slinavka,5b,Simon Rutar,24.11.2007,invalid
+21,1441,Slinavka,5b,Boštjan Nadluènik,30.7.2011,invalid
+22,1441,Slinavka,5b,Primož Cerar,9.11.2011,invalid
+23,1442,Parkljevka,5a+,Žan Auersperger,5.10.2014,invalid
+24,1442,Parkljevka,5b,Bazna ocena,,invalid
+25,1442,Parkljevka,5b,Robert Lakovnik,20.11.2006,invalid
+26,1442,Parkljevka,5b,Boris Magdalenc,9.9.2007,invalid
+27,1442,Parkljevka,5b,"Nace Pavc  ""PiFo""",21.10.2007,invalid
 28,1442,Parkljevka,5b,Jure Pezdirc,21.10.2007,valid
 29,1442,Parkljevka,5b,Damjan Gruden,9.6.2008,valid
 30,1442,Parkljevka,5b,Davor Zupancic,15.8.2008,valid
@@ -42,16 +42,16 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 41,1442,Parkljevka,5b,Primož Auersperger,23.1.2016,valid
 42,1442,Parkljevka,5b/b+,Ajda Lisec,26.4.2010,valid
 43,1442,Parkljevka,5b/b+,Boštjan Nadluènik,30.7.2011,valid
-44,1442,Parkljevka,5b+,Ivan Pepelnjak,15.11.2004,
-45,1442,Parkljevka,5b+,Simon Rutar,24.11.2007,
-46,1442,Parkljevka,5b+,Matjaž Bohoriè,14.2.2010,
-47,1442,Parkljevka,5b+,Primož Romšak,15.10.2012,
-48,1442,Parkljevka,5b+,tina soviè,29.9.2013,
-49,1443,Brbonèica,6a,Bazna ocena,,
-50,1443,Brbonèica,6a,Jure Pezdirc,21.10.2007,
-51,1443,Brbonèica,6a,Anja Zagoriènik,1.11.2014,
-52,1443,Brbonèica,6a/a+,juš,11.3.2012,
-53,1443,Brbonèica,6a+,Robert Lakovnik,1.12.2006,
+44,1442,Parkljevka,5b+,Ivan Pepelnjak,15.11.2004,invalid
+45,1442,Parkljevka,5b+,Simon Rutar,24.11.2007,invalid
+46,1442,Parkljevka,5b+,Matjaž Bohoriè,14.2.2010,invalid
+47,1442,Parkljevka,5b+,Primož Romšak,15.10.2012,invalid
+48,1442,Parkljevka,5b+,tina soviè,29.9.2013,invalid
+49,1443,Brbonèica,6a,Bazna ocena,,invalid
+50,1443,Brbonèica,6a,Jure Pezdirc,21.10.2007,invalid
+51,1443,Brbonèica,6a,Anja Zagoriènik,1.11.2014,invalid
+52,1443,Brbonèica,6a/a+,juš,11.3.2012,invalid
+53,1443,Brbonèica,6a+,Robert Lakovnik,1.12.2006,invalid
 54,1443,Brbonèica,6a+,Rajko Zajc,21.10.2007,valid
 55,1443,Brbonèica,6a+,Damjan Gruden,17.12.2007,valid
 56,1443,Brbonèica,6a+,Ernest Mandelc,15.6.2008,valid
@@ -69,16 +69,16 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 68,1443,Brbonèica,6b,Gašper Potrebuješ,31.5.2004,valid
 69,1443,Brbonèica,6b,Ivan Pepelnjak,15.11.2004,valid
 70,1443,Brbonèica,6b,Ivan Vodopivec,3.12.2006,valid
-71,1443,Brbonèica,6b,Bojan Kotur,4.9.2010,
-72,1443,Brbonèica,6b,Primož Romšak,15.10.2012,
-73,1443,Brbonèica,6b,Žan Auersperger,29.3.2014,
-74,1443,Brbonèica,6b,Ajda Auersperger,29.3.2014,
-75,1443,Brbonèica,6b,Matjaž Klanèar,13.9.2014,
-76,1444,Harry Potter,6a,Ivan Pevec,2.5.2006,
-77,1444,Harry Potter,6a,Jure Franko,17.4.2008,
-78,1444,Harry Potter,6a,Matjaž Bohoriè,14.2.2010,
-79,1444,Harry Potter,6a/a+,Bojan Strauss,12.4.2007,
-80,1444,Harry Potter,6a+,Bazna ocena,,
+71,1443,Brbonèica,6b,Bojan Kotur,4.9.2010,invalid
+72,1443,Brbonèica,6b,Primož Romšak,15.10.2012,invalid
+73,1443,Brbonèica,6b,Žan Auersperger,29.3.2014,invalid
+74,1443,Brbonèica,6b,Ajda Auersperger,29.3.2014,invalid
+75,1443,Brbonèica,6b,Matjaž Klanèar,13.9.2014,invalid
+76,1444,Harry Potter,6a,Ivan Pevec,2.5.2006,invalid
+77,1444,Harry Potter,6a,Jure Franko,17.4.2008,invalid
+78,1444,Harry Potter,6a,Matjaž Bohoriè,14.2.2010,invalid
+79,1444,Harry Potter,6a/a+,Bojan Strauss,12.4.2007,invalid
+80,1444,Harry Potter,6a+,Bazna ocena,,invalid
 81,1444,Harry Potter,6a+,Simon Rutar,24.1.2006,valid
 82,1444,Harry Potter,6a+,Ivan Pepelnjak,15.3.2006,valid
 83,1444,Harry Potter,6a+,Robert Lakovnik,20.11.2006,valid
@@ -96,16 +96,16 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 95,1444,Harry Potter,6a+,Igor Šalkoviæ,26.12.2011,valid
 96,1444,Harry Potter,6a+,Mitja Predikaka,9.4.2012,valid
 97,1444,Harry Potter,6a+,Žan Kuralt,31.12.2012,valid
-98,1444,Harry Potter,6a+,Ajda Auersperger,5.10.2014,
-99,1444,Harry Potter,6a+,Žan Auersperger,5.10.2014,
-100,1444,Harry Potter,6a+,Sašo Poglajen,9.11.2014,
-101,1444,Harry Potter,6a+,Martin Ravnik P,10.1.2015,
-102,1444,Harry Potter,6a+,Gregor Žnidarèiè,24.7.2015,
-103,1445,Bradavièarka,6a,Poženel Marko,21.10.2002,
-104,1445,Bradavièarka,6a,Jure Franko,17.4.2008,
-105,1445,Bradavièarka,6a,Žan Golob,15.1.2012,
-106,1445,Bradavièarka,6a,Žiga Rozman,25.3.2012,
-107,1445,Bradavièarka,6a,Žan Kuralt,31.12.2012,
+98,1444,Harry Potter,6a+,Ajda Auersperger,5.10.2014,invalid
+99,1444,Harry Potter,6a+,Žan Auersperger,5.10.2014,invalid
+100,1444,Harry Potter,6a+,Sašo Poglajen,9.11.2014,invalid
+101,1444,Harry Potter,6a+,Martin Ravnik P,10.1.2015,invalid
+102,1444,Harry Potter,6a+,Gregor Žnidarèiè,24.7.2015,invalid
+103,1445,Bradavièarka,6a,Poženel Marko,21.10.2002,invalid
+104,1445,Bradavièarka,6a,Jure Franko,17.4.2008,invalid
+105,1445,Bradavièarka,6a,Žan Golob,15.1.2012,invalid
+106,1445,Bradavièarka,6a,Žiga Rozman,25.3.2012,invalid
+107,1445,Bradavièarka,6a,Žan Kuralt,31.12.2012,invalid
 108,1445,Bradavièarka,6a,Ajda Auersperger,29.3.2014,valid
 109,1445,Bradavièarka,6a+,Robert Lakovnik,4.12.2006,valid
 110,1445,Bradavièarka,6a+,Bojan Strauss,12.4.2007,valid
@@ -120,15 +120,15 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 119,1445,Bradavièarka,6a+/b,Mojca Petroviè,20.11.2011,valid
 120,1445,Bradavièarka,6b,Bazna ocena,,valid
 121,1445,Bradavièarka,6b,Ivan Pepelnjak,15.11.2004,valid
-122,1445,Bradavièarka,6b,Damjan Gruden,24.11.2006,
-123,1445,Bradavièarka,6b,Matic Herzog,29.4.2007,
-124,1445,Bradavièarka,6b,janko domitroviè,10.11.2007,
-125,1445,Bradavièarka,6b,Simon Rutar,24.11.2007,
-126,1445,Bradavièarka,6b,Bojan Kotur,16.5.2010,
-127,1446,Mojèina,5a,Bazna ocena,,
-128,1446,Mojèina,5a,Robert Lakovnik,27.11.2006,
-129,1446,Mojèina,5a,Maruša Rodiè,18.2.2007,
-130,1446,Mojèina,5a,Kolar Aleš,8.9.2010,
+122,1445,Bradavièarka,6b,Damjan Gruden,24.11.2006,invalid
+123,1445,Bradavièarka,6b,Matic Herzog,29.4.2007,invalid
+124,1445,Bradavièarka,6b,janko domitroviè,10.11.2007,invalid
+125,1445,Bradavièarka,6b,Simon Rutar,24.11.2007,invalid
+126,1445,Bradavièarka,6b,Bojan Kotur,16.5.2010,invalid
+127,1446,Mojèina,5a,Bazna ocena,,invalid
+128,1446,Mojèina,5a,Robert Lakovnik,27.11.2006,invalid
+129,1446,Mojèina,5a,Maruša Rodiè,18.2.2007,invalid
+130,1446,Mojèina,5a,Kolar Aleš,8.9.2010,invalid
 131,1446,Mojèina,5a,Žan Kuralt,31.12.2012,valid
 132,1446,Mojèina,5a/a+,Bojan Strauss,12.4.2007,valid
 133,1446,Mojèina,5a/a+,Primož Romšak,15.10.2012,valid
@@ -145,14 +145,14 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 142,1446,Mojèina,5a+,Martin Ravnik P,26.9.2015,valid
 143,1446,Mojèina,5b,Matic Herzog,29.4.2007,valid
 144,1446,Mojèina,5b,Martin Bombaè,16.3.2009,valid
-145,1446,Mojèina,5b,Bojan Kotur,16.5.2010,
-146,1446,Mojèina,5b,Žan Golob,15.1.2012,
-147,1446,Mojèina,5b,Klemen Peterlin,16.11.2013,
-148,1446,Mojèina,5b,Tanja Brstilo,22.1.2017,
-149,1447,Ksenjina,4c,Bazna ocena,,
-150,1447,Ksenjina,4c+/5a,Maruša Rodiè,18.2.2007,
-151,1447,Ksenjina,4c+/5a,Kolar Aleš,8.9.2010,
-152,1447,Ksenjina,5a,Damjan Gruden,24.11.2006,
+145,1446,Mojèina,5b,Bojan Kotur,16.5.2010,invalid
+146,1446,Mojèina,5b,Žan Golob,15.1.2012,invalid
+147,1446,Mojèina,5b,Klemen Peterlin,16.11.2013,invalid
+148,1446,Mojèina,5b,Tanja Brstilo,22.1.2017,invalid
+149,1447,Ksenjina,4c,Bazna ocena,,invalid
+150,1447,Ksenjina,4c+/5a,Maruša Rodiè,18.2.2007,invalid
+151,1447,Ksenjina,4c+/5a,Kolar Aleš,8.9.2010,invalid
+152,1447,Ksenjina,5a,Damjan Gruden,24.11.2006,invalid
 153,1447,Ksenjina,5a,Simon Rutar,24.11.2007,valid
 154,1447,Ksenjina,5a,Davor Zupancic,15.8.2008,valid
 155,1447,Ksenjina,5a,Rajko Zajc,28.10.2008,valid
@@ -167,18 +167,18 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 164,1447,Ksenjina,5a+,Ivan Pepelnjak,12.11.2004,valid
 165,1447,Ksenjina,5a+,Robert Lakovnik,20.11.2006,valid
 166,1447,Ksenjina,5a+,Nejc Potrebuješ,2.11.2010,valid
-167,1447,Ksenjina,5a+,Sašo Poglajen,26.11.2011,
-168,1447,Ksenjina,5a+,Mitja Predikaka,12.3.2015,
-169,1447,Ksenjina,5b,Primož Cerar,9.11.2011,
+167,1447,Ksenjina,5a+,Sašo Poglajen,26.11.2011,invalid
+168,1447,Ksenjina,5a+,Mitja Predikaka,12.3.2015,invalid
+169,1447,Ksenjina,5b,Primož Cerar,9.11.2011,invalid
 170,1447,Ksenjina,5b,"</td>
 
-<td valign=""top"">27.9.2015",,
-171,1448,Naritko Mitko,4c+,Rajko Zajc,28.10.2008,
-172,1448,Naritko Mitko,5a,Robert Lakovnik,20.11.2006,
-173,1448,Naritko Mitko,5a,Damjan Gruden,24.11.2006,
-174,1448,Naritko Mitko,5a,Žan Kuralt,31.12.2012,
-175,1448,Naritko Mitko,5a+,Ivan Pepelnjak,12.11.2004,
-176,1448,Naritko Mitko,5a+,Dejan P.,25.5.2007,
+<td valign=""top"">27.9.2015",,invalid
+171,1448,Naritko Mitko,4c+,Rajko Zajc,28.10.2008,invalid
+172,1448,Naritko Mitko,5a,Robert Lakovnik,20.11.2006,invalid
+173,1448,Naritko Mitko,5a,Damjan Gruden,24.11.2006,invalid
+174,1448,Naritko Mitko,5a,Žan Kuralt,31.12.2012,invalid
+175,1448,Naritko Mitko,5a+,Ivan Pepelnjak,12.11.2004,invalid
+176,1448,Naritko Mitko,5a+,Dejan P.,25.5.2007,invalid
 177,1448,Naritko Mitko,5a+,"Nace Pavc  ""PiFo""",21.10.2007,valid
 178,1448,Naritko Mitko,5a+,Simon Rutar,24.11.2007,valid
 179,1448,Naritko Mitko,5a+,Davor Zupancic,15.8.2008,valid
@@ -196,18 +196,18 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 191,1448,Naritko Mitko,5b,Matjaž Bohoriè,14.2.2010,valid
 192,1448,Naritko Mitko,5b,Janez Loèiènik,20.4.2010,valid
 193,1448,Naritko Mitko,5b,Bojan Kotur,16.5.2010,valid
-194,1448,Naritko Mitko,5b,Primož Cerar,9.11.2011,
-195,1448,Naritko Mitko,5b,Silvo Kragelj,20.3.2012,
-196,1448,Naritko Mitko,5b,Maja Panèur,1.12.2013,
-197,1448,Naritko Mitko,5b,Martin Ravnik P,10.1.2015,
-198,1448,Naritko Mitko,5b,Gregor Žnidarèiè,24.7.2015,
-199,1448,Naritko Mitko,5b,Urška Mihoci,2.2.2016,
-200,1449,Lukova,6b+,Miheliè Mitja,18.4.2005,
-201,1449,Lukova,6b+,Ivan Pevec,2.5.2006,
-202,1449,Lukova,6b+,Jure Franko,9.11.2008,
-203,1449,Lukova,6b+,Ernest Mandelc,12.3.2016,
-204,1449,Lukova,6b+/c,Gašper Potrebuješ,31.5.2004,
-205,1449,Lukova,6b+/c,"Nace Pavc  ""PiFo""",15.11.2007,
+194,1448,Naritko Mitko,5b,Primož Cerar,9.11.2011,invalid
+195,1448,Naritko Mitko,5b,Silvo Kragelj,20.3.2012,invalid
+196,1448,Naritko Mitko,5b,Maja Panèur,1.12.2013,invalid
+197,1448,Naritko Mitko,5b,Martin Ravnik P,10.1.2015,invalid
+198,1448,Naritko Mitko,5b,Gregor Žnidarèiè,24.7.2015,invalid
+199,1448,Naritko Mitko,5b,Urška Mihoci,2.2.2016,invalid
+200,1449,Lukova,6b+,Miheliè Mitja,18.4.2005,invalid
+201,1449,Lukova,6b+,Ivan Pevec,2.5.2006,invalid
+202,1449,Lukova,6b+,Jure Franko,9.11.2008,invalid
+203,1449,Lukova,6b+,Ernest Mandelc,12.3.2016,invalid
+204,1449,Lukova,6b+/c,Gašper Potrebuješ,31.5.2004,invalid
+205,1449,Lukova,6b+/c,"Nace Pavc  ""PiFo""",15.11.2007,invalid
 206,1449,Lukova,6b+/c,Rajko Zajc,28.10.2008,valid
 207,1449,Lukova,6b+/c,Igor Šalkoviæ,26.12.2011,valid
 208,1449,Lukova,6c,Bazna ocena,,valid
@@ -226,23 +226,23 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 221,1449,Lukova,6c,Mojca Petroviè,20.11.2011,valid
 222,1449,Lukova,6c,David Štritoff,25.5.2012,valid
 223,1449,Lukova,6c,Ajda Auersperger,5.10.2014,valid
-224,1449,Lukova,6c,Damjan Hodnik,26.1.2015,
-225,1449,Lukova,6c,Klemen Peterlin,21.4.2015,
+224,1449,Lukova,6c,Damjan Hodnik,26.1.2015,invalid
+225,1449,Lukova,6c,Klemen Peterlin,21.4.2015,invalid
 226,1449,Lukova,6c,"</td>
 
-<td valign=""top"">27.9.2015",,
-227,1449,Lukova,6c,Martin Ravnik P,26.9.2015,
-228,1449,Lukova,6c,Urška Mihoci,2.2.2016,
-229,1449,Lukova,6c,Blaž Karner,12.3.2016,
-230,1450,Jožetova,5c,Blaž Karner,3.10.2015,
-231,1450,Jožetova,6a,Gašper Potrebuješ,31.5.2004,
-232,1450,Jožetova,6a,Tadej Kodriè,9.12.2005,
-233,1450,Jožetova,6a,Matic Herzog,29.4.2007,
-234,1450,Jožetova,6a,jernej vidmar,23.5.2007,
-235,1450,Jožetova,6a,Rajko Zajc,25.6.2007,
-236,1450,Jožetova,6a,Martin Bombaè,28.1.2008,
-237,1450,Jožetova,6a,Jure Franko,9.11.2008,
-238,1450,Jožetova,6a,Andrej Žitnik,1.2.2009,
+<td valign=""top"">27.9.2015",,invalid
+227,1449,Lukova,6c,Martin Ravnik P,26.9.2015,invalid
+228,1449,Lukova,6c,Urška Mihoci,2.2.2016,invalid
+229,1449,Lukova,6c,Blaž Karner,12.3.2016,invalid
+230,1450,Jožetova,5c,Blaž Karner,3.10.2015,invalid
+231,1450,Jožetova,6a,Gašper Potrebuješ,31.5.2004,invalid
+232,1450,Jožetova,6a,Tadej Kodriè,9.12.2005,invalid
+233,1450,Jožetova,6a,Matic Herzog,29.4.2007,invalid
+234,1450,Jožetova,6a,jernej vidmar,23.5.2007,invalid
+235,1450,Jožetova,6a,Rajko Zajc,25.6.2007,invalid
+236,1450,Jožetova,6a,Martin Bombaè,28.1.2008,invalid
+237,1450,Jožetova,6a,Jure Franko,9.11.2008,invalid
+238,1450,Jožetova,6a,Andrej Žitnik,1.2.2009,invalid
 239,1450,Jožetova,6a,Marjana Volk,27.5.2009,valid
 240,1450,Jožetova,6a,Marko Poženel,9.7.2010,valid
 241,1450,Jožetova,6a,Danaja vastiè,12.12.2010,valid
@@ -269,21 +269,21 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 262,1450,Jožetova,6a+,Damjan Gruden,24.11.2006,valid
 263,1450,Jožetova,6a+,Robert Lakovnik,4.12.2006,valid
 264,1450,Jožetova,6a+,Bojan Strauss,12.4.2007,valid
-265,1450,Jožetova,6a+,janko domitroviè,28.5.2007,
-266,1450,Jožetova,6a+,Boris Magdalenc,9.9.2007,
-267,1450,Jožetova,6a+,Jure Pezdirc,21.10.2007,
-268,1450,Jožetova,6a+,Bojan Kotur,16.5.2010,
-269,1450,Jožetova,6a+,Bor Šumrada,22.5.2010,
-270,1450,Jožetova,6a+,Sašo Poglajen,26.11.2011,
-271,1450,Jožetova,6a+,Maja Panèur,1.12.2013,
-272,1450,Jožetova,6a+,Vlado Petriè,4.10.2014,
-273,1450,Jožetova,6a+,Gregor Žnidarèiè,24.7.2015,
-274,1451,Dragotova,6a+,Tadej Kodriè,9.12.2005,
-275,1451,Dragotova,6a+,jernej vidmar,23.5.2007,
-276,1451,Dragotova,6a+,Andrej Žitnik,23.9.2008,
-277,1451,Dragotova,6a+/b,Damjan Gruden,24.11.2006,
-278,1451,Dragotova,6a+/b,Ivan Pepelnjak,23.11.2006,
-279,1451,Dragotova,6a+/b,Rajko Zajc,25.6.2007,
+265,1450,Jožetova,6a+,janko domitroviè,28.5.2007,invalid
+266,1450,Jožetova,6a+,Boris Magdalenc,9.9.2007,invalid
+267,1450,Jožetova,6a+,Jure Pezdirc,21.10.2007,invalid
+268,1450,Jožetova,6a+,Bojan Kotur,16.5.2010,invalid
+269,1450,Jožetova,6a+,Bor Šumrada,22.5.2010,invalid
+270,1450,Jožetova,6a+,Sašo Poglajen,26.11.2011,invalid
+271,1450,Jožetova,6a+,Maja Panèur,1.12.2013,invalid
+272,1450,Jožetova,6a+,Vlado Petriè,4.10.2014,invalid
+273,1450,Jožetova,6a+,Gregor Žnidarèiè,24.7.2015,invalid
+274,1451,Dragotova,6a+,Tadej Kodriè,9.12.2005,invalid
+275,1451,Dragotova,6a+,jernej vidmar,23.5.2007,invalid
+276,1451,Dragotova,6a+,Andrej Žitnik,23.9.2008,invalid
+277,1451,Dragotova,6a+/b,Damjan Gruden,24.11.2006,invalid
+278,1451,Dragotova,6a+/b,Ivan Pepelnjak,23.11.2006,invalid
+279,1451,Dragotova,6a+/b,Rajko Zajc,25.6.2007,invalid
 280,1451,Dragotova,6b,Bazna ocena,,valid
 281,1451,Dragotova,6b,Zazvonil Luka,9.1.2001,valid
 282,1451,Dragotova,6b,Simon Rutar,24.1.2006,valid
@@ -301,15 +301,15 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 294,1451,Dragotova,6b,David Štritoff,25.5.2012,valid
 295,1451,Dragotova,6b,Primož Romšak,15.10.2012,valid
 296,1451,Dragotova,6b,Maja Panèur,1.12.2013,valid
-297,1451,Dragotova,6b,Klemen Peterlin,9.3.2014,
-298,1451,Dragotova,6b,Martin Ravnik P,11.10.2014,
-299,1451,Dragotova,6b,Ernest Mandelc,12.3.2016,
-300,1451,Dragotova,6b,Urška Mihoci,8.1.2017,
-301,1451,Dragotova,6b,Tanja Brstilo,20.1.2017,
-302,1451,Dragotova,6b/b+,Vlado Petriè,4.10.2014,
-303,1452,Sorinina,6b+,Zazvonil Luka,9.1.2001,
-304,1452,Sorinina,6b+,Anja Zagoriènik,6.3.2015,
-305,1452,Sorinina,6c,Bazna ocena,,
+297,1451,Dragotova,6b,Klemen Peterlin,9.3.2014,invalid
+298,1451,Dragotova,6b,Martin Ravnik P,11.10.2014,invalid
+299,1451,Dragotova,6b,Ernest Mandelc,12.3.2016,invalid
+300,1451,Dragotova,6b,Urška Mihoci,8.1.2017,invalid
+301,1451,Dragotova,6b,Tanja Brstilo,20.1.2017,invalid
+302,1451,Dragotova,6b/b+,Vlado Petriè,4.10.2014,invalid
+303,1452,Sorinina,6b+,Zazvonil Luka,9.1.2001,invalid
+304,1452,Sorinina,6b+,Anja Zagoriènik,6.3.2015,invalid
+305,1452,Sorinina,6c,Bazna ocena,,invalid
 306,1452,Sorinina,6c,Miheliè Mitja,18.4.2005,valid
 307,1452,Sorinina,6c,jernej vidmar,23.5.2007,valid
 308,1452,Sorinina,6c,Damjan Gruden,20.9.2008,valid
@@ -319,12 +319,12 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 312,1452,Sorinina,6c,Janko Domitroviè,1.3.2009,valid
 313,1452,Sorinina,6c,Miha Panèur,13.11.2009,valid
 314,1452,Sorinina,6c,Mitja Predikaka,25.3.2012,valid
-315,1452,Sorinina,6c,Martin Ravnik P,25.1.2015,
-316,1452,Sorinina,6c,Ernest Mandelc,17.1.2017,
-317,1452,Sorinina,6c/c+,Martin Bombaè,26.5.2008,
-318,1453,Pepel,6b+,vodlan klemen,13.12.2000,
-319,1453,Pepel,6b+,Zazvonil Luka,9.1.2001,
-320,1453,Pepel,6b+,"Kopše, Igor",31.10.2001,
+315,1452,Sorinina,6c,Martin Ravnik P,25.1.2015,invalid
+316,1452,Sorinina,6c,Ernest Mandelc,17.1.2017,invalid
+317,1452,Sorinina,6c/c+,Martin Bombaè,26.5.2008,invalid
+318,1453,Pepel,6b+,vodlan klemen,13.12.2000,invalid
+319,1453,Pepel,6b+,Zazvonil Luka,9.1.2001,invalid
+320,1453,Pepel,6b+,"Kopše, Igor",31.10.2001,invalid
 321,1453,Pepel,6b+,Matej Fetih,24.3.2003,valid
 322,1453,Pepel,6b+,Miheliè Mitja,18.4.2005,valid
 323,1453,Pepel,6b+,Damjan Gruden,10.5.2007,valid
@@ -333,13 +333,13 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 326,1453,Pepel,6b+,Mitja Zabukovec,12.11.2008,valid
 327,1453,Pepel,6b+,Mitja Predikaka,22.3.2012,valid
 328,1453,Pepel,6b+,Klemen Peterlin,13.3.2016,valid
-329,1453,Pepel,6b+/c,Miha Panèur,22.11.2009,
-330,1453,Pepel,6b+/c,David Štritoff,25.5.2012,
-331,1453,Pepel,6c,Bazna ocena,,
-332,1454,Varianta pepela,6a/a+,Miheliè Mitja,18.4.2005,
-333,1454,Varianta pepela,6a+,Zazvonil Luka,9.1.2001,
-334,1454,Varianta pepela,6b,Bazna ocena,,
-335,1454,Varianta pepela,6b,vodlan klemen,13.12.2000,
+329,1453,Pepel,6b+/c,Miha Panèur,22.11.2009,invalid
+330,1453,Pepel,6b+/c,David Štritoff,25.5.2012,invalid
+331,1453,Pepel,6c,Bazna ocena,,invalid
+332,1454,Varianta pepela,6a/a+,Miheliè Mitja,18.4.2005,invalid
+333,1454,Varianta pepela,6a+,Zazvonil Luka,9.1.2001,invalid
+334,1454,Varianta pepela,6b,Bazna ocena,,invalid
+335,1454,Varianta pepela,6b,vodlan klemen,13.12.2000,invalid
 336,1454,Varianta pepela,6b,"Kopše, Igor",31.10.2001,valid
 337,1454,Varianta pepela,6b,Damjan Gruden,10.5.2007,valid
 338,1454,Varianta pepela,6b,Martin Bombaè,30.11.2007,valid
@@ -356,16 +356,16 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 
 <td valign=""top"">27.9.2015",,valid
 349,1454,Varianta pepela,6b,Blaž Karner,3.10.2015,valid
-350,1454,Varianta pepela,6b,Klemen Peterlin,13.3.2016,
-351,1454,Varianta pepela,6b/b+,Rajko Zajc,28.10.2008,
-352,1454,Varianta pepela,6b/b+,Ajda Auersperger,28.9.2015,
-353,1454,Varianta pepela,6b+,jernej vidmar,23.5.2007,
-354,1455,Jumbo,7a,Zazvonil Luka,9.1.2001,
-355,1455,Jumbo,7a,Jerman Bernard,2.2.2002,
-356,1455,Jumbo,7a,blaž germek,13.5.2003,
-357,1455,Jumbo,7a,Perica Levatic,11.11.2005,
-358,1455,Jumbo,7a,jernej vidmar,23.5.2007,
-359,1455,Jumbo,7a,Jure Golob,12.7.2007,
+350,1454,Varianta pepela,6b,Klemen Peterlin,13.3.2016,invalid
+351,1454,Varianta pepela,6b/b+,Rajko Zajc,28.10.2008,invalid
+352,1454,Varianta pepela,6b/b+,Ajda Auersperger,28.9.2015,invalid
+353,1454,Varianta pepela,6b+,jernej vidmar,23.5.2007,invalid
+354,1455,Jumbo,7a,Zazvonil Luka,9.1.2001,invalid
+355,1455,Jumbo,7a,Jerman Bernard,2.2.2002,invalid
+356,1455,Jumbo,7a,blaž germek,13.5.2003,invalid
+357,1455,Jumbo,7a,Perica Levatic,11.11.2005,invalid
+358,1455,Jumbo,7a,jernej vidmar,23.5.2007,invalid
+359,1455,Jumbo,7a,Jure Golob,12.7.2007,invalid
 360,1455,Jumbo,7a,David Debeljak,14.12.2007,valid
 361,1455,Jumbo,7a,Andrej Žitnik,23.9.2008,valid
 362,1455,Jumbo,7a,Jure Franko,9.11.2008,valid
@@ -387,32 +387,32 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 376,1455,Jumbo,7a/a+,Urška Mihoci,30.11.2015,valid
 377,1455,Jumbo,7a+,vodlan klemen,13.12.2000,valid
 378,1455,Jumbo,7a+,Miheliè Mitja,18.4.2005,valid
-379,1455,Jumbo,7a+,maja zalar,13.6.2007,
-380,1455,Jumbo,7a+,Mitja Zabukovec,12.11.2008,
-381,1455,Jumbo,7a+,Risto Sovèev,24.8.2009,
-382,1455,Jumbo,7a+,Bojan Leskošek,28.11.2010,
-383,1455,Jumbo,7a+,Luka Pavlovèiè,11.10.2013,
-384,1455,Jumbo,7a+,Sašo Ocvirk,20.3.2015,
-385,1457,Meteorit,7b+,Andrej Žitnik,23.3.2009,
+379,1455,Jumbo,7a+,maja zalar,13.6.2007,invalid
+380,1455,Jumbo,7a+,Mitja Zabukovec,12.11.2008,invalid
+381,1455,Jumbo,7a+,Risto Sovèev,24.8.2009,invalid
+382,1455,Jumbo,7a+,Bojan Leskošek,28.11.2010,invalid
+383,1455,Jumbo,7a+,Luka Pavlovèiè,11.10.2013,invalid
+384,1455,Jumbo,7a+,Sašo Ocvirk,20.3.2015,invalid
+385,1457,Meteorit,7b+,Andrej Žitnik,23.3.2009,invalid
 386,1457,Meteorit,7c,Bazna ocena,,valid
 387,1457,Meteorit,7c,Damjan Gruden,2.4.2014,valid
-388,1457,Meteorit,7c,Rajko Zajc,13.3.2016,
-389,1458,Poontang,7b+,Bazna ocena,,
+388,1457,Meteorit,7c,Rajko Zajc,13.3.2016,invalid
+389,1458,Poontang,7b+,Bazna ocena,,invalid
 390,1458,Poontang,7b+,Damjan Gruden,12.6.2009,valid
 391,1458,Poontang,7b+,Martin Bombaè,8.9.2014,valid
-392,1458,Poontang,7b+,Rajko Zajc,7.9.2014,
-393,1456,Sternschnuppe,7a+/b,Cikic Cedomir,10.10.2002,
-394,1456,Sternschnuppe,7b,Bazna ocena,,
+392,1458,Poontang,7b+,Rajko Zajc,7.9.2014,invalid
+393,1456,Sternschnuppe,7a+/b,Cikic Cedomir,10.10.2002,invalid
+394,1456,Sternschnuppe,7b,Bazna ocena,,invalid
 395,1456,Sternschnuppe,7b,vodlan klemen,13.12.2000,valid
 396,1456,Sternschnuppe,7b,Zazvonil Luka,9.1.2001,valid
 397,1456,Sternschnuppe,7b,jernej vidmar,30.6.2009,valid
 398,1456,Sternschnuppe,7b,Damjan Gruden,3.4.2011,valid
-399,1456,Sternschnuppe,7b,Martin Bombaè,16.4.2012,
-400,1456,Sternschnuppe,7b/b+,Rajko Zajc,25.6.2007,
-401,1459,Mièkena,6c,Cikic Cedomir,10.10.2002,
-402,1459,Mièkena,6c,Perica Levatic,11.11.2005,
-403,1459,Mièkena,6c,GAJ SLIVNIK,16.1.2008,
-404,1459,Mièkena,6c+,Bazna ocena,,
+399,1456,Sternschnuppe,7b,Martin Bombaè,16.4.2012,invalid
+400,1456,Sternschnuppe,7b/b+,Rajko Zajc,25.6.2007,invalid
+401,1459,Mièkena,6c,Cikic Cedomir,10.10.2002,invalid
+402,1459,Mièkena,6c,Perica Levatic,11.11.2005,invalid
+403,1459,Mièkena,6c,GAJ SLIVNIK,16.1.2008,invalid
+404,1459,Mièkena,6c+,Bazna ocena,,invalid
 405,1459,Mièkena,6c+,vodlan klemen,13.12.2000,valid
 406,1459,Mièkena,6c+,Zazvonil Luka,9.1.2001,valid
 407,1459,Mièkena,6c+,Rajko Zajc,9.10.2005,valid
@@ -424,22 +424,22 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 413,1459,Mièkena,6c+,Mitja Zabukovec,12.11.2008,valid
 414,1459,Mièkena,6c+,Risto Sovèev,16.3.2010,valid
 415,1459,Mièkena,6c+,Miha Panèur,17.4.2010,valid
-416,1459,Mièkena,6c+,Marko Poženel,9.7.2010,
-417,1459,Mièkena,6c+,Sašo Ocvirk,20.3.2015,
-418,1459,Mièkena,6c+,Tanja Brstilo,9.6.2016,
-419,1459,Mièkena,6c+/7a,jernej vidmar,23.5.2007,
-420,1460,Frenkova,6c+,Mitja Predikaka,22.3.2012,
-421,1460,Frenkova,6c+/7a,Miha Panèur,17.4.2010,
+416,1459,Mièkena,6c+,Marko Poženel,9.7.2010,invalid
+417,1459,Mièkena,6c+,Sašo Ocvirk,20.3.2015,invalid
+418,1459,Mièkena,6c+,Tanja Brstilo,9.6.2016,invalid
+419,1459,Mièkena,6c+/7a,jernej vidmar,23.5.2007,invalid
+420,1460,Frenkova,6c+,Mitja Predikaka,22.3.2012,invalid
+421,1460,Frenkova,6c+/7a,Miha Panèur,17.4.2010,invalid
 422,1460,Frenkova,7a,Bazna ocena,,valid
 423,1460,Frenkova,7a,Rajko Zajc,2.11.2005,valid
 424,1460,Frenkova,7a,Martin Bombaè,8.1.2007,valid
 425,1460,Frenkova,7a,Damjan Gruden,10.5.2007,valid
 426,1460,Frenkova,7a,jernej vidmar,23.5.2007,valid
 427,1460,Frenkova,7a,Mitja Zabukovec,12.11.2008,valid
-428,1460,Frenkova,7a,Tanja Brstilo,9.6.2016,
-429,1460,Frenkova,7a/a+,GAJ SLIVNIK,16.1.2008,
-430,1461,Johanova,7c,Bazna ocena,,
-431,1461,Johanova,7c,vodlan klemen,13.12.2000,
+428,1460,Frenkova,7a,Tanja Brstilo,9.6.2016,invalid
+429,1460,Frenkova,7a/a+,GAJ SLIVNIK,16.1.2008,invalid
+430,1461,Johanova,7c,Bazna ocena,,invalid
+431,1461,Johanova,7c,vodlan klemen,13.12.2000,invalid
 432,1461,Johanova,7c,Zazvonil Luka,9.1.2001,valid
 433,1461,Johanova,7c,Rajko Zajc,4.9.2007,valid
 434,1461,Johanova,7c,jernej vidmar,30.6.2009,valid
@@ -448,12 +448,12 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 437,1461,Johanova,7c/c+,Miha Panèur,14.11.2010,valid
 438,1461,Johanova,7c/c+,Peter Mrak,4.4.2011,valid
 439,1461,Johanova,7c/c+,Damjan Gruden,3.4.2011,valid
-440,1461,Johanova,7c/c+,Martin Bombaè,16.1.2012,
-441,1461,Johanova,7c+,Bojan Leskošek,19.9.2010,
-442,1462,Nido,7b,Bazna ocena,,
-443,1462,Nido,7b,vodlan klemen,13.12.2000,
-444,1462,Nido,7b,Zazvonil Luka,9.1.2001,
-445,1462,Nido,7b,"Kopše, Igor",31.10.2001,
+440,1461,Johanova,7c/c+,Martin Bombaè,16.1.2012,invalid
+441,1461,Johanova,7c+,Bojan Leskošek,19.9.2010,invalid
+442,1462,Nido,7b,Bazna ocena,,invalid
+443,1462,Nido,7b,vodlan klemen,13.12.2000,invalid
+444,1462,Nido,7b,Zazvonil Luka,9.1.2001,invalid
+445,1462,Nido,7b,"Kopše, Igor",31.10.2001,invalid
 446,1462,Nido,7b,Jerman Bernard,23.5.2002,valid
 447,1462,Nido,7b,Rajko Zajc,9.10.2005,valid
 448,1462,Nido,7b,Ivan Pevec,2.5.2006,valid
@@ -466,17 +466,17 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 455,1462,Nido,7b,Mitja Predikaka,1.12.2012,valid
 456,1462,Nido,7b,Luka Pavlovèiè,11.10.2013,valid
 457,1462,Nido,7b,Uroš Jenko,14.5.2014,valid
-458,1462,Nido,7b,Marjana Volk,18.5.2014,
+458,1462,Nido,7b,Marjana Volk,18.5.2014,invalid
 459,1462,Nido,7b,"</td>
 
-<td valign=""top"">27.9.2015",,
-460,1462,Nido,7b/b+,jernej vidmar,23.5.2007,
-461,1462,Nido,7b+,JUVAN SAŠA,14.6.2003,
-462,1463,Kinder garten,7a+,Bazna ocena,,
-463,1463,Kinder garten,7a+,vodlan klemen,13.12.2000,
-464,1463,Kinder garten,7a+,Zazvonil Luka,9.1.2001,
-465,1463,Kinder garten,7a+,Cikic Cedomir,10.10.2002,
-466,1463,Kinder garten,7a+,Matjaž Žavbi,10.4.2003,
+<td valign=""top"">27.9.2015",,invalid
+460,1462,Nido,7b/b+,jernej vidmar,23.5.2007,invalid
+461,1462,Nido,7b+,JUVAN SAŠA,14.6.2003,invalid
+462,1463,Kinder garten,7a+,Bazna ocena,,invalid
+463,1463,Kinder garten,7a+,vodlan klemen,13.12.2000,invalid
+464,1463,Kinder garten,7a+,Zazvonil Luka,9.1.2001,invalid
+465,1463,Kinder garten,7a+,Cikic Cedomir,10.10.2002,invalid
+466,1463,Kinder garten,7a+,Matjaž Žavbi,10.4.2003,invalid
 467,1463,Kinder garten,7a+,Miheliè Mitja,18.4.2005,valid
 468,1463,Kinder garten,7a+,selak gregor,17.10.2005,valid
 469,1463,Kinder garten,7a+,Perica Levatic,13.11.2005,valid
@@ -492,22 +492,22 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 479,1463,Kinder garten,7a+,Mitja Predikaka,26.3.2012,valid
 480,1463,Kinder garten,7a+,x,19.4.2012,valid
 481,1463,Kinder garten,7a+,Luka Pavlovèiè,11.10.2013,valid
-482,1463,Kinder garten,7a+,Mitja Zabukovec,19.12.2016,
-483,1463,Kinder garten,7a+/b,"Kopše, Igor",22.10.2001,
-484,1463,Kinder garten,7a+/b,Rajko Zajc,9.10.2005,
-485,1463,Kinder garten,7b,valjavec tomaz,9.1.2001,
-486,1463,Kinder garten,7b,JUVAN SAŠA,14.6.2003,
-487,5864,Kinder garten direkt,7b,Bazna ocena,,
-488,5864,Kinder garten direkt,7b,Martin Bombaè,14.5.2007,
+482,1463,Kinder garten,7a+,Mitja Zabukovec,19.12.2016,invalid
+483,1463,Kinder garten,7a+/b,"Kopše, Igor",22.10.2001,invalid
+484,1463,Kinder garten,7a+/b,Rajko Zajc,9.10.2005,invalid
+485,1463,Kinder garten,7b,valjavec tomaz,9.1.2001,invalid
+486,1463,Kinder garten,7b,JUVAN SAŠA,14.6.2003,invalid
+487,5864,Kinder garten direkt,7b,Bazna ocena,,invalid
+488,5864,Kinder garten direkt,7b,Martin Bombaè,14.5.2007,invalid
 489,5864,Kinder garten direkt,7b,Rajko Zajc,25.6.2007,valid
 490,5864,Kinder garten direkt,7b,Damjan Gruden,6.6.2008,valid
 491,5864,Kinder garten direkt,7b,Miha Panèur,17.4.2010,valid
 492,5864,Kinder garten direkt,7b,Janko Domitroviè,9.5.2010,valid
 493,5864,Kinder garten direkt,7b,Sašo Ocvirk,20.3.2015,valid
-494,5864,Kinder garten direkt,7b,Marjana Volk,22.10.2016,
-495,5864,Kinder garten direkt,7b/b+,jernej vidmar,23.5.2007,
-496,1464,Matamoros,7c,Bazna ocena,,
-497,1464,Matamoros,7c,vodlan klemen,13.12.2000,
+494,5864,Kinder garten direkt,7b,Marjana Volk,22.10.2016,invalid
+495,5864,Kinder garten direkt,7b/b+,jernej vidmar,23.5.2007,invalid
+496,1464,Matamoros,7c,Bazna ocena,,invalid
+497,1464,Matamoros,7c,vodlan klemen,13.12.2000,invalid
 498,1464,Matamoros,7c,Zazvonil Luka,9.1.2001,valid
 499,1464,Matamoros,7c,Perica Levatic,11.11.2005,valid
 500,1464,Matamoros,7c,Martin Bombaè,8.1.2007,valid
@@ -515,19 +515,19 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 502,1464,Matamoros,7c,Rajko Zajc,25.3.2010,valid
 503,1464,Matamoros,7c,Miha Panèur,9.6.2011,valid
 504,1464,Matamoros,7c,Damjan Gruden,8.6.2011,valid
-505,1464,Matamoros,7c,Luka Pavlovèiè,11.10.2013,
-506,1464,Matamoros,7c,Marjana Volk,22.10.2016,
-507,1465,Tekila,7c+,Zazvonil Luka,9.1.2001,
+505,1464,Matamoros,7c,Luka Pavlovèiè,11.10.2013,invalid
+506,1464,Matamoros,7c,Marjana Volk,22.10.2016,invalid
+507,1465,Tekila,7c+,Zazvonil Luka,9.1.2001,invalid
 508,1465,Tekila,7c+/8a,Damjan Gruden,11.4.2014,valid
 509,1465,Tekila,7c+/8a,Rajko Zajc,7.9.2014,valid
 510,1465,Tekila,8a,Bazna ocena,,valid
 511,1465,Tekila,8a,jernej vidmar,30.5.2014,valid
 512,1465,Tekila,8a,Martin Bombaè,4.9.2014,valid
-513,1465,Tekila,8a,Luka Pavlovèiè,2.11.2014,
-514,1466,Durango,7b/b+,selak gregor,17.10.2005,
-515,1466,Durango,7b+,Bazna ocena,,
-516,1466,Durango,7b+,vodlan klemen,13.12.2000,
-517,1466,Durango,7b+,Zazvonil Luka,9.1.2001,
+513,1465,Tekila,8a,Luka Pavlovèiè,2.11.2014,invalid
+514,1466,Durango,7b/b+,selak gregor,17.10.2005,invalid
+515,1466,Durango,7b+,Bazna ocena,,invalid
+516,1466,Durango,7b+,vodlan klemen,13.12.2000,invalid
+517,1466,Durango,7b+,Zazvonil Luka,9.1.2001,invalid
 518,1466,Durango,7b+,"Kopše, Igor",18.5.2001,valid
 519,1466,Durango,7b+,Matjaž Žavbi,10.4.2003,valid
 520,1466,Durango,7b+,Vidmar Jernej,3.11.2005,valid
@@ -538,14 +538,14 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 525,1466,Durango,7b+,Damjan Gruden,14.6.2008,valid
 526,1466,Durango,7b+,Rajko Zajc,12.10.2008,valid
 527,1466,Durango,7b+,Risto Sovèev,16.3.2010,valid
-528,1466,Durango,7b+,Miha Panèur,3.4.2011,
-529,1466,Durango,7b+,Žiga Oražem,16.7.2012,
-530,1466,Durango,7b+,Luka Pavlovèiè,11.10.2013,
-531,1466,Durango,7b+,Marjana Volk,17.4.2016,
-532,1467,Tortuga a,7a+/b,x,19.4.2012,
-533,1467,Tortuga a,7b,Bazna ocena,,
-534,1467,Tortuga a,7b,vodlan klemen,13.12.2000,
-535,1467,Tortuga a,7b,Zazvonil Luka,9.1.2001,
+528,1466,Durango,7b+,Miha Panèur,3.4.2011,invalid
+529,1466,Durango,7b+,Žiga Oražem,16.7.2012,invalid
+530,1466,Durango,7b+,Luka Pavlovèiè,11.10.2013,invalid
+531,1466,Durango,7b+,Marjana Volk,17.4.2016,invalid
+532,1467,Tortuga a,7a+/b,x,19.4.2012,invalid
+533,1467,Tortuga a,7b,Bazna ocena,,invalid
+534,1467,Tortuga a,7b,vodlan klemen,13.12.2000,invalid
+535,1467,Tortuga a,7b,Zazvonil Luka,9.1.2001,invalid
 536,1467,Tortuga a,7b,Sova Matej,11.1.2001,valid
 537,1467,Tortuga a,7b,Cikic Cedomir,10.10.2002,valid
 538,1467,Tortuga a,7b,Rajko Zajc,19.3.2005,valid
@@ -556,21 +556,21 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 543,1467,Tortuga a,7b,Jure Franko,13.3.2010,valid
 544,1467,Tortuga a,7b,Miha Panèur,2.5.2010,valid
 545,1467,Tortuga a,7b,Mitja Predikaka,9.4.2012,valid
-546,1467,Tortuga a,7b,Žiga Oražem,16.7.2012,
-547,1467,Tortuga a,7b,Luka Pavlovèiè,11.10.2013,
-548,1467,Tortuga a,7b,Uroš Jenko,11.10.2015,
-549,1467,Tortuga a,7b,Mitja Zabukovec,19.12.2016,
-550,1468,Tortuga b,7b+/c,benjamin marjanoviè,24.9.2014,
-551,1468,Tortuga b,7c,Bazna ocena,,
+546,1467,Tortuga a,7b,Žiga Oražem,16.7.2012,invalid
+547,1467,Tortuga a,7b,Luka Pavlovèiè,11.10.2013,invalid
+548,1467,Tortuga a,7b,Uroš Jenko,11.10.2015,invalid
+549,1467,Tortuga a,7b,Mitja Zabukovec,19.12.2016,invalid
+550,1468,Tortuga b,7b+/c,benjamin marjanoviè,24.9.2014,invalid
+551,1468,Tortuga b,7c,Bazna ocena,,invalid
 552,1468,Tortuga b,7c,vodlan klemen,13.12.2000,valid
 553,1468,Tortuga b,7c,Zazvonil Luka,9.1.2001,valid
 554,1468,Tortuga b,7c,Sova Matej,11.1.2001,valid
 555,1468,Tortuga b,7c,Damjan Gruden,14.3.2014,valid
-556,1468,Tortuga b,7c,Rajko Zajc,13.3.2014,
-557,1468,Tortuga b,7c,Martin Bombaè,23.7.2014,
-558,1469,Corto,7c+/8a,Rajko Zajc,6.6.2009,
-559,1469,Corto,8a,Bazna ocena,,
-560,1469,Corto,8a,vodlan klemen,13.12.2000,
+556,1468,Tortuga b,7c,Rajko Zajc,13.3.2014,invalid
+557,1468,Tortuga b,7c,Martin Bombaè,23.7.2014,invalid
+558,1469,Corto,7c+/8a,Rajko Zajc,6.6.2009,invalid
+559,1469,Corto,8a,Bazna ocena,,invalid
+560,1469,Corto,8a,vodlan klemen,13.12.2000,invalid
 561,1469,Corto,8a,Zazvonil Luka,9.1.2001,valid
 562,1469,Corto,8a,"Kopše, Igor",3.11.2001,valid
 563,1469,Corto,8a,Janez Vratanar,20.4.2008,valid
@@ -580,32 +580,32 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 567,1469,Corto,8a,Štefan Wraber,10.2.2010,valid
 568,1469,Corto,8a,Miha Panèur,19.12.2010,valid
 569,1469,Corto,8a,Luka Pavlovèiè,7.12.2013,valid
-570,1469,Corto,8a,Damjan Gruden,18.3.2014,
-571,1469,Corto,8a,Saša Vidmar,15.5.2014,
-572,1469,Corto,8a/a+,selak gregor,17.10.2005,
+570,1469,Corto,8a,Damjan Gruden,18.3.2014,invalid
+571,1469,Corto,8a,Saša Vidmar,15.5.2014,invalid
+572,1469,Corto,8a/a+,selak gregor,17.10.2005,invalid
 573,1470,Lazuret,8b,Bazna ocena,,valid
-574,1470,Lazuret,8b,Jure Golob,12.7.2007,
+574,1470,Lazuret,8b,Jure Golob,12.7.2007,invalid
 575,1471,Mr. Bighand,8b+,Bazna ocena,,valid
-576,1472,Gospodar prstanov,7c+,Bazna ocena,,
-577,1472,Gospodar prstanov,7c+,Janez Vratanar,19.4.2008,
+576,1472,Gospodar prstanov,7c+,Bazna ocena,,invalid
+577,1472,Gospodar prstanov,7c+,Janez Vratanar,19.4.2008,invalid
 578,1472,Gospodar prstanov,7c+,Martin Bombaè,6.6.2009,valid
 579,1472,Gospodar prstanov,7c+,Rajko Zajc,24.6.2009,valid
 580,1472,Gospodar prstanov,7c+,jernej vidmar,1.11.2010,valid
 581,1472,Gospodar prstanov,7c+,Damjan Gruden,28.8.2013,valid
 582,1472,Gospodar prstanov,7c+,Luka Pavlovèiè,27.4.2014,valid
-583,1472,Gospodar prstanov,7c+,Saša Vidmar,1.6.2014,
-584,1472,Gospodar prstanov,7c+,Sašo Ocvirk,20.3.2015,
-585,1473,Manana,7c,Zazvonil Luka,11.12.2000,
-586,1473,Manana,7c,vodlan klemen,13.12.2000,
+583,1472,Gospodar prstanov,7c+,Saša Vidmar,1.6.2014,invalid
+584,1472,Gospodar prstanov,7c+,Sašo Ocvirk,20.3.2015,invalid
+585,1473,Manana,7c,Zazvonil Luka,11.12.2000,invalid
+586,1473,Manana,7c,vodlan klemen,13.12.2000,invalid
 587,1473,Manana,7c,Rajko Zajc,1.9.2007,valid
 588,1473,Manana,7c,Damjan Gruden,16.4.2011,valid
 589,1473,Manana,7c/c+,Bazna ocena,,valid
 590,1473,Manana,7c/c+,Perica Levatic,11.11.2005,valid
 591,1473,Manana,7c/c+,jernej vidmar,21.5.2007,valid
-592,1473,Manana,7c/c+,Martin Bombaè,29.6.2009,
-593,1473,Manana,7c+,piršiè jure,11.12.2000,
-594,1474,Hobit,7b+/c,Rajko Zajc,24.2.2007,
-595,1474,Hobit,7c,Bazna ocena,,
+592,1473,Manana,7c/c+,Martin Bombaè,29.6.2009,invalid
+593,1473,Manana,7c+,piršiè jure,11.12.2000,invalid
+594,1474,Hobit,7b+/c,Rajko Zajc,24.2.2007,invalid
+595,1474,Hobit,7c,Bazna ocena,,invalid
 596,1474,Hobit,7c,Gašper Potrebuješ,21.3.2007,valid
 597,1474,Hobit,7c,jernej vidmar,21.5.2007,valid
 598,1474,Hobit,7c,Janko Domitroviè,31.3.2008,valid
@@ -613,33 +613,33 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 600,1474,Hobit,7c,Martin Bombaè,21.6.2009,valid
 601,1474,Hobit,7c,Damjan Gruden,13.4.2011,valid
 602,1474,Hobit,7c,Miha Panèur,17.4.2011,valid
-603,1474,Hobit,7c,Žiga Oražem,17.4.2011,
-604,1474,Hobit,7c,Luka Pavlovèiè,19.4.2015,
-605,1475,Talk is cheap!,8c,Bazna ocena,,
+603,1474,Hobit,7c,Žiga Oražem,17.4.2011,invalid
+604,1474,Hobit,7c,Luka Pavlovèiè,19.4.2015,invalid
+605,1475,Talk is cheap!,8c,Bazna ocena,,invalid
 606,1475,Talk is cheap!,8c,PERKO UROŠ,13.12.2000,valid
 607,1475,Talk is cheap!,8c,Zazvonil Luka,9.1.2001,valid
 608,1475,Talk is cheap!,8c,cerjak luka,28.4.2003,valid
-609,1475,Talk is cheap!,8c+,Ivan Šolar,14.5.2005,
+609,1475,Talk is cheap!,8c+,Ivan Šolar,14.5.2005,invalid
 610,1476,Za staro kolo in majhnega psa,8c+,Bazna ocena,,valid
-611,1476,Za staro kolo in majhnega psa,8c+,Zazvonil Luka,9.1.2001,
-612,1477,Sanjski par,8c,Bazna ocena,,
+611,1476,Za staro kolo in majhnega psa,8c+,Zazvonil Luka,9.1.2001,invalid
+612,1477,Sanjski par,8c,Bazna ocena,,invalid
 613,1477,Sanjski par,8c,Zazvonil Luka,9.1.2001,valid
-614,1477,Sanjski par,8c,anton orel,3.5.2004,
-615,1478,Peskovnik,7b,vodlan klemen,13.12.2000,
+614,1477,Sanjski par,8c,anton orel,3.5.2004,invalid
+615,1478,Peskovnik,7b,vodlan klemen,13.12.2000,invalid
 616,1478,Peskovnik,7b,selak gregor,17.10.2005,valid
 617,1478,Peskovnik,7b/b+,Rajko Zajc,20.11.2010,valid
 618,1478,Peskovnik,7b/b+,Damjan Gruden,12.1.2013,valid
 619,1478,Peskovnik,7b+,Zazvonil Luka,9.1.2001,valid
 620,1478,Peskovnik,7b+,Mitja Predikaka,28.11.2013,valid
-621,1478,Peskovnik,7b+/c,Bazna ocena,,
-622,1479,Sistolitièni vrt,7b,selak gregor,17.10.2005,
+621,1478,Peskovnik,7b+/c,Bazna ocena,,invalid
+622,1479,Sistolitièni vrt,7b,selak gregor,17.10.2005,invalid
 623,1479,Sistolitièni vrt,7b+,Bazna ocena,,valid
 624,1479,Sistolitièni vrt,7b+,vodlan klemen,13.12.2000,valid
-625,1479,Sistolitièni vrt,7b+,Zazvonil Luka,9.1.2001,
-626,1480,Pièkin dim,6b,Turnšek Jernej,25.12.2000,
-627,1480,Pièkin dim,6b/b+,Jure Franko,19.3.2013,
-628,1480,Pièkin dim,6b+,Bazna ocena,,
-629,1480,Pièkin dim,6b+,vodlan klemen,13.12.2000,
+625,1479,Sistolitièni vrt,7b+,Zazvonil Luka,9.1.2001,invalid
+626,1480,Pièkin dim,6b,Turnšek Jernej,25.12.2000,invalid
+627,1480,Pièkin dim,6b/b+,Jure Franko,19.3.2013,invalid
+628,1480,Pièkin dim,6b+,Bazna ocena,,invalid
+629,1480,Pièkin dim,6b+,vodlan klemen,13.12.2000,invalid
 630,1480,Pièkin dim,6b+,Zazvonil Luka,9.1.2001,valid
 631,1480,Pièkin dim,6b+,"Kopše, Igor",31.10.2001,valid
 632,1480,Pièkin dim,6b+,Cikic Cedomir,10.10.2002,valid
@@ -650,13 +650,13 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 637,1480,Pièkin dim,6b+,Mitja Zabukovec,12.11.2008,valid
 638,1480,Pièkin dim,6b+,Damjan Gruden,19.11.2008,valid
 639,1480,Pièkin dim,6b+,Miha Panèur,3.1.2010,valid
-640,1480,Pièkin dim,6b+,Žiga Oražem,23.3.2011,
-641,1480,Pièkin dim,6b+,Mitja Predikaka,25.2.2014,
-642,1480,Pièkin dim,6b+,Tanja Brstilo,23.3.2016,
-643,1480,Pièkin dim,6b+,Ernest Mandelc,27.11.2016,
-644,1481,Tazio,6c,vodlan klemen,13.12.2000,
-645,1481,Tazio,6c,Zazvonil Luka,9.1.2001,
-646,1481,Tazio,6c,"Kopše, Igor",31.10.2001,
+640,1480,Pièkin dim,6b+,Žiga Oražem,23.3.2011,invalid
+641,1480,Pièkin dim,6b+,Mitja Predikaka,25.2.2014,invalid
+642,1480,Pièkin dim,6b+,Tanja Brstilo,23.3.2016,invalid
+643,1480,Pièkin dim,6b+,Ernest Mandelc,27.11.2016,invalid
+644,1481,Tazio,6c,vodlan klemen,13.12.2000,invalid
+645,1481,Tazio,6c,Zazvonil Luka,9.1.2001,invalid
+646,1481,Tazio,6c,"Kopše, Igor",31.10.2001,invalid
 647,1481,Tazio,6c,Poženel Marko,21.10.2002,valid
 648,1481,Tazio,6c,Rajko Zajc,7.1.2007,valid
 649,1481,Tazio,6c,Martin Bombaè,8.1.2007,valid
@@ -666,13 +666,13 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 653,1481,Tazio,6c,Jernej Rabzelj,16.10.2011,valid
 654,1481,Tazio,6c,Mitja Predikaka,12.1.2013,valid
 655,1481,Tazio,6c,Jure Franko,19.3.2013,valid
-656,1481,Tazio,6c,Ernest Mandelc,27.11.2016,
-657,1481,Tazio,6c/c+,Tadej Kodriè,9.12.2005,
-658,1481,Tazio,6c+,Bazna ocena,,
-659,1482,Kurèji rock,6c,Žiga Oražem,24.1.2010,
-660,1482,Kurèji rock,6c,Miha Panèur,23.1.2010,
-661,1482,Kurèji rock,6c,Jure Franko,19.3.2013,
-662,1482,Kurèji rock,6c/c+,jernej vidmar,23.5.2007,
+656,1481,Tazio,6c,Ernest Mandelc,27.11.2016,invalid
+657,1481,Tazio,6c/c+,Tadej Kodriè,9.12.2005,invalid
+658,1481,Tazio,6c+,Bazna ocena,,invalid
+659,1482,Kurèji rock,6c,Žiga Oražem,24.1.2010,invalid
+660,1482,Kurèji rock,6c,Miha Panèur,23.1.2010,invalid
+661,1482,Kurèji rock,6c,Jure Franko,19.3.2013,invalid
+662,1482,Kurèji rock,6c/c+,jernej vidmar,23.5.2007,invalid
 663,1482,Kurèji rock,6c+,Bazna ocena,,valid
 664,1482,Kurèji rock,6c+,vodlan klemen,13.12.2000,valid
 665,1482,Kurèji rock,6c+,Zazvonil Luka,9.1.2001,valid
@@ -687,13 +687,13 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 674,1482,Kurèji rock,6c+,Miha Miheliè,5.4.2007,valid
 675,1482,Kurèji rock,6c+,Mitja Zabukovec,12.11.2008,valid
 676,1482,Kurèji rock,6c+,Gregor Cimerman,10.1.2009,valid
-677,1482,Kurèji rock,6c+,Saša Vidmar,28.3.2011,
-678,1482,Kurèji rock,6c+,Marko Poženel,28.5.2012,
-679,1482,Kurèji rock,6c+,Mitja Predikaka,28.11.2013,
-680,1482,Kurèji rock,6c+,Sabina Krhlikar,13.9.2014,
-681,1483,Ribalton,7a,Marjana Volk,14.3.2015,
-682,1483,Ribalton,7a+,Bazna ocena,,
-683,1483,Ribalton,7a+,Zazvonil Luka,9.1.2001,
+677,1482,Kurèji rock,6c+,Saša Vidmar,28.3.2011,invalid
+678,1482,Kurèji rock,6c+,Marko Poženel,28.5.2012,invalid
+679,1482,Kurèji rock,6c+,Mitja Predikaka,28.11.2013,invalid
+680,1482,Kurèji rock,6c+,Sabina Krhlikar,13.9.2014,invalid
+681,1483,Ribalton,7a,Marjana Volk,14.3.2015,invalid
+682,1483,Ribalton,7a+,Bazna ocena,,invalid
+683,1483,Ribalton,7a+,Zazvonil Luka,9.1.2001,invalid
 684,1483,Ribalton,7a+,Matej Fetih,24.3.2003,valid
 685,1483,Ribalton,7a+,Rajko Zajc,2.11.2005,valid
 686,1483,Ribalton,7a+,Tadej Kodriè,9.12.2005,valid
@@ -705,25 +705,25 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 692,1483,Ribalton,7a+,Žiga Oražem,23.3.2011,valid
 693,1483,Ribalton,7a+,Jure Franko,19.3.2013,valid
 694,1483,Ribalton,7a+,Luka Pavlovèiè,11.10.2013,valid
-695,1483,Ribalton,7a+,Mitja Predikaka,28.11.2013,
-696,1483,Ribalton,7a+,Saša Vidmar,22.12.2014,
-697,1483,Ribalton,7a+/b,vodlan klemen,13.12.2000,
-698,1484,Èao bejbe,7c+,Zazvonil Luka,9.1.2001,
+695,1483,Ribalton,7a+,Mitja Predikaka,28.11.2013,invalid
+696,1483,Ribalton,7a+,Saša Vidmar,22.12.2014,invalid
+697,1483,Ribalton,7a+/b,vodlan klemen,13.12.2000,invalid
+698,1484,Èao bejbe,7c+,Zazvonil Luka,9.1.2001,invalid
 699,1484,Èao bejbe,7c+/8a,Rajko Zajc,14.2.2010,valid
 700,1484,Èao bejbe,7c+/8a,Damjan Gruden,18.4.2014,valid
 701,1484,Èao bejbe,7c+/8a,Martin Bombaè,5.12.2016,valid
-702,1484,Èao bejbe,8a,Bazna ocena,,
-703,1485,Iglu,8a,Bazna ocena,,
-704,1485,Iglu,8a,Rajko Zajc,28.2.2009,
+702,1484,Èao bejbe,8a,Bazna ocena,,invalid
+703,1485,Iglu,8a,Bazna ocena,,invalid
+704,1485,Iglu,8a,Rajko Zajc,28.2.2009,invalid
 705,1485,Iglu,8a,Žiga Oražem,22.2.2012,valid
 706,1485,Iglu,8a,Martin Bombaè,12.10.2012,valid
 707,1485,Iglu,8a,Damjan Gruden,12.1.2013,valid
 708,1485,Iglu,8a,Saša Vidmar,24.3.2014,valid
-709,1485,Iglu,8a,jernej vidmar,12.4.2014,
-710,1485,Iglu,8a,Luka Pavlovèiè,8.3.2015,
-711,1486,Flash dance,7c,Bazna ocena,,
-712,1486,Flash dance,7c,vodlan klemen,13.12.2000,
-713,1486,Flash dance,7c,Zazvonil Luka,9.1.2001,
+709,1485,Iglu,8a,jernej vidmar,12.4.2014,invalid
+710,1485,Iglu,8a,Luka Pavlovèiè,8.3.2015,invalid
+711,1486,Flash dance,7c,Bazna ocena,,invalid
+712,1486,Flash dance,7c,vodlan klemen,13.12.2000,invalid
+713,1486,Flash dance,7c,Zazvonil Luka,9.1.2001,invalid
 714,1486,Flash dance,7c,Janez Vratanar,6.12.2005,valid
 715,1486,Flash dance,7c,Rajko Zajc,7.1.2007,valid
 716,1486,Flash dance,7c,Martin Bombaè,8.1.2007,valid
@@ -731,18 +731,18 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 718,1486,Flash dance,7c,Andrej Žitnik,22.2.2009,valid
 719,1486,Flash dance,7c,Miha Panèur,15.5.2010,valid
 720,1486,Flash dance,7c,Damjan Gruden,22.1.2011,valid
-721,1486,Flash dance,7c,Žiga Oražem,25.12.2011,
-722,1486,Flash dance,7c,Mitja Predikaka,6.1.2013,
-723,1486,Flash dance,7c,Luka Pavlovèiè,11.10.2013,
-724,17323,Angie wall,7c,Bazna ocena,,
+721,1486,Flash dance,7c,Žiga Oražem,25.12.2011,invalid
+722,1486,Flash dance,7c,Mitja Predikaka,6.1.2013,invalid
+723,1486,Flash dance,7c,Luka Pavlovèiè,11.10.2013,invalid
+724,17323,Angie wall,7c,Bazna ocena,,invalid
 725,17323,Angie wall,7c,Damjan Gruden,28.12.2011,valid
 726,17323,Angie wall,7c,Rajko Zajc,16.2.2012,valid
 727,17323,Angie wall,7c,jernej vidmar,9.3.2012,valid
 728,17323,Angie wall,7c,Mitja Predikaka,11.1.2013,valid
-729,17323,Angie wall,7c,Martin Bombaè,24.11.2014,
-730,1487,Rock'n roll,7c,Janez Vratanar,4.1.2009,
-731,1487,Rock'n roll,7c,Andrej Žitnik,15.2.2009,
-732,1487,Rock'n roll,7c,janez Miklavèiè,13.2.2011,
+729,17323,Angie wall,7c,Martin Bombaè,24.11.2014,invalid
+730,1487,Rock'n roll,7c,Janez Vratanar,4.1.2009,invalid
+731,1487,Rock'n roll,7c,Andrej Žitnik,15.2.2009,invalid
+732,1487,Rock'n roll,7c,janez Miklavèiè,13.2.2011,invalid
 733,1487,Rock'n roll,7c/c+,vodlan klemen,13.12.2000,valid
 734,1487,Rock'n roll,7c/c+,Zazvonil Luka,9.1.2001,valid
 735,1487,Rock'n roll,7c/c+,Martin Bombaè,8.1.2007,valid
@@ -754,38 +754,38 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 741,1487,Rock'n roll,7c+,Damjan Gruden,31.5.2009,valid
 742,1487,Rock'n roll,7c+,Risto Sovèev,24.8.2009,valid
 743,1487,Rock'n roll,7c+,Saša Vidmar,16.1.2012,valid
-744,1487,Rock'n roll,7c+,Mitja Predikaka,22.11.2014,
-745,1487,Rock'n roll,7c+,Andraž Gregorèiè,10.1.2015,
-746,1487,Rock'n roll,7c+,Robert,11.10.2016,
-747,1488,Galaktika,8a,valjavec tomaz,9.1.2001,
+744,1487,Rock'n roll,7c+,Mitja Predikaka,22.11.2014,invalid
+745,1487,Rock'n roll,7c+,Andraž Gregorèiè,10.1.2015,invalid
+746,1487,Rock'n roll,7c+,Robert,11.10.2016,invalid
+747,1488,Galaktika,8a,valjavec tomaz,9.1.2001,invalid
 748,1488,Galaktika,8a/a+,Bazna ocena,,valid
 749,1488,Galaktika,8a/a+,Rajko Zajc,24.11.2012,valid
 750,1488,Galaktika,8a+,vodlan klemen,13.12.2000,valid
 751,1488,Galaktika,8a+,Zazvonil Luka,9.1.2001,valid
-752,1488,Galaktika,8a+,Peter Mrak,25.3.2011,
-753,1489,Strta srca,8a+,Bazna ocena,,
+752,1488,Galaktika,8a+,Peter Mrak,25.3.2011,invalid
+753,1489,Strta srca,8a+,Bazna ocena,,invalid
 754,1489,Strta srca,8a+,vodlan klemen,13.12.2000,valid
 755,1489,Strta srca,8a+,Zazvonil Luka,9.1.2001,valid
-756,1489,Strta srca,8a+,Rajko Zajc,3.12.2007,
-757,1490,Twin peaks,7c/c+,Bazna ocena,,
-758,1490,Twin peaks,7c/c+,vodlan klemen,13.12.2000,
+756,1489,Strta srca,8a+,Rajko Zajc,3.12.2007,invalid
+757,1490,Twin peaks,7c/c+,Bazna ocena,,invalid
+758,1490,Twin peaks,7c/c+,vodlan klemen,13.12.2000,invalid
 759,1490,Twin peaks,7c/c+,Zazvonil Luka,9.1.2001,valid
 760,1490,Twin peaks,7c/c+,Sova Matej,11.1.2001,valid
 761,1490,Twin peaks,7c/c+,Rajko Zajc,25.1.2009,valid
 762,1490,Twin peaks,7c+,Grega Rožac,9.1.2001,valid
-763,1490,Twin peaks,7c+,Risto Sovèev,24.8.2009,
-764,1490,Twin peaks,7c+,Damjan Gruden,16.5.2014,
-765,1491,Stinger,7c,Bazna ocena,,
+763,1490,Twin peaks,7c+,Risto Sovèev,24.8.2009,invalid
+764,1490,Twin peaks,7c+,Damjan Gruden,16.5.2014,invalid
+765,1491,Stinger,7c,Bazna ocena,,invalid
 766,1491,Stinger,7c,Zazvonil Luka,9.1.2001,valid
 767,1491,Stinger,7c,Rajko Zajc,9.12.2008,valid
 768,1491,Stinger,7c,Martin Bombaè,25.11.2011,valid
 769,1491,Stinger,7c,Damjan Gruden,24.11.2011,valid
-770,1491,Stinger,7c,Mitja Predikaka,25.11.2014,
+770,1491,Stinger,7c,Mitja Predikaka,25.11.2014,invalid
 771,1492,No fly zone,8b,Bazna ocena,,valid
-772,1492,No fly zone,8b,Zazvonil Luka,9.1.2001,
-773,1493,Skodelica kave,7a+,Marjana Volk,28.12.2013,
-774,1493,Skodelica kave,7a+/b,Neda Podergajs,1.12.2011,
-775,1493,Skodelica kave,7b,Bazna ocena,,
+772,1492,No fly zone,8b,Zazvonil Luka,9.1.2001,invalid
+773,1493,Skodelica kave,7a+,Marjana Volk,28.12.2013,invalid
+774,1493,Skodelica kave,7a+/b,Neda Podergajs,1.12.2011,invalid
+775,1493,Skodelica kave,7b,Bazna ocena,,invalid
 776,1493,Skodelica kave,7b,vodlan klemen,13.12.2000,valid
 777,1493,Skodelica kave,7b,Zazvonil Luka,9.1.2001,valid
 778,1493,Skodelica kave,7b,JUVAN SAŠA,14.6.2003,valid
@@ -794,13 +794,13 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 781,1493,Skodelica kave,7b,Martin Bombaè,16.2.2009,valid
 782,1493,Skodelica kave,7b,jernej vidmar,30.6.2009,valid
 783,1493,Skodelica kave,7b,Miha Panèur,2.5.2010,valid
-784,1493,Skodelica kave,7b,Luka Pavlovèiè,11.10.2013,
-785,1493,Skodelica kave,7b,Mitja Predikaka,27.11.2013,
-786,1493,Skodelica kave,7b,Saša Vidmar,14.4.2016,
-787,1494,Nina,7a+,piršiè jure,11.12.2000,
-788,1494,Nina,7a+,vodlan klemen,13.12.2000,
-789,1494,Nina,7a+,Zazvonil Luka,9.1.2001,
-790,1494,Nina,7a+,"Kopše, Igor",3.11.2001,
+784,1493,Skodelica kave,7b,Luka Pavlovèiè,11.10.2013,invalid
+785,1493,Skodelica kave,7b,Mitja Predikaka,27.11.2013,invalid
+786,1493,Skodelica kave,7b,Saša Vidmar,14.4.2016,invalid
+787,1494,Nina,7a+,piršiè jure,11.12.2000,invalid
+788,1494,Nina,7a+,vodlan klemen,13.12.2000,invalid
+789,1494,Nina,7a+,Zazvonil Luka,9.1.2001,invalid
+790,1494,Nina,7a+,"Kopše, Igor",3.11.2001,invalid
 791,1494,Nina,7a+,Andrej Žitnik,11.1.2009,valid
 792,1494,Nina,7a+/b,Rajko Zajc,9.10.2005,valid
 793,1494,Nina,7a+/b,jernej vidmar,23.5.2007,valid
@@ -814,15 +814,15 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 801,1494,Nina,7b,Anže Martinèiè,21.11.2007,valid
 802,1494,Nina,7b,Tina Di Batista,24.11.2007,valid
 803,1494,Nina,7b,Damjan Gruden,10.12.2007,valid
-804,1494,Nina,7b,Saša Vidmar,19.3.2012,
-805,1494,Nina,7b,Mitja Predikaka,13.4.2012,
-806,1494,Nina,7b,Robert,2.1.2016,
-807,1494,Nina,7b,Mitja Zabukovec,19.12.2016,
-808,1495,Danger zone,7a,Bazna ocena,,
-809,1495,Danger zone,7a,vodlan klemen,13.12.2000,
-810,1495,Danger zone,7a,Zazvonil Luka,9.1.2001,
-811,1495,Danger zone,7a,blaž germek,4.2.2002,
-812,1495,Danger zone,7a,Jerman Bernard,8.2.2002,
+804,1494,Nina,7b,Saša Vidmar,19.3.2012,invalid
+805,1494,Nina,7b,Mitja Predikaka,13.4.2012,invalid
+806,1494,Nina,7b,Robert,2.1.2016,invalid
+807,1494,Nina,7b,Mitja Zabukovec,19.12.2016,invalid
+808,1495,Danger zone,7a,Bazna ocena,,invalid
+809,1495,Danger zone,7a,vodlan klemen,13.12.2000,invalid
+810,1495,Danger zone,7a,Zazvonil Luka,9.1.2001,invalid
+811,1495,Danger zone,7a,blaž germek,4.2.2002,invalid
+812,1495,Danger zone,7a,Jerman Bernard,8.2.2002,invalid
 813,1495,Danger zone,7a,Cikic Cedomir,10.10.2002,valid
 814,1495,Danger zone,7a,Perica Levatic,11.11.2005,valid
 815,1495,Danger zone,7a,Martin Bombaè,8.1.2007,valid
@@ -841,14 +841,14 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 
 <td valign=""top"">30.10.2015",,valid
 828,1495,Danger zone,7a,Marko Kejžar,2.10.2016,valid
-829,1495,Danger zone,7a,Tanja Brstilo,22.1.2017,
-830,1495,Danger zone,7a/a+,jernej vidmar,23.5.2007,
-831,1495,Danger zone,7a/a+,maja zalar,6.8.2007,
-832,1495,Danger zone,7a/a+,Risto Sovèev,17.10.2009,
-833,1495,Danger zone,7a/a+,Saša Vidmar,28.2.2011,
-834,1496,Nikita,7b+,Bazna ocena,,
-835,1496,Nikita,7b+,vodlan klemen,13.12.2000,
-836,1496,Nikita,7b+,Zazvonil Luka,9.1.2001,
+829,1495,Danger zone,7a,Tanja Brstilo,22.1.2017,invalid
+830,1495,Danger zone,7a/a+,jernej vidmar,23.5.2007,invalid
+831,1495,Danger zone,7a/a+,maja zalar,6.8.2007,invalid
+832,1495,Danger zone,7a/a+,Risto Sovèev,17.10.2009,invalid
+833,1495,Danger zone,7a/a+,Saša Vidmar,28.2.2011,invalid
+834,1496,Nikita,7b+,Bazna ocena,,invalid
+835,1496,Nikita,7b+,vodlan klemen,13.12.2000,invalid
+836,1496,Nikita,7b+,Zazvonil Luka,9.1.2001,invalid
 837,1496,Nikita,7b+,Rajko Zajc,17.3.2006,valid
 838,1496,Nikita,7b+,Martin Bombaè,8.1.2007,valid
 839,1496,Nikita,7b+,Miha Panèur,28.3.2010,valid
@@ -856,13 +856,13 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 841,1496,Nikita,7b+,Žiga Oražem,24.10.2010,valid
 842,1496,Nikita,7b+,Mitja Predikaka,29.12.2012,valid
 843,1496,Nikita,7b+,Luka Pavlovèiè,11.10.2013,valid
-844,1496,Nikita,7b+/c,Vidmar Jernej,19.2.2006,
-845,1496,Nikita,7b+/c,jernej vidmar,23.5.2007,
-846,1496,Nikita,7b+/c,Bojan Leskošek,28.11.2010,
-847,1497,Minulet,7b/b+,scagnetto,2.10.2002,
-848,1497,Minulet,7b/b+,Martin Bombaè,8.1.2007,
-849,1497,Minulet,7b/b+,jernej vidmar,23.5.2007,
-850,1497,Minulet,7b/b+,Miha Panèur,23.1.2010,
+844,1496,Nikita,7b+/c,Vidmar Jernej,19.2.2006,invalid
+845,1496,Nikita,7b+/c,jernej vidmar,23.5.2007,invalid
+846,1496,Nikita,7b+/c,Bojan Leskošek,28.11.2010,invalid
+847,1497,Minulet,7b/b+,scagnetto,2.10.2002,invalid
+848,1497,Minulet,7b/b+,Martin Bombaè,8.1.2007,invalid
+849,1497,Minulet,7b/b+,jernej vidmar,23.5.2007,invalid
+850,1497,Minulet,7b/b+,Miha Panèur,23.1.2010,invalid
 851,1497,Minulet,7b/b+,Jure Franko,13.3.2010,valid
 852,1497,Minulet,7b+,Bazna ocena,,valid
 853,1497,Minulet,7b+,vodlan klemen,13.12.2000,valid
@@ -873,21 +873,21 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 858,1497,Minulet,7b+,Anže Martinèiè,19.4.2009,valid
 859,1497,Minulet,7b+,Risto Sovèev,17.10.2009,valid
 860,1497,Minulet,7b+,Saša Vidmar,7.11.2011,valid
-861,1497,Minulet,7b+,Mitja Predikaka,18.2.2012,
-862,1497,Minulet,7b+,Uroš Jenko,16.2.2015,
-863,1497,Minulet,7b+,Mitja Zabukovec,19.12.2016,
-864,1497,Minulet,7b+,Janko Domitroviè,26.12.2016,
-865,17472,Ponarejeni Minulet,6c+,Bazna ocena,,
-866,17472,Ponarejeni Minulet,6c+,Martin Bombaè,27.1.2012,
+861,1497,Minulet,7b+,Mitja Predikaka,18.2.2012,invalid
+862,1497,Minulet,7b+,Uroš Jenko,16.2.2015,invalid
+863,1497,Minulet,7b+,Mitja Zabukovec,19.12.2016,invalid
+864,1497,Minulet,7b+,Janko Domitroviè,26.12.2016,invalid
+865,17472,Ponarejeni Minulet,6c+,Bazna ocena,,invalid
+866,17472,Ponarejeni Minulet,6c+,Martin Bombaè,27.1.2012,invalid
 867,17472,Ponarejeni Minulet,6c+,Rajko Zajc,18.2.2012,valid
 868,17472,Ponarejeni Minulet,6c+,Saša Vidmar,19.3.2012,valid
 869,17472,Ponarejeni Minulet,6c+,Mitja Predikaka,3.12.2013,valid
 870,17472,Ponarejeni Minulet,6c+,Žiga Oražem,23.12.2013,valid
-871,17472,Ponarejeni Minulet,7a,jernej vidmar,19.3.2012,
-872,17472,Ponarejeni Minulet,7a,Damjan Gruden,31.12.2013,
-873,1498,Ponarejena želva,7a+,blaž germek,11.2.2002,
-874,1498,Ponarejena želva,7a+,Miha Panèur,27.12.2009,
-875,1498,Ponarejena želva,7a+,jernej vidmar,15.2.2010,
+871,17472,Ponarejeni Minulet,7a,jernej vidmar,19.3.2012,invalid
+872,17472,Ponarejeni Minulet,7a,Damjan Gruden,31.12.2013,invalid
+873,1498,Ponarejena želva,7a+,blaž germek,11.2.2002,invalid
+874,1498,Ponarejena želva,7a+,Miha Panèur,27.12.2009,invalid
+875,1498,Ponarejena želva,7a+,jernej vidmar,15.2.2010,invalid
 876,1498,Ponarejena želva,7a+,Mitja Predikaka,27.11.2013,valid
 877,1498,Ponarejena želva,7a+/b,Bazna ocena,,valid
 878,1498,Ponarejena želva,7a+/b,vodlan klemen,13.12.2000,valid
@@ -898,23 +898,23 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 883,1498,Ponarejena želva,7b,Janez Vratanar,1.12.2005,valid
 884,1498,Ponarejena želva,7b,Martin Bombaè,17.10.2011,valid
 885,1498,Ponarejena želva,7b,Luka Pavlovèiè,14.10.2013,valid
-886,1498,Ponarejena želva,7b,Saša Vidmar,14.3.2016,
-887,1498,Ponarejena želva,7b,Mitja Zabukovec,19.12.2016,
-888,1498,Ponarejena želva,7b/b+,Rajko Zajc,17.8.2006,
-889,1499,Oro puro,7b+/c,Martin Bombaè,14.3.2009,
-890,1499,Oro puro,7b+/c,jernej vidmar,30.6.2009,
+886,1498,Ponarejena želva,7b,Saša Vidmar,14.3.2016,invalid
+887,1498,Ponarejena želva,7b,Mitja Zabukovec,19.12.2016,invalid
+888,1498,Ponarejena želva,7b/b+,Rajko Zajc,17.8.2006,invalid
+889,1499,Oro puro,7b+/c,Martin Bombaè,14.3.2009,invalid
+890,1499,Oro puro,7b+/c,jernej vidmar,30.6.2009,invalid
 891,1499,Oro puro,7b+/c,Damjan Gruden,15.3.2010,valid
 892,1499,Oro puro,7b+/c,Miha Panèur,20.5.2010,valid
 893,1499,Oro puro,7c,Bazna ocena,,valid
 894,1499,Oro puro,7c,vodlan klemen,13.12.2000,valid
 895,1499,Oro puro,7c,Zazvonil Luka,9.1.2001,valid
 896,1499,Oro puro,7c,Rajko Zajc,21.5.2006,valid
-897,1499,Oro puro,7c,Risto Sovèev,24.8.2009,
-898,1499,Oro puro,7c,Mitja Predikaka,27.11.2015,
-899,1500,Teta Liza,7a,Bazna ocena,,
-900,1500,Teta Liza,7a,vodlan klemen,13.12.2000,
-901,1500,Teta Liza,7a,Zazvonil Luka,9.1.2001,
-902,1500,Teta Liza,7a,blaž germek,4.2.2002,
+897,1499,Oro puro,7c,Risto Sovèev,24.8.2009,invalid
+898,1499,Oro puro,7c,Mitja Predikaka,27.11.2015,invalid
+899,1500,Teta Liza,7a,Bazna ocena,,invalid
+900,1500,Teta Liza,7a,vodlan klemen,13.12.2000,invalid
+901,1500,Teta Liza,7a,Zazvonil Luka,9.1.2001,invalid
+902,1500,Teta Liza,7a,blaž germek,4.2.2002,invalid
 903,1500,Teta Liza,7a,Jerman Bernard,8.2.2002,valid
 904,1500,Teta Liza,7a,Perica Levatic,11.11.2005,valid
 905,1500,Teta Liza,7a,Mitja Zabukovec,12.11.2008,valid
@@ -928,18 +928,18 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 913,1500,Teta Liza,7a/a+,Marjana Volk,24.11.2011,valid
 914,1500,Teta Liza,7a/a+,Matej Muèiè,31.12.2012,valid
 915,1500,Teta Liza,7a/a+,Urška Mihoci,19.1.2017,valid
-916,1500,Teta Liza,7a+,"Kopše, Igor",18.5.2001,
-917,1500,Teta Liza,7a+,jernej kruder,22.11.2003,
-918,1500,Teta Liza,7a+,Rajko Zajc,22.1.2006,
-919,1500,Teta Liza,7a+,maja zalar,14.11.2008,
-920,1501,Moving shadow,7b/b+,Rajko Zajc,16.2.2008,
+916,1500,Teta Liza,7a+,"Kopše, Igor",18.5.2001,invalid
+917,1500,Teta Liza,7a+,jernej kruder,22.11.2003,invalid
+918,1500,Teta Liza,7a+,Rajko Zajc,22.1.2006,invalid
+919,1500,Teta Liza,7a+,maja zalar,14.11.2008,invalid
+920,1501,Moving shadow,7b/b+,Rajko Zajc,16.2.2008,invalid
 921,1501,Moving shadow,7b/b+,Damjan Gruden,11.12.2011,valid
 922,1501,Moving shadow,7b+,Bazna ocena,,valid
 923,1501,Moving shadow,7b+,Miha Panèur,1.5.2015,valid
-924,1501,Moving shadow,7b+/c,benjamin marjanoviè,19.12.2012,
-925,1502,9A - 1 del,6c,Bazna ocena,,
-926,1502,9A - 1 del,6c,vodlan klemen,13.12.2000,
-927,1502,9A - 1 del,6c,Zazvonil Luka,9.1.2001,
+924,1501,Moving shadow,7b+/c,benjamin marjanoviè,19.12.2012,invalid
+925,1502,9A - 1 del,6c,Bazna ocena,,invalid
+926,1502,9A - 1 del,6c,vodlan klemen,13.12.2000,invalid
+927,1502,9A - 1 del,6c,Zazvonil Luka,9.1.2001,invalid
 928,1502,9A - 1 del,6c,"Kopše, Igor",3.11.2001,valid
 929,1502,9A - 1 del,6c,Martin Bombaè,8.1.2007,valid
 930,1502,9A - 1 del,6c,jernej vidmar,30.6.2009,valid
@@ -948,49 +948,49 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 933,1502,9A - 1 del,6c,Žiga Oražem,23.12.2013,valid
 934,1502,9A - 1 del,6c,Ernest Mandelc,5.12.2016,valid
 935,1502,9A - 1 del,6c/c+,Rajko Zajc,28.3.2005,valid
-936,1502,9A - 1 del,6c+,blaž germek,4.2.2002,
-937,1502,9A - 1 del,6c+,Neda Podergajs,25.11.2011,
-938,1502,9A - 1 del,6c+,Damjan Gruden,29.9.2013,
-939,1503,9A - 2 del,7b+,piršiè jure,11.12.2000,
+936,1502,9A - 1 del,6c+,blaž germek,4.2.2002,invalid
+937,1502,9A - 1 del,6c+,Neda Podergajs,25.11.2011,invalid
+938,1502,9A - 1 del,6c+,Damjan Gruden,29.9.2013,invalid
+939,1503,9A - 2 del,7b+,piršiè jure,11.12.2000,invalid
 940,1503,9A - 2 del,7c,Bazna ocena,,valid
 941,1503,9A - 2 del,7c,vodlan klemen,13.12.2000,valid
 942,1503,9A - 2 del,7c,Zazvonil Luka,9.1.2001,valid
 943,1503,9A - 2 del,7c,Rajko Zajc,24.1.2009,valid
-944,1503,9A - 2 del,7c,Damjan Gruden,25.2.2014,
-945,1504,Uncle Ben,7b,Bazna ocena,,
-946,1504,Uncle Ben,7b,Zazvonil Luka,9.1.2001,
+944,1503,9A - 2 del,7c,Damjan Gruden,25.2.2014,invalid
+945,1504,Uncle Ben,7b,Bazna ocena,,invalid
+946,1504,Uncle Ben,7b,Zazvonil Luka,9.1.2001,invalid
 947,1504,Uncle Ben,7b,Martin Bombaè,8.1.2007,valid
 948,1504,Uncle Ben,7b,Rajko Zajc,28.10.2008,valid
 949,1504,Uncle Ben,7b,Miha Panèur,20.3.2010,valid
 950,1504,Uncle Ben,7b,Luka Pavlovèiè,11.10.2013,valid
 951,1504,Uncle Ben,7b,Mitja Predikaka,3.12.2013,valid
-952,1504,Uncle Ben,7b+,vodlan klemen,13.12.2000,
-953,1504,Uncle Ben,7b+,Damjan Gruden,21.6.2010,
-954,22152,Ljubezen na prvi pogled (1.del),7a+,Bazna ocena,,
+952,1504,Uncle Ben,7b+,vodlan klemen,13.12.2000,invalid
+953,1504,Uncle Ben,7b+,Damjan Gruden,21.6.2010,invalid
+954,22152,Ljubezen na prvi pogled (1.del),7a+,Bazna ocena,,invalid
 955,22152,Ljubezen na prvi pogled (1.del),7a+,Damjan Gruden,24.11.2013,valid
 956,22152,Ljubezen na prvi pogled (1.del),7a+,Rajko Zajc,21.12.2013,valid
-957,22152,Ljubezen na prvi pogled (1.del),7a+,Žiga Oražem,23.12.2013,
+957,22152,Ljubezen na prvi pogled (1.del),7a+,Žiga Oražem,23.12.2013,invalid
 958,20502,Ljubezen na prvi pogled,7c+,Bazna ocena,,valid
-959,20502,Ljubezen na prvi pogled,8a,Damjan Gruden,23.11.2014,
+959,20502,Ljubezen na prvi pogled,8a,Damjan Gruden,23.11.2014,invalid
 960,1505,Eagles,8b,Bazna ocena,,valid
-961,1505,Eagles,8b,Zazvonil Luka,9.1.2001,
-962,1506,Caffe expresso,8a+,Bazna ocena,,
+961,1505,Eagles,8b,Zazvonil Luka,9.1.2001,invalid
+962,1506,Caffe expresso,8a+,Bazna ocena,,invalid
 963,1506,Caffe expresso,8a+,Zazvonil Luka,9.1.2001,valid
-964,1506,Caffe expresso,8a+,Damjan Gruden,10.11.2014,
-965,10431,Dolga kava,7b+,David Debeljak,20.10.2009,
-966,10431,Dolga kava,7b+/c,Rajko Zajc,7.11.2009,
+964,1506,Caffe expresso,8a+,Damjan Gruden,10.11.2014,invalid
+965,10431,Dolga kava,7b+,David Debeljak,20.10.2009,invalid
+966,10431,Dolga kava,7b+/c,Rajko Zajc,7.11.2009,invalid
 967,10431,Dolga kava,7b+/c,Damjan Gruden,15.3.2010,valid
 968,10431,Dolga kava,7c,Bazna ocena,,valid
 969,10431,Dolga kava,7c,jernej vidmar,30.6.2009,valid
 970,10431,Dolga kava,7c,Martin Bombaè,14.5.2010,valid
 971,10431,Dolga kava,7c,benjamin marjanoviè,18.10.2012,valid
-972,10431,Dolga kava,7c,Saša Vidmar,30.9.2015,
-973,10431,Dolga kava,7c,Mitja Predikaka,30.12.2016,
-974,1507,Noèna kronika,8b,Bazna ocena,,
+972,10431,Dolga kava,7c,Saša Vidmar,30.9.2015,invalid
+973,10431,Dolga kava,7c,Mitja Predikaka,30.12.2016,invalid
+974,1507,Noèna kronika,8b,Bazna ocena,,invalid
 975,1507,Noèna kronika,8b,Zazvonil Luka,11.12.2000,valid
-976,1507,Noèna kronika,8b,Sova Matej,11.1.2001,
-977,1508,Noèna kronika - 1 del,7c,Bojan Leskošek,25.11.2012,
-978,1508,Noèna kronika - 1 del,7c,Mitja Predikaka,30.12.2016,
+976,1507,Noèna kronika,8b,Sova Matej,11.1.2001,invalid
+977,1508,Noèna kronika - 1 del,7c,Bojan Leskošek,25.11.2012,invalid
+978,1508,Noèna kronika - 1 del,7c,Mitja Predikaka,30.12.2016,invalid
 979,1508,Noèna kronika - 1 del,7c/c+,Bazna ocena,,valid
 980,1508,Noèna kronika - 1 del,7c/c+,Luka Pavlovèiè,22.4.2013,valid
 981,1508,Noèna kronika - 1 del,7c/c+,Saša Vidmar,22.3.2015,valid
@@ -999,33 +999,33 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 984,1508,Noèna kronika - 1 del,7c+,Martin Bombaè,30.10.2009,valid
 985,1508,Noèna kronika - 1 del,7c+,Rajko Zajc,15.11.2009,valid
 986,1508,Noèna kronika - 1 del,7c+,Cedomir Cikic,3.3.2011,valid
-987,1508,Noèna kronika - 1 del,7c+,Damjan Gruden,13.4.2011,
-988,1508,Noèna kronika - 1 del,7c+,jernej vidmar,30.5.2011,
-989,1509,Urbanova,7c+,Damjan Gruden,6.12.2013,
-990,1509,Urbanova,8a,Bazna ocena,,
+987,1508,Noèna kronika - 1 del,7c+,Damjan Gruden,13.4.2011,invalid
+988,1508,Noèna kronika - 1 del,7c+,jernej vidmar,30.5.2011,invalid
+989,1509,Urbanova,7c+,Damjan Gruden,6.12.2013,invalid
+990,1509,Urbanova,8a,Bazna ocena,,invalid
 991,1509,Urbanova,8a,vodlan klemen,13.12.2000,valid
 992,1509,Urbanova,8a,Zazvonil Luka,9.1.2001,valid
 993,1509,Urbanova,8a,valjavec tomaz,9.1.2001,valid
 994,1509,Urbanova,8a,Rajko Zajc,24.11.2011,valid
 995,1509,Urbanova,8a,Saša Vidmar,8.3.2015,valid
-996,1509,Urbanova,8a,Luka Pavlovèiè,15.3.2015,
-997,1509,Urbanova,8a,Mitja Predikaka,22.3.2015,
-998,1510,Uživancija,8a,Bazna ocena,,
+996,1509,Urbanova,8a,Luka Pavlovèiè,15.3.2015,invalid
+997,1509,Urbanova,8a,Mitja Predikaka,22.3.2015,invalid
+998,1510,Uživancija,8a,Bazna ocena,,invalid
 999,1510,Uživancija,8a,Rajko Zajc,16.1.2009,valid
 1000,1510,Uživancija,8a,Janez Vratanar,6.12.2009,valid
-1001,1510,Uživancija,8a,Damjan Gruden,30.11.2013,
-1002,1511,Veseli tobogan,7c+/8a,Ivan Šolar,14.5.2005,
+1001,1510,Uživancija,8a,Damjan Gruden,30.11.2013,invalid
+1002,1511,Veseli tobogan,7c+/8a,Ivan Šolar,14.5.2005,invalid
 1003,1511,Veseli tobogan,8a/a+,Bazna ocena,,valid
-1004,1511,Veseli tobogan,8a+,Zazvonil Luka,11.12.2000,
+1004,1511,Veseli tobogan,8a+,Zazvonil Luka,11.12.2000,invalid
 1005,1512,Popolni mrk,8c,Bazna ocena,,valid
-1006,1513,Sreèa vrtnice,8b,Bazna ocena,,
+1006,1513,Sreèa vrtnice,8b,Bazna ocena,,invalid
 1007,1513,Sreèa vrtnice,8b,Zazvonil Luka,9.1.2001,valid
 1008,1513,Sreèa vrtnice,8b,benjamin marjanoviè,15.12.2012,valid
-1009,1513,Sreèa vrtnice,8b,Miha Panèur,8.4.2015,
-1010,1514,Sreèa vrtnice - 1 del,7a,Matic Kozina,16.10.2009,
-1011,1514,Sreèa vrtnice - 1 del,7a/a+,Jure Franko,19.3.2013,
-1012,1514,Sreèa vrtnice - 1 del,7a+,Bazna ocena,,
-1013,1514,Sreèa vrtnice - 1 del,7a+,vodlan klemen,13.12.2000,
+1009,1513,Sreèa vrtnice,8b,Miha Panèur,8.4.2015,invalid
+1010,1514,Sreèa vrtnice - 1 del,7a,Matic Kozina,16.10.2009,invalid
+1011,1514,Sreèa vrtnice - 1 del,7a/a+,Jure Franko,19.3.2013,invalid
+1012,1514,Sreèa vrtnice - 1 del,7a+,Bazna ocena,,invalid
+1013,1514,Sreèa vrtnice - 1 del,7a+,vodlan klemen,13.12.2000,invalid
 1014,1514,Sreèa vrtnice - 1 del,7a+,Zazvonil Luka,9.1.2001,valid
 1015,1514,Sreèa vrtnice - 1 del,7a+,MARGON SIMON,20.4.2002,valid
 1016,1514,Sreèa vrtnice - 1 del,7a+,Rajko Zajc,10.10.2005,valid
@@ -1038,13 +1038,13 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1023,1514,Sreèa vrtnice - 1 del,7a+,Risto Sovèev,26.10.2009,valid
 1024,1514,Sreèa vrtnice - 1 del,7a+,Miha Panèur,17.4.2010,valid
 1025,1514,Sreèa vrtnice - 1 del,7a+,Žiga Oražem,17.12.2011,valid
-1026,1514,Sreèa vrtnice - 1 del,7a+,Luka Pavlovèiè,11.10.2013,
-1027,1514,Sreèa vrtnice - 1 del,7a+,Mitja Predikaka,10.11.2013,
-1028,1514,Sreèa vrtnice - 1 del,7a+/b,Saša Vidmar,28.3.2011,
-1029,1514,Sreèa vrtnice - 1 del,7b,Mitja Zabukovec,12.11.2008,
+1026,1514,Sreèa vrtnice - 1 del,7a+,Luka Pavlovèiè,11.10.2013,invalid
+1027,1514,Sreèa vrtnice - 1 del,7a+,Mitja Predikaka,10.11.2013,invalid
+1028,1514,Sreèa vrtnice - 1 del,7a+/b,Saša Vidmar,28.3.2011,invalid
+1029,1514,Sreèa vrtnice - 1 del,7b,Mitja Zabukovec,12.11.2008,invalid
 1030,5433,Gorenjski šnops,8b,Bazna ocena,,valid
-1031,5434,Gorenjski šnops - 1 del,7a,Bazna ocena,,
-1032,5434,Gorenjski šnops - 1 del,7a,Rajko Zajc,8.4.2006,
+1031,5434,Gorenjski šnops - 1 del,7a,Bazna ocena,,invalid
+1032,5434,Gorenjski šnops - 1 del,7a,Rajko Zajc,8.4.2006,invalid
 1033,5434,Gorenjski šnops - 1 del,7a,jernej vidmar,23.5.2007,valid
 1034,5434,Gorenjski šnops - 1 del,7a,Martin Bombaè,30.11.2007,valid
 1035,5434,Gorenjski šnops - 1 del,7a,Damjan Gruden,21.5.2008,valid
@@ -1053,21 +1053,21 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1038,5434,Gorenjski šnops - 1 del,7a,Jure Franko,22.3.2013,valid
 1039,5434,Gorenjski šnops - 1 del,7a,Mitja Predikaka,27.11.2013,valid
 1040,5434,Gorenjski šnops - 1 del,7a,Sašo Poglajen,9.11.2014,valid
-1041,5434,Gorenjski šnops - 1 del,7a,Mitja Zabukovec,19.12.2016,
-1042,5434,Gorenjski šnops - 1 del,7a+,ožbe šteblaj,3.11.2008,
-1043,1515,Albanski konjak,7c+,Zazvonil Luka,9.1.2001,
-1044,1515,Albanski konjak,8a,Bazna ocena,,
+1041,5434,Gorenjski šnops - 1 del,7a,Mitja Zabukovec,19.12.2016,invalid
+1042,5434,Gorenjski šnops - 1 del,7a+,ožbe šteblaj,3.11.2008,invalid
+1043,1515,Albanski konjak,7c+,Zazvonil Luka,9.1.2001,invalid
+1044,1515,Albanski konjak,8a,Bazna ocena,,invalid
 1045,1515,Albanski konjak,8a,vodlan klemen,13.12.2000,valid
 1046,1515,Albanski konjak,8a,Jurij Ravnik,16.6.2004,valid
 1047,1515,Albanski konjak,8a,Rajko Zajc,12.12.2007,valid
 1048,1515,Albanski konjak,8a,Žiga Oražem,25.2.2012,valid
 1049,1515,Albanski konjak,8a,Damjan Gruden,29.9.2013,valid
-1050,1515,Albanski konjak,8a,Martin Bombaè,12.12.2013,
-1051,1515,Albanski konjak,8a,Mitja Predikaka,9.12.2014,
-1052,1516,Albanski konjak - 1 del,6c,Tadej Kodriè,9.12.2005,
-1053,1516,Albanski konjak - 1 del,6c+,Bazna ocena,,
-1054,1516,Albanski konjak - 1 del,6c+,vodlan klemen,13.12.2000,
-1055,1516,Albanski konjak - 1 del,6c+,Zazvonil Luka,9.1.2001,
+1050,1515,Albanski konjak,8a,Martin Bombaè,12.12.2013,invalid
+1051,1515,Albanski konjak,8a,Mitja Predikaka,9.12.2014,invalid
+1052,1516,Albanski konjak - 1 del,6c,Tadej Kodriè,9.12.2005,invalid
+1053,1516,Albanski konjak - 1 del,6c+,Bazna ocena,,invalid
+1054,1516,Albanski konjak - 1 del,6c+,vodlan klemen,13.12.2000,invalid
+1055,1516,Albanski konjak - 1 del,6c+,Zazvonil Luka,9.1.2001,invalid
 1056,1516,Albanski konjak - 1 del,6c+,"Kopše, Igor",31.10.2001,valid
 1057,1516,Albanski konjak - 1 del,6c+,Perica Levatic,11.11.2005,valid
 1058,1516,Albanski konjak - 1 del,6c+,Sven Lakovnik,4.5.2006,valid
@@ -1078,16 +1078,16 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1063,1516,Albanski konjak - 1 del,6c+,Žiga Oražem,19.2.2012,valid
 1064,1516,Albanski konjak - 1 del,6c+,Mitja Predikaka,12.11.2013,valid
 1065,1516,Albanski konjak - 1 del,6c+/7a,Miha Panèur,17.4.2010,valid
-1066,1516,Albanski konjak - 1 del,7a,Rajko Zajc,9.12.2004,
-1067,1516,Albanski konjak - 1 del,7a,jernej vidmar,18.5.2007,
-1068,1516,Albanski konjak - 1 del,7a,Mitja Zabukovec,12.11.2008,
-1069,1516,Albanski konjak - 1 del,7a,David Pavloviè,3.12.2015,
-1070,1517,Rodeo,6c+,Tadej Kodriè,9.12.2005,
-1071,1517,Rodeo,6c+,Mitja Zabukovec,12.11.2008,
-1072,1517,Rodeo,6c+/7a,jernej vidmar,18.5.2007,
-1073,1517,Rodeo,7a,Bazna ocena,,
-1074,1517,Rodeo,7a,vodlan klemen,13.12.2000,
-1075,1517,Rodeo,7a,Zazvonil Luka,9.1.2001,
+1066,1516,Albanski konjak - 1 del,7a,Rajko Zajc,9.12.2004,invalid
+1067,1516,Albanski konjak - 1 del,7a,jernej vidmar,18.5.2007,invalid
+1068,1516,Albanski konjak - 1 del,7a,Mitja Zabukovec,12.11.2008,invalid
+1069,1516,Albanski konjak - 1 del,7a,David Pavloviè,3.12.2015,invalid
+1070,1517,Rodeo,6c+,Tadej Kodriè,9.12.2005,invalid
+1071,1517,Rodeo,6c+,Mitja Zabukovec,12.11.2008,invalid
+1072,1517,Rodeo,6c+/7a,jernej vidmar,18.5.2007,invalid
+1073,1517,Rodeo,7a,Bazna ocena,,invalid
+1074,1517,Rodeo,7a,vodlan klemen,13.12.2000,invalid
+1075,1517,Rodeo,7a,Zazvonil Luka,9.1.2001,invalid
 1076,1517,Rodeo,7a,"Kopše, Igor",31.10.2001,valid
 1077,1517,Rodeo,7a,Rajko Zajc,19.3.2005,valid
 1078,1517,Rodeo,7a,selak gregor,17.10.2005,valid
@@ -1104,25 +1104,25 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1089,1517,Rodeo,7a,Saša Vidmar,28.2.2011,valid
 1090,1517,Rodeo,7a,Mitja Predikaka,18.2.2012,valid
 1091,1517,Rodeo,7a,Jure Franko,19.3.2013,valid
-1092,1517,Rodeo,7a,Matej Mišvelj,20.5.2014,
-1093,1517,Rodeo,7a,Sabina Krhlikar,3.9.2014,
+1092,1517,Rodeo,7a,Matej Mišvelj,20.5.2014,invalid
+1093,1517,Rodeo,7a,Sabina Krhlikar,3.9.2014,invalid
 1094,1517,Rodeo,7a,"</td>
 
-<td valign=""top"">27.9.2015",,
-1095,1517,Rodeo,7a,Blaž Karner,12.3.2016,
-1096,1517,Rodeo,7a,Ernest Mandelc,12.3.2016,
-1097,1517,Rodeo,7a/a+,x,19.4.2012,
+<td valign=""top"">27.9.2015",,invalid
+1095,1517,Rodeo,7a,Blaž Karner,12.3.2016,invalid
+1096,1517,Rodeo,7a,Ernest Mandelc,12.3.2016,invalid
+1097,1517,Rodeo,7a/a+,x,19.4.2012,invalid
 1098,5435,Corrida,8c,Bazna ocena,,valid
 1099,5436,Histerija,8c+,Bazna ocena,,valid
-1100,1518,Ptièja perspektiva,8a+,Bazna ocena,,
+1100,1518,Ptièja perspektiva,8a+,Bazna ocena,,invalid
 1101,1518,Ptièja perspektiva,8a+,Zazvonil Luka,9.1.2001,valid
 1102,1518,Ptièja perspektiva,8a+,Rajko Zajc,19.1.2008,valid
 1103,1518,Ptièja perspektiva,8a+,Janez Vratanar,31.1.2009,valid
 1104,1518,Ptièja perspektiva,8a+,Damjan Gruden,31.12.2013,valid
-1105,1518,Ptièja perspektiva,8a+,Miha Panèur,23.11.2014,
-1106,1519,Ptièja perspektiva - 1 del,7a+,Andrej Žitnik,23.9.2008,
-1107,1519,Ptièja perspektiva - 1 del,7b,Bazna ocena,,
-1108,1519,Ptièja perspektiva - 1 del,7b,vodlan klemen,13.12.2000,
+1105,1518,Ptièja perspektiva,8a+,Miha Panèur,23.11.2014,invalid
+1106,1519,Ptièja perspektiva - 1 del,7a+,Andrej Žitnik,23.9.2008,invalid
+1107,1519,Ptièja perspektiva - 1 del,7b,Bazna ocena,,invalid
+1108,1519,Ptièja perspektiva - 1 del,7b,vodlan klemen,13.12.2000,invalid
 1109,1519,Ptièja perspektiva - 1 del,7b,Zazvonil Luka,9.1.2001,valid
 1110,1519,Ptièja perspektiva - 1 del,7b,Matjaž Žavbi,10.4.2003,valid
 1111,1519,Ptièja perspektiva - 1 del,7b,Rajko Zajc,9.10.2005,valid
@@ -1133,43 +1133,43 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1116,1519,Ptièja perspektiva - 1 del,7b,Žiga Oražem,26.12.2011,valid
 1117,1519,Ptièja perspektiva - 1 del,7b,Mitja Predikaka,21.11.2012,valid
 1118,1519,Ptièja perspektiva - 1 del,7b,Jure Franko,22.3.2013,valid
-1119,1519,Ptièja perspektiva - 1 del,7b,Luka Pavlovèiè,11.10.2013,
-1120,1519,Ptièja perspektiva - 1 del,7b,Saša Vidmar,22.3.2015,
-1121,1519,Ptièja perspektiva - 1 del,7b,Marjana Volk,3.11.2016,
-1122,17322,Ptièja Vizija,7c,Rajko Zajc,26.9.2015,
+1119,1519,Ptièja perspektiva - 1 del,7b,Luka Pavlovèiè,11.10.2013,invalid
+1120,1519,Ptièja perspektiva - 1 del,7b,Saša Vidmar,22.3.2015,invalid
+1121,1519,Ptièja perspektiva - 1 del,7b,Marjana Volk,3.11.2016,invalid
+1122,17322,Ptièja Vizija,7c,Rajko Zajc,26.9.2015,invalid
 1123,17322,Ptièja Vizija,7c,Miha Panèur,26.9.2015,valid
 1124,17322,Ptièja Vizija,7c+,Bazna ocena,,valid
-1125,17322,Ptièja Vizija,7c+,Damjan Gruden,8.3.2012,
-1126,1520,Krvave dimlje,7b+,Bazna ocena,,
+1125,17322,Ptièja Vizija,7c+,Damjan Gruden,8.3.2012,invalid
+1126,1520,Krvave dimlje,7b+,Bazna ocena,,invalid
 1127,1520,Krvave dimlje,7b+/c,Rajko Zajc,19.2.2012,valid
-1128,1520,Krvave dimlje,7c+,Damjan Gruden,18.4.2014,
-1129,1521,Pikova dama,8b,Bazna ocena,,
+1128,1520,Krvave dimlje,7c+,Damjan Gruden,18.4.2014,invalid
+1129,1521,Pikova dama,8b,Bazna ocena,,invalid
 1130,1521,Pikova dama,8b,Zazvonil Luka,9.1.2001,valid
 1131,1521,Pikova dama,8b,Janez Vratanar,8.3.2009,valid
 1132,1521,Pikova dama,8b,Damjan Gruden,16.4.2014,valid
-1133,1521,Pikova dama,8b,Luka Pavlovèiè,22.5.2015,
+1133,1521,Pikova dama,8b,Luka Pavlovèiè,22.5.2015,invalid
 1134,5437,Vizija,8c,Bazna ocena,,valid
-1135,5437,Vizija,8c,miha škof,24.3.2010,
+1135,5437,Vizija,8c,miha škof,24.3.2010,invalid
 1136,1522,Karizma,8b+,Bazna ocena,,valid
-1137,1523,Triad,8a,Bazna ocena,,
+1137,1523,Triad,8a,Bazna ocena,,invalid
 1138,1523,Triad,8a,Zazvonil Luka,9.1.2001,valid
-1139,1523,Triad,8a/a+,Rajko Zajc,17.2.2015,
+1139,1523,Triad,8a/a+,Rajko Zajc,17.2.2015,invalid
 1140,1524,Èlovek ne jezi se,8c,Bazna ocena,,valid
 1141,1525,Sanje za dušo,8b+,Bazna ocena,,valid
-1142,1525,Sanje za dušo,8b+/c,benjamin marjanoviè,8.12.2015,
-1143,1526,J.S.F.K.,7c,Rajko Zajc,16.2.2008,
-1144,1526,J.S.F.K.,7c,Cedomir Cikic,3.3.2011,
+1142,1525,Sanje za dušo,8b+/c,benjamin marjanoviè,8.12.2015,invalid
+1143,1526,J.S.F.K.,7c,Rajko Zajc,16.2.2008,invalid
+1144,1526,J.S.F.K.,7c,Cedomir Cikic,3.3.2011,invalid
 1145,1526,J.S.F.K.,7c+,Bazna ocena,,valid
 1146,1526,J.S.F.K.,7c+,vodlan klemen,13.12.2000,valid
 1147,1526,J.S.F.K.,7c+,Zazvonil Luka,9.1.2001,valid
 1148,1526,J.S.F.K.,7c+,Martin Bombaè,30.11.2007,valid
 1149,1526,J.S.F.K.,7c+,Damjan Gruden,25.12.2011,valid
 1150,1526,J.S.F.K.,7c+,Mitja Predikaka,4.11.2014,valid
-1151,1526,J.S.F.K.,7c+,Saša Vidmar,14.12.2015,
-1152,1526,J.S.F.K.,7c+,Uroš Jenko,31.1.2016,
-1153,1527,Figa,7b,vodlan klemen,13.12.2000,
-1154,1527,Figa,7b,Zazvonil Luka,9.1.2001,
-1155,1527,Figa,7b,Rajko Zajc,22.1.2006,
+1151,1526,J.S.F.K.,7c+,Saša Vidmar,14.12.2015,invalid
+1152,1526,J.S.F.K.,7c+,Uroš Jenko,31.1.2016,invalid
+1153,1527,Figa,7b,vodlan klemen,13.12.2000,invalid
+1154,1527,Figa,7b,Zazvonil Luka,9.1.2001,invalid
+1155,1527,Figa,7b,Rajko Zajc,22.1.2006,invalid
 1156,1527,Figa,7b,Anže Martinèiè,20.6.2010,valid
 1157,1527,Figa,7b,Žiga Oražem,29.2.2012,valid
 1158,1527,Figa,7b,Mitja Predikaka,10.11.2013,valid
@@ -1177,20 +1177,20 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1160,1527,Figa,7b/b+,jernej vidmar,18.5.2007,valid
 1161,1527,Figa,7b/b+,Miha Panèur,29.5.2010,valid
 1162,1527,Figa,7b/b+,Damjan Gruden,9.9.2010,valid
-1163,1527,Figa,7b+,Bazna ocena,,
-1164,1527,Figa,7b+,Martin Bombaè,14.1.2008,
-1165,1527,Figa,7b+,Janko Domitroviè,26.12.2016,
+1163,1527,Figa,7b+,Bazna ocena,,invalid
+1164,1527,Figa,7b+,Martin Bombaè,14.1.2008,invalid
+1165,1527,Figa,7b+,Janko Domitroviè,26.12.2016,invalid
 1166,1528,Figaro,8a+,Bazna ocena,,valid
-1167,1529,"Blood, sugar, sex, magic",8a,Rajko Zajc,6.4.2013,
+1167,1529,"Blood, sugar, sex, magic",8a,Rajko Zajc,6.4.2013,invalid
 1168,1529,"Blood, sugar, sex, magic",8a,Damjan Gruden,5.11.2014,valid
 1169,1529,"Blood, sugar, sex, magic",8a,Miha Panèur,19.2.2015,valid
 1170,1529,"Blood, sugar, sex, magic",8a/a+,Bazna ocena,,valid
 1171,1529,"Blood, sugar, sex, magic",8a+,valjavec tomaz,9.1.2001,valid
 1172,1529,"Blood, sugar, sex, magic",8a+,Zazvonil Luka,9.1.2001,valid
-1173,1529,"Blood, sugar, sex, magic",8a+,vodlan klemen,21.3.2001,
-1174,1530,Bula,7b+,Bazna ocena,,
-1175,1530,Bula,7b+,vodlan klemen,13.12.2000,
-1176,1530,Bula,7b+,Zazvonil Luka,9.1.2001,
+1173,1529,"Blood, sugar, sex, magic",8a+,vodlan klemen,21.3.2001,invalid
+1174,1530,Bula,7b+,Bazna ocena,,invalid
+1175,1530,Bula,7b+,vodlan klemen,13.12.2000,invalid
+1176,1530,Bula,7b+,Zazvonil Luka,9.1.2001,invalid
 1177,1530,Bula,7b+,Cikic Cedomir,13.10.2002,valid
 1178,1530,Bula,7b+,Ivan Pevec,2.5.2006,valid
 1179,1530,Bula,7b+,Martin Bombaè,30.11.2007,valid
@@ -1198,36 +1198,36 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1181,1530,Bula,7b+,Mitja Predikaka,28.12.2012,valid
 1182,1530,Bula,7b+/c,Rajko Zajc,26.3.2006,valid
 1183,1530,Bula,7b+/c,Damjan Gruden,15.5.2011,valid
-1184,1530,Bula,7b+/c,Luka Pavlovèiè,11.10.2013,
-1185,1530,Bula,7b+/c,Marjana Volk,18.9.2016,
-1186,1530,Bula,7c,Janko Domitroviè,26.12.2016,
-1187,1532,Giljotina,7c+/8a,Sova Matej,11.1.2001,
-1188,1532,Giljotina,8a,Bazna ocena,,
+1184,1530,Bula,7b+/c,Luka Pavlovèiè,11.10.2013,invalid
+1185,1530,Bula,7b+/c,Marjana Volk,18.9.2016,invalid
+1186,1530,Bula,7c,Janko Domitroviè,26.12.2016,invalid
+1187,1532,Giljotina,7c+/8a,Sova Matej,11.1.2001,invalid
+1188,1532,Giljotina,8a,Bazna ocena,,invalid
 1189,1532,Giljotina,8a,vodlan klemen,13.12.2000,valid
 1190,1532,Giljotina,8a,Zazvonil Luka,9.1.2001,valid
 1191,1532,Giljotina,8a,selak gregor,17.10.2005,valid
 1192,1532,Giljotina,8a,Miha Panèur,1.4.2015,valid
-1193,1532,Giljotina,8a/a+,Rajko Zajc,24.2.2009,
-1194,1532,Giljotina,8a/a+,Damjan Gruden,27.7.2014,
-1195,1533,Bastilla,8a+,Bazna ocena,,
+1193,1532,Giljotina,8a/a+,Rajko Zajc,24.2.2009,invalid
+1194,1532,Giljotina,8a/a+,Damjan Gruden,27.7.2014,invalid
+1195,1533,Bastilla,8a+,Bazna ocena,,invalid
 1196,1533,Bastilla,8a+,Zazvonil Luka,9.1.2001,valid
 1197,1533,Bastilla,8a+,Sova Matej,11.1.2001,valid
-1198,1533,Bastilla,8a+/b,vodlan klemen,13.12.2000,
+1198,1533,Bastilla,8a+/b,vodlan klemen,13.12.2000,invalid
 1199,1531,Bastilla do vrha,8b+,Bazna ocena,,valid
-1200,1531,Bastilla do vrha,8b+,Zazvonil Luka,9.1.2001,
-1201,1534,Highlander,8a+,vodlan klemen,13.12.2000,
+1200,1531,Bastilla do vrha,8b+,Zazvonil Luka,9.1.2001,invalid
+1201,1534,Highlander,8a+,vodlan klemen,13.12.2000,invalid
 1202,1534,Highlander,8a+,Zazvonil Luka,9.1.2001,valid
 1203,1534,Highlander,8a+/b,Bazna ocena,,valid
-1204,1534,Highlander,8a+/b,Rajko Zajc,17.2.2013,
-1205,1535,Izgubljeni sin,8a+,Bazna ocena,,
+1204,1534,Highlander,8a+/b,Rajko Zajc,17.2.2013,invalid
+1205,1535,Izgubljeni sin,8a+,Bazna ocena,,invalid
 1206,1535,Izgubljeni sin,8a+,Janez Vratanar,14.5.2010,valid
 1207,1535,Izgubljeni sin,8a+,Luka Pavlovèiè,19.4.2014,valid
 1208,1535,Izgubljeni sin,8a+,Damjan Gruden,12.9.2014,valid
 1209,1535,Izgubljeni sin,8a+,Miha Panèur,18.2.2015,valid
-1210,1535,Izgubljeni sin,8a+,Mitja Predikaka,28.3.2015,
-1211,1536,Samsara,7c+,Cedomir Cikic,3.3.2011,
-1212,1536,Samsara,7c+/8a,vodlan klemen,13.12.2000,
-1213,1536,Samsara,7c+/8a,valjavec tomaz,9.1.2001,
+1210,1535,Izgubljeni sin,8a+,Mitja Predikaka,28.3.2015,invalid
+1211,1536,Samsara,7c+,Cedomir Cikic,3.3.2011,invalid
+1212,1536,Samsara,7c+/8a,vodlan klemen,13.12.2000,invalid
+1213,1536,Samsara,7c+/8a,valjavec tomaz,9.1.2001,invalid
 1214,1536,Samsara,8a,Bazna ocena,,valid
 1215,1536,Samsara,8a,Zazvonil Luka,9.1.2001,valid
 1216,1536,Samsara,8a,Sova Matej,11.1.2001,valid
@@ -1238,33 +1238,33 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1221,1536,Samsara,8a,Žiga Oražem,5.11.2012,valid
 1222,1536,Samsara,8a,Damjan Gruden,31.5.2013,valid
 1223,1536,Samsara,8a,jernej vidmar,14.12.2013,valid
-1224,1536,Samsara,8a,Mitja Predikaka,1.3.2014,
-1225,1536,Samsara,8a,Luka Pavlovèiè,19.4.2014,
-1226,1536,Samsara,8a,Uroš Jenko,20.12.2015,
-1227,1537,Mrtvaški ples,8b,Bazna ocena,,
+1224,1536,Samsara,8a,Mitja Predikaka,1.3.2014,invalid
+1225,1536,Samsara,8a,Luka Pavlovèiè,19.4.2014,invalid
+1226,1536,Samsara,8a,Uroš Jenko,20.12.2015,invalid
+1227,1537,Mrtvaški ples,8b,Bazna ocena,,invalid
 1228,1537,Mrtvaški ples,8b,Zazvonil Luka,9.1.2001,valid
 1229,1537,Mrtvaški ples,8b,vodlan klemen,21.3.2001,valid
-1230,1537,Mrtvaški ples,8b,Rajko Zajc,20.11.2008,
-1231,1538,Marioneta,8b/b+,Bazna ocena,,
+1230,1537,Mrtvaški ples,8b,Rajko Zajc,20.11.2008,invalid
+1231,1538,Marioneta,8b/b+,Bazna ocena,,invalid
 1232,1538,Marioneta,8b/b+,Zazvonil Luka,9.1.2001,valid
-1233,1538,Marioneta,8b/b+,Rajko Zajc,23.11.2011,
-1234,1539,"Lahko noè, Irena",8a+/b,Bazna ocena,,
+1233,1538,Marioneta,8b/b+,Rajko Zajc,23.11.2011,invalid
+1234,1539,"Lahko noè, Irena",8a+/b,Bazna ocena,,invalid
 1235,1539,"Lahko noè, Irena",8a+/b,Rajko Zajc,11.11.2012,valid
 1236,1539,"Lahko noè, Irena",8b,vodlan klemen,13.12.2000,valid
-1237,1539,"Lahko noè, Irena",8b,Zazvonil Luka,9.1.2001,
-1238,1540,Mozaik,7c/c+,piršiè jure,11.12.2000,
-1239,1540,Mozaik,7c+,Bazna ocena,,
+1237,1539,"Lahko noè, Irena",8b,Zazvonil Luka,9.1.2001,invalid
+1238,1540,Mozaik,7c/c+,piršiè jure,11.12.2000,invalid
+1239,1540,Mozaik,7c+,Bazna ocena,,invalid
 1240,1540,Mozaik,7c+,Zazvonil Luka,9.1.2001,valid
 1241,1540,Mozaik,7c+,Rajko Zajc,6.3.2009,valid
 1242,1540,Mozaik,7c+/8a,vodlan klemen,13.12.2000,valid
 1243,1540,Mozaik,7c+/8a,Svab Erik,28.4.2004,valid
 1244,1540,Mozaik,7c+/8a,janez Miklavèiè,16.2.2011,valid
-1245,1540,Mozaik,7c+/8a,Damjan Gruden,24.3.2012,
-1246,1540,Mozaik,8a,Martin Bombaè,19.5.2016,
+1245,1540,Mozaik,7c+/8a,Damjan Gruden,24.3.2012,invalid
+1246,1540,Mozaik,8a,Martin Bombaè,19.5.2016,invalid
 1247,1541,Milennium,8b+,Bazna ocena,,valid
-1248,1542,Hugo,7c,vodlan klemen,13.12.2000,
-1249,1542,Hugo,7c,Bojan Leskošek,19.9.2010,
-1250,1542,Hugo,7c,Mitja Predikaka,25.3.2012,
+1248,1542,Hugo,7c,vodlan klemen,13.12.2000,invalid
+1249,1542,Hugo,7c,Bojan Leskošek,19.9.2010,invalid
+1250,1542,Hugo,7c,Mitja Predikaka,25.3.2012,invalid
 1251,1542,Hugo,7c/c+,Bazna ocena,,valid
 1252,1542,Hugo,7c/c+,Zazvonil Luka,9.1.2001,valid
 1253,1542,Hugo,7c/c+,Miha Panèur,24.10.2010,valid
@@ -1274,24 +1274,24 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1257,1542,Hugo,7c+,Janez Vratanar,19.7.2009,valid
 1258,1542,Hugo,7c+,Damjan Gruden,21.6.2010,valid
 1259,1542,Hugo,7c+,Cedomir Cikic,3.3.2011,valid
-1260,1542,Hugo,7c+,Luka Pavlovèiè,13.1.2013,
-1261,1542,Hugo,7c+,jernej vidmar,13.4.2013,
-1262,1542,Hugo,7c+,Martin Bombaè,12.9.2014,
-1263,1543,Popaj,8a+,Bazna ocena,,
+1260,1542,Hugo,7c+,Luka Pavlovèiè,13.1.2013,invalid
+1261,1542,Hugo,7c+,jernej vidmar,13.4.2013,invalid
+1262,1542,Hugo,7c+,Martin Bombaè,12.9.2014,invalid
+1263,1543,Popaj,8a+,Bazna ocena,,invalid
 1264,1543,Popaj,8a+,Zazvonil Luka,9.1.2001,valid
 1265,1543,Popaj,8a+,Janez Vratanar,20.5.2010,valid
 1266,1543,Popaj,8a+,Rajko Zajc,11.12.2011,valid
 1267,1543,Popaj,8a+,Damjan Gruden,25.11.2014,valid
-1268,1543,Popaj,8a+,Luka Pavlovèiè,15.5.2016,
+1268,1543,Popaj,8a+,Luka Pavlovèiè,15.5.2016,invalid
 1269,1544,Lucky luke,8b,Bazna ocena,,valid
-1270,1544,Lucky luke,8b,benjamin marjanoviè,20.10.2014,
-1271,1545,Chiquita,8b,Bazna ocena,,
+1270,1544,Lucky luke,8b,benjamin marjanoviè,20.10.2014,invalid
+1271,1545,Chiquita,8b,Bazna ocena,,invalid
 1272,1545,Chiquita,8b/b+,Zazvonil Luka,9.1.2001,valid
 1273,1545,Chiquita,8b/b+,Sova Matej,11.1.2001,valid
-1274,1545,Chiquita,8b/b+,benjamin marjanoviè,22.2.2016,
-1275,1546,Chiquita - 1 del,8a,Bazna ocena,,
-1276,1546,Chiquita - 1 del,8a,vodlan klemen,13.12.2000,
-1277,1546,Chiquita - 1 del,8a,Zazvonil Luka,9.1.2001,
+1274,1545,Chiquita,8b/b+,benjamin marjanoviè,22.2.2016,invalid
+1275,1546,Chiquita - 1 del,8a,Bazna ocena,,invalid
+1276,1546,Chiquita - 1 del,8a,vodlan klemen,13.12.2000,invalid
+1277,1546,Chiquita - 1 del,8a,Zazvonil Luka,9.1.2001,invalid
 1278,1546,Chiquita - 1 del,8a,"Kopše, Igor",18.5.2001,valid
 1279,1546,Chiquita - 1 del,8a,Janez Vratanar,1.5.2008,valid
 1280,1546,Chiquita - 1 del,8a,Andrej Žitnik,1.2.2009,valid
@@ -1302,11 +1302,11 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1285,1546,Chiquita - 1 del,8a,Martin Bombaè,19.11.2012,valid
 1286,1546,Chiquita - 1 del,8a,Luka Pavlovèiè,11.10.2013,valid
 1287,1546,Chiquita - 1 del,8a,Saša Vidmar,22.12.2014,valid
-1288,1546,Chiquita - 1 del,8a,benjamin marjanoviè,9.2.2015,
-1289,1546,Chiquita - 1 del,8a,Mitja Predikaka,28.2.2015,
-1290,1546,Chiquita - 1 del,8a,jernej vidmar,16.4.2016,
-1291,1547,Preobrazba,7c/c+,Sova Matej,11.1.2001,
-1292,1547,Preobrazba,7c/c+,Rajko Zajc,25.8.2007,
+1288,1546,Chiquita - 1 del,8a,benjamin marjanoviè,9.2.2015,invalid
+1289,1546,Chiquita - 1 del,8a,Mitja Predikaka,28.2.2015,invalid
+1290,1546,Chiquita - 1 del,8a,jernej vidmar,16.4.2016,invalid
+1291,1547,Preobrazba,7c/c+,Sova Matej,11.1.2001,invalid
+1292,1547,Preobrazba,7c/c+,Rajko Zajc,25.8.2007,invalid
 1293,1547,Preobrazba,7c+,Bazna ocena,,valid
 1294,1547,Preobrazba,7c+,vodlan klemen,13.12.2000,valid
 1295,1547,Preobrazba,7c+,Zazvonil Luka,9.1.2001,valid
@@ -1315,42 +1315,42 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1298,1547,Preobrazba,7c+,Damjan Gruden,6.8.2010,valid
 1299,1547,Preobrazba,7c+,Martin Bombaè,1.4.2011,valid
 1300,1547,Preobrazba,7c+,Žiga Oražem,17.12.2011,valid
-1301,1547,Preobrazba,7c+,Luka Pavlovèiè,11.10.2013,
-1302,1547,Preobrazba,7c+,Mitja Predikaka,12.12.2013,
-1303,1549,Klobasa - Preobrazba,7c,Zazvonil Luka,11.12.2000,
+1301,1547,Preobrazba,7c+,Luka Pavlovèiè,11.10.2013,invalid
+1302,1547,Preobrazba,7c+,Mitja Predikaka,12.12.2013,invalid
+1303,1549,Klobasa - Preobrazba,7c,Zazvonil Luka,11.12.2000,invalid
 1304,1549,Klobasa - Preobrazba,7c,Damjan Gruden,22.12.2011,valid
 1305,1549,Klobasa - Preobrazba,7c,Rajko Zajc,14.4.2012,valid
 1306,1549,Klobasa - Preobrazba,7c/c+,Martin Bombaè,16.4.2012,valid
-1307,1549,Klobasa - Preobrazba,7c+,Bazna ocena,,
+1307,1549,Klobasa - Preobrazba,7c+,Bazna ocena,,invalid
 1308,1548,Klobasa,8a+,Bazna ocena,,valid
-1309,1548,Klobasa,8b,Zazvonil Luka,11.12.2000,
-1310,1550,Kaj ti je deklica?,8b,vodlan klemen,13.12.2000,
+1309,1548,Klobasa,8b,Zazvonil Luka,11.12.2000,invalid
+1310,1550,Kaj ti je deklica?,8b,vodlan klemen,13.12.2000,invalid
 1311,1550,Kaj ti je deklica?,8b+,Bazna ocena,,valid
 1312,1550,Kaj ti je deklica?,8b+,Zazvonil Luka,9.1.2001,valid
 1313,1550,Kaj ti je deklica?,8b+,Matej Grilc - Zile,24.3.2001,valid
-1314,1550,Kaj ti je deklica?,8b+,Peter Mrak,24.4.2011,
-1315,1551,Oktoberfest,7c+,Mitja Predikaka,2.3.2015,
+1314,1550,Kaj ti je deklica?,8b+,Peter Mrak,24.4.2011,invalid
+1315,1551,Oktoberfest,7c+,Mitja Predikaka,2.3.2015,invalid
 1316,1551,Oktoberfest,7c+/8a,Rajko Zajc,21.10.2007,valid
 1317,1551,Oktoberfest,8a,Bazna ocena,,valid
 1318,1551,Oktoberfest,8a,Zazvonil Luka,9.1.2001,valid
 1319,1551,Oktoberfest,8a,Katarina Kejžar,14.9.2010,valid
 1320,1551,Oktoberfest,8a,Damjan Gruden,27.3.2011,valid
-1321,1551,Oktoberfest,8a,Ataru Moroboshi,15.11.2016,
-1322,1552,Pasja radost,7b+,Bazna ocena,,
-1323,1552,Pasja radost,7b+,vodlan klemen,13.12.2000,
+1321,1551,Oktoberfest,8a,Ataru Moroboshi,15.11.2016,invalid
+1322,1552,Pasja radost,7b+,Bazna ocena,,invalid
+1323,1552,Pasja radost,7b+,vodlan klemen,13.12.2000,invalid
 1324,1552,Pasja radost,7b+,Zazvonil Luka,9.1.2001,valid
 1325,1552,Pasja radost,7b+,Sova Matej,11.1.2001,valid
 1326,1552,Pasja radost,7b+,Rajko Zajc,23.10.2006,valid
 1327,1552,Pasja radost,7b+,Damjan Gruden,11.7.2009,valid
 1328,1552,Pasja radost,7b+,Anže Martinèiè,29.10.2010,valid
 1329,1552,Pasja radost,7b+,Martin Bombaè,17.5.2012,valid
-1330,1552,Pasja radost,7b+,Mitja Predikaka,10.12.2013,
-1331,1552,Pasja radost,7b+/c,Bojan Leskošek,19.9.2010,
+1330,1552,Pasja radost,7b+,Mitja Predikaka,10.12.2013,invalid
+1331,1552,Pasja radost,7b+/c,Bojan Leskošek,19.9.2010,invalid
 1332,22113,Šunka,7c+,Bazna ocena,,valid
-1333,22113,Šunka,7c+,Damjan Gruden,16.5.2014,
-1334,1553,Krvavica,7a/a+,piršiè jure,11.12.2000,
-1335,1553,Krvavica,7a+,Bazna ocena,,
-1336,1553,Krvavica,7a+,Zazvonil Luka,11.12.2000,
+1333,22113,Šunka,7c+,Damjan Gruden,16.5.2014,invalid
+1334,1553,Krvavica,7a/a+,piršiè jure,11.12.2000,invalid
+1335,1553,Krvavica,7a+,Bazna ocena,,invalid
+1336,1553,Krvavica,7a+,Zazvonil Luka,11.12.2000,invalid
 1337,1553,Krvavica,7a+,vodlan klemen,13.12.2000,valid
 1338,1553,Krvavica,7a+,"Kopše, Igor",22.10.2001,valid
 1339,1553,Krvavica,7a+,Rajko Zajc,21.5.2006,valid
@@ -1362,14 +1362,14 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1345,1553,Krvavica,7a+,Marko Poženel,7.6.2010,valid
 1346,1553,Krvavica,7a+,Mitja Predikaka,13.4.2012,valid
 1347,1553,Krvavica,7a+,Luka Pavlovèiè,11.10.2013,valid
-1348,1553,Krvavica,7a+,Žiga Oražem,25.12.2013,
-1349,1553,Krvavica,7a+,Saša Vidmar,11.7.2014,
-1350,1553,Krvavica,7a+,Marjana Volk,16.5.2016,
-1351,1554,Krvavica - 1 del,7a,Bazna ocena,,
-1352,1554,Krvavica - 1 del,7a,piršiè jure,11.12.2000,
-1353,1554,Krvavica - 1 del,7a,Zazvonil Luka,11.12.2000,
-1354,1554,Krvavica - 1 del,7a,vodlan klemen,13.12.2000,
-1355,1554,Krvavica - 1 del,7a,"Kopše, Igor",22.10.2001,
+1348,1553,Krvavica,7a+,Žiga Oražem,25.12.2013,invalid
+1349,1553,Krvavica,7a+,Saša Vidmar,11.7.2014,invalid
+1350,1553,Krvavica,7a+,Marjana Volk,16.5.2016,invalid
+1351,1554,Krvavica - 1 del,7a,Bazna ocena,,invalid
+1352,1554,Krvavica - 1 del,7a,piršiè jure,11.12.2000,invalid
+1353,1554,Krvavica - 1 del,7a,Zazvonil Luka,11.12.2000,invalid
+1354,1554,Krvavica - 1 del,7a,vodlan klemen,13.12.2000,invalid
+1355,1554,Krvavica - 1 del,7a,"Kopše, Igor",22.10.2001,invalid
 1356,1554,Krvavica - 1 del,7a,blaž germek,7.2.2002,valid
 1357,1554,Krvavica - 1 del,7a,scagnetto,2.10.2002,valid
 1358,1554,Krvavica - 1 del,7a,Cikic Cedomir,10.10.2002,valid
@@ -1384,26 +1384,26 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1367,1554,Krvavica - 1 del,7a,Vesna Pavloviè,2.11.2009,valid
 1368,1554,Krvavica - 1 del,7a,Miha Panèur,22.11.2009,valid
 1369,1554,Krvavica - 1 del,7a,Saša Vidmar,4.4.2011,valid
-1370,1554,Krvavica - 1 del,7a,Žiga Oražem,17.4.2011,
-1371,1554,Krvavica - 1 del,7a,Mitja Predikaka,26.2.2012,
-1372,1554,Krvavica - 1 del,7a,vita kobal,11.11.2013,
-1373,1554,Krvavica - 1 del,7a/a+,Neda Podergajs,28.9.2010,
-1374,1554,Krvavica - 1 del,7a+,Bojan Leskošek,19.9.2010,
-1375,1555,Godla,7c+,Bazna ocena,,
+1370,1554,Krvavica - 1 del,7a,Žiga Oražem,17.4.2011,invalid
+1371,1554,Krvavica - 1 del,7a,Mitja Predikaka,26.2.2012,invalid
+1372,1554,Krvavica - 1 del,7a,vita kobal,11.11.2013,invalid
+1373,1554,Krvavica - 1 del,7a/a+,Neda Podergajs,28.9.2010,invalid
+1374,1554,Krvavica - 1 del,7a+,Bojan Leskošek,19.9.2010,invalid
+1375,1555,Godla,7c+,Bazna ocena,,invalid
 1376,1555,Godla,7c+,Martin Bombaè,8.10.2010,valid
-1377,1555,Godla,7c+,Damjan Gruden,1.1.2012,
-1378,6960,Godla - 1. del,7b,Bazna ocena,,
+1377,1555,Godla,7c+,Damjan Gruden,1.1.2012,invalid
+1378,6960,Godla - 1. del,7b,Bazna ocena,,invalid
 1379,6960,Godla - 1. del,7b,Rajko Zajc,10.6.2008,valid
 1380,6960,Godla - 1. del,7b,jernej vidmar,30.6.2009,valid
 1381,6960,Godla - 1. del,7b,Damjan Gruden,8.7.2009,valid
 1382,6960,Godla - 1. del,7b,Martin Bombaè,5.10.2010,valid
 1383,6960,Godla - 1. del,7b,Jure Franko,19.3.2013,valid
-1384,6960,Godla - 1. del,7b,Mitja Predikaka,5.12.2013,
-1385,1556,Kamnolom,5c/c+,Ivan Vodopivec,13.1.2007,
-1386,1556,Kamnolom,5c+,Martin Bombaè,8.1.2007,
-1387,1556,Kamnolom,5c+,Dejan P.,31.5.2007,
-1388,1556,Kamnolom,5c+,Simon Rutar,24.11.2007,
-1389,1556,Kamnolom,5c+,Andrej Turk,6.1.2008,
+1384,6960,Godla - 1. del,7b,Mitja Predikaka,5.12.2013,invalid
+1385,1556,Kamnolom,5c/c+,Ivan Vodopivec,13.1.2007,invalid
+1386,1556,Kamnolom,5c+,Martin Bombaè,8.1.2007,invalid
+1387,1556,Kamnolom,5c+,Dejan P.,31.5.2007,invalid
+1388,1556,Kamnolom,5c+,Simon Rutar,24.11.2007,invalid
+1389,1556,Kamnolom,5c+,Andrej Turk,6.1.2008,invalid
 1390,1556,Kamnolom,5c+,Rajko Zajc,19.1.2008,valid
 1391,1556,Kamnolom,5c+/6a,Janko Domitroviè,3.12.2007,valid
 1392,1556,Kamnolom,6a,Ivan Pepelnjak,21.11.2006,valid
@@ -1419,21 +1419,21 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1402,1556,Kamnolom,6a,Davor Zupancic,11.6.2012,valid
 1403,1556,Kamnolom,6a,Lilian Andresen,11.6.2012,valid
 1404,1556,Kamnolom,6a,Matjaž Klanèar,6.12.2014,valid
-1405,1556,Kamnolom,6a,Klemen Peterlin,25.1.2015,
-1406,1556,Kamnolom,6a,Tanja Brstilo,9.5.2015,
-1407,1556,Kamnolom,6a,Marko Kejžar,19.9.2016,
-1408,1556,Kamnolom,6a+,Bazna ocena,,
-1409,1556,Kamnolom,6a+,Silvo Kragelj,20.3.2012,
-1410,1557,Tretje tisoèletje,8a,Bazna ocena,,
+1405,1556,Kamnolom,6a,Klemen Peterlin,25.1.2015,invalid
+1406,1556,Kamnolom,6a,Tanja Brstilo,9.5.2015,invalid
+1407,1556,Kamnolom,6a,Marko Kejžar,19.9.2016,invalid
+1408,1556,Kamnolom,6a+,Bazna ocena,,invalid
+1409,1556,Kamnolom,6a+,Silvo Kragelj,20.3.2012,invalid
+1410,1557,Tretje tisoèletje,8a,Bazna ocena,,invalid
 1411,1557,Tretje tisoèletje,8a,Rajko Zajc,21.2.2010,valid
 1412,1557,Tretje tisoèletje,8a,Klemen Kejžar,29.3.2010,valid
 1413,1557,Tretje tisoèletje,8a,Damjan Gruden,24.11.2013,valid
-1414,1557,Tretje tisoèletje,8a,Mitja Predikaka,12.3.2015,
-1415,1558,Tretje tisoèletje - 1 del,6a,Perica Levatic,11.11.2005,
-1416,1558,Tretje tisoèletje - 1 del,6a,Jure Franko,17.4.2008,
-1417,1558,Tretje tisoèletje - 1 del,6a+,Cikic Cedomir,10.10.2002,
-1418,1558,Tretje tisoèletje - 1 del,6a+,Ivan Pepelnjak,21.11.2006,
-1419,1558,Tretje tisoèletje - 1 del,6a+,Rajko Zajc,21.3.2007,
+1414,1557,Tretje tisoèletje,8a,Mitja Predikaka,12.3.2015,invalid
+1415,1558,Tretje tisoèletje - 1 del,6a,Perica Levatic,11.11.2005,invalid
+1416,1558,Tretje tisoèletje - 1 del,6a,Jure Franko,17.4.2008,invalid
+1417,1558,Tretje tisoèletje - 1 del,6a+,Cikic Cedomir,10.10.2002,invalid
+1418,1558,Tretje tisoèletje - 1 del,6a+,Ivan Pepelnjak,21.11.2006,invalid
+1419,1558,Tretje tisoèletje - 1 del,6a+,Rajko Zajc,21.3.2007,invalid
 1420,1558,Tretje tisoèletje - 1 del,6a+,Miha Miheliè,5.4.2007,valid
 1421,1558,Tretje tisoèletje - 1 del,6a+,Mitja Zabukovec,12.11.2008,valid
 1422,1558,Tretje tisoèletje - 1 del,6a+,Miha Panèur,27.12.2009,valid
@@ -1450,15 +1450,15 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1433,1558,Tretje tisoèletje - 1 del,6b,Damjan Gruden,10.12.2007,valid
 1434,1558,Tretje tisoèletje - 1 del,6b,Gregor Cimerman,10.1.2009,valid
 1435,1558,Tretje tisoèletje - 1 del,6b,jernej vidmar,30.6.2009,valid
-1436,1558,Tretje tisoèletje - 1 del,6b,Urška Cigler,16.2.2010,
-1437,1558,Tretje tisoèletje - 1 del,6b,Mitja Predikaka,18.2.2012,
-1438,1558,Tretje tisoèletje - 1 del,6b,Lilian Andresen,11.6.2012,
-1439,1558,Tretje tisoèletje - 1 del,6b,Davide Collini,22.7.2012,
-1440,1558,Tretje tisoèletje - 1 del,6b,Maja Panèur,7.10.2013,
-1441,1559,Peèenica,6b+,Bazna ocena,,
-1442,1559,Peèenica,6b+,vodlan klemen,13.12.2000,
-1443,1559,Peèenica,6b+,Zazvonil Luka,9.1.2001,
-1444,1559,Peèenica,6b+,Poženel Marko,21.10.2002,
+1436,1558,Tretje tisoèletje - 1 del,6b,Urška Cigler,16.2.2010,invalid
+1437,1558,Tretje tisoèletje - 1 del,6b,Mitja Predikaka,18.2.2012,invalid
+1438,1558,Tretje tisoèletje - 1 del,6b,Lilian Andresen,11.6.2012,invalid
+1439,1558,Tretje tisoèletje - 1 del,6b,Davide Collini,22.7.2012,invalid
+1440,1558,Tretje tisoèletje - 1 del,6b,Maja Panèur,7.10.2013,invalid
+1441,1559,Peèenica,6b+,Bazna ocena,,invalid
+1442,1559,Peèenica,6b+,vodlan klemen,13.12.2000,invalid
+1443,1559,Peèenica,6b+,Zazvonil Luka,9.1.2001,invalid
+1444,1559,Peèenica,6b+,Poženel Marko,21.10.2002,invalid
 1445,1559,Peèenica,6b+,Perica Levatic,11.11.2005,valid
 1446,1559,Peèenica,6b+,Martin Bombaè,8.1.2007,valid
 1447,1559,Peèenica,6b+,Maruša Rodiè,18.2.2007,valid
@@ -1472,15 +1472,15 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1455,1559,Peèenica,6b+,Risto Sovèev,17.10.2009,valid
 1456,1559,Peèenica,6b+,Janez Loèiènik,24.4.2010,valid
 1457,1559,Peèenica,6b+,Marko Poženel,7.6.2010,valid
-1458,1559,Peèenica,6b+,Žiga Oražem,17.12.2011,
-1459,1559,Peèenica,6b+,Mitja Predikaka,25.2.2012,
-1460,1559,Peèenica,6b+,Tanja Brstilo,17.5.2015,
-1461,1559,Peèenica,6b+,Klemen Peterlin,5.3.2016,
-1462,1560,Peèenica - 1 del,6b,vodlan klemen,13.12.2000,
-1463,1560,Peèenica - 1 del,6b,Gregor Skok,8.1.2001,
-1464,1560,Peèenica - 1 del,6b,Poženel Marko,21.10.2002,
-1465,1560,Peèenica - 1 del,6b,Zdešar Aleš,5.6.2003,
-1466,1560,Peèenica - 1 del,6b/b+,Rajko Zajc,21.3.2007,
+1458,1559,Peèenica,6b+,Žiga Oražem,17.12.2011,invalid
+1459,1559,Peèenica,6b+,Mitja Predikaka,25.2.2012,invalid
+1460,1559,Peèenica,6b+,Tanja Brstilo,17.5.2015,invalid
+1461,1559,Peèenica,6b+,Klemen Peterlin,5.3.2016,invalid
+1462,1560,Peèenica - 1 del,6b,vodlan klemen,13.12.2000,invalid
+1463,1560,Peèenica - 1 del,6b,Gregor Skok,8.1.2001,invalid
+1464,1560,Peèenica - 1 del,6b,Poženel Marko,21.10.2002,invalid
+1465,1560,Peèenica - 1 del,6b,Zdešar Aleš,5.6.2003,invalid
+1466,1560,Peèenica - 1 del,6b/b+,Rajko Zajc,21.3.2007,invalid
 1467,1560,Peèenica - 1 del,6b/b+,jernej vidmar,23.5.2007,valid
 1468,1560,Peèenica - 1 del,6b/b+,GAJ SLIVNIK,16.1.2008,valid
 1469,1560,Peèenica - 1 del,6b/b+,Gregor Cimerman,10.1.2009,valid
@@ -1497,28 +1497,28 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1480,1560,Peèenica - 1 del,6b+,Damjan Gruden,25.5.2007,valid
 1481,1560,Peèenica - 1 del,6b+,"Nace Pavc  ""PiFo""",15.11.2007,valid
 1482,1560,Peèenica - 1 del,6b+,Mitja Zabukovec,12.11.2008,valid
-1483,1560,Peèenica - 1 del,6b+,Nina Faganel,18.5.2009,
-1484,1560,Peèenica - 1 del,6b+,Žiga Oražem,17.12.2011,
-1485,1560,Peèenica - 1 del,6b+,Mitja Predikaka,13.4.2012,
-1486,1560,Peèenica - 1 del,6b+,Maja Panèur,1.12.2013,
-1487,1560,Peèenica - 1 del,6b+,Ernest Mandelc,20.11.2016,
-1488,1561,Pleskavica,7a,Bazna ocena,,
-1489,1561,Pleskavica,7a,vodlan klemen,13.12.2000,
+1483,1560,Peèenica - 1 del,6b+,Nina Faganel,18.5.2009,invalid
+1484,1560,Peèenica - 1 del,6b+,Žiga Oražem,17.12.2011,invalid
+1485,1560,Peèenica - 1 del,6b+,Mitja Predikaka,13.4.2012,invalid
+1486,1560,Peèenica - 1 del,6b+,Maja Panèur,1.12.2013,invalid
+1487,1560,Peèenica - 1 del,6b+,Ernest Mandelc,20.11.2016,invalid
+1488,1561,Pleskavica,7a,Bazna ocena,,invalid
+1489,1561,Pleskavica,7a,vodlan klemen,13.12.2000,invalid
 1490,1561,Pleskavica,7a,Zazvonil Luka,9.1.2001,valid
 1491,1561,Pleskavica,7a,Rajko Zajc,16.10.2005,valid
 1492,1561,Pleskavica,7a,Martin Bombaè,8.1.2007,valid
 1493,1561,Pleskavica,7a,jernej vidmar,23.5.2007,valid
 1494,1561,Pleskavica,7a,Mitja Zabukovec,12.11.2008,valid
-1495,1561,Pleskavica,7a,Miha Panèur,12.9.2010,
-1496,1561,Pleskavica,7a,Damjan Gruden,1.12.2011,
-1497,17308,Lisièji raz,7b,Bazna ocena,,
+1495,1561,Pleskavica,7a,Miha Panèur,12.9.2010,invalid
+1496,1561,Pleskavica,7a,Damjan Gruden,1.12.2011,invalid
+1497,17308,Lisièji raz,7b,Bazna ocena,,invalid
 1498,17308,Lisièji raz,7b,Žiga Oražem,25.2.2012,valid
 1499,17308,Lisièji raz,7b,Martin Bombaè,1.3.2012,valid
 1500,17308,Lisièji raz,7b/b+,Rajko Zajc,11.12.2011,valid
-1501,17308,Lisièji raz,7b/b+,Damjan Gruden,2.1.2012,
-1502,1562,Hugolina,7b,mitja peternelj,13.1.2003,
-1503,1562,Hugolina,7b+,Bazna ocena,,
-1504,1562,Hugolina,7b+,vodlan klemen,13.12.2000,
+1501,17308,Lisièji raz,7b/b+,Damjan Gruden,2.1.2012,invalid
+1502,1562,Hugolina,7b,mitja peternelj,13.1.2003,invalid
+1503,1562,Hugolina,7b+,Bazna ocena,,invalid
+1504,1562,Hugolina,7b+,vodlan klemen,13.12.2000,invalid
 1505,1562,Hugolina,7b+,Zazvonil Luka,9.1.2001,valid
 1506,1562,Hugolina,7b+,jernej vidmar,23.5.2007,valid
 1507,1562,Hugolina,7b+,Rajko Zajc,11.11.2007,valid
@@ -1526,12 +1526,12 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1509,1562,Hugolina,7b+,Damjan Gruden,20.4.2008,valid
 1510,1562,Hugolina,7b+,Mitja Zabukovec,12.11.2008,valid
 1511,1562,Hugolina,7b+,Miha Panèur,17.10.2010,valid
-1512,1562,Hugolina,7b+,Žiga Oražem,23.3.2011,
-1513,1562,Hugolina,7b+/c,Bojan Leskošek,19.9.2010,
-1514,1562,Hugolina,7b+/c,Luka Pavlovèiè,11.10.2013,
-1515,1563,Pinot,7b+,vodlan klemen,13.12.2000,
-1516,1563,Pinot,7b+,Zazvonil Luka,9.1.2001,
-1517,1563,Pinot,7b+/c,Rajko Zajc,28.10.2008,
+1512,1562,Hugolina,7b+,Žiga Oražem,23.3.2011,invalid
+1513,1562,Hugolina,7b+/c,Bojan Leskošek,19.9.2010,invalid
+1514,1562,Hugolina,7b+/c,Luka Pavlovèiè,11.10.2013,invalid
+1515,1563,Pinot,7b+,vodlan klemen,13.12.2000,invalid
+1516,1563,Pinot,7b+,Zazvonil Luka,9.1.2001,invalid
+1517,1563,Pinot,7b+/c,Rajko Zajc,28.10.2008,invalid
 1518,1563,Pinot,7b+/c,Luka Pavlovèiè,11.10.2013,valid
 1519,1563,Pinot,7c,Bazna ocena,,valid
 1520,1563,Pinot,7c,Vidmar Jernej,12.6.2006,valid
@@ -1540,22 +1540,22 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1523,1563,Pinot,7c,Damjan Gruden,8.11.2008,valid
 1524,1563,Pinot,7c,Mitja Zabukovec,12.11.2008,valid
 1525,1563,Pinot,7c,Miha Panèur,11.12.2010,valid
-1526,1563,Pinot,7c,Žiga Oražem,23.3.2011,
-1527,1563,Pinot,7c,Risto Sovèev,15.5.2011,
-1528,1563,Pinot,7c,Mitja Predikaka,11.11.2014,
-1529,1564,Deževna sodba,7c,Anže Martinèiè,20.6.2010,
+1526,1563,Pinot,7c,Žiga Oražem,23.3.2011,invalid
+1527,1563,Pinot,7c,Risto Sovèev,15.5.2011,invalid
+1528,1563,Pinot,7c,Mitja Predikaka,11.11.2014,invalid
+1529,1564,Deževna sodba,7c,Anže Martinèiè,20.6.2010,invalid
 1530,1564,Deževna sodba,7c,Rajko Zajc,16.11.2013,valid
 1531,1564,Deževna sodba,7c,Damjan Gruden,17.11.2013,valid
 1532,1564,Deževna sodba,7c/c+,Bazna ocena,,valid
-1533,1564,Deževna sodba,7c/c+,benjamin marjanoviè,25.11.2013,
-1534,1565,Hrenovka,6b,vodlan klemen,13.12.2000,
-1535,1565,Hrenovka,6b,selak gregor,30.1.2001,
-1536,1565,Hrenovka,6b,Cikic Cedomir,10.10.2002,
-1537,1565,Hrenovka,6b,Miha Miheliè,5.4.2007,
-1538,1565,Hrenovka,6b,jernej vidmar,23.5.2007,
-1539,1565,Hrenovka,6b,Andrej Turk,3.6.2007,
-1540,1565,Hrenovka,6b,Mitja Zabukovec,12.11.2008,
-1541,1565,Hrenovka,6b,Nina Faganel,18.5.2009,
+1533,1564,Deževna sodba,7c/c+,benjamin marjanoviè,25.11.2013,invalid
+1534,1565,Hrenovka,6b,vodlan klemen,13.12.2000,invalid
+1535,1565,Hrenovka,6b,selak gregor,30.1.2001,invalid
+1536,1565,Hrenovka,6b,Cikic Cedomir,10.10.2002,invalid
+1537,1565,Hrenovka,6b,Miha Miheliè,5.4.2007,invalid
+1538,1565,Hrenovka,6b,jernej vidmar,23.5.2007,invalid
+1539,1565,Hrenovka,6b,Andrej Turk,3.6.2007,invalid
+1540,1565,Hrenovka,6b,Mitja Zabukovec,12.11.2008,invalid
+1541,1565,Hrenovka,6b,Nina Faganel,18.5.2009,invalid
 1542,1565,Hrenovka,6b,Neda Podergajs,6.8.2011,valid
 1543,1565,Hrenovka,6b,Ernest Mandelc,20.11.2016,valid
 1544,1565,Hrenovka,6b/b+,Rajko Zajc,19.3.2005,valid
@@ -1578,27 +1578,27 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1561,1565,Hrenovka,6b+,Andrej Žitnik,11.1.2009,valid
 1562,1565,Hrenovka,6b+,Risto Sovèev,17.10.2009,valid
 1563,1565,Hrenovka,6b+,Žiga Oražem,24.10.2010,valid
-1564,1565,Hrenovka,6b+,Danaja vastiè,12.12.2010,
-1565,1565,Hrenovka,6b+,Mitja Predikaka,18.2.2012,
-1566,1565,Hrenovka,6b+,Davide Collini,22.7.2012,
-1567,1565,Hrenovka,6b+,Maja Panèur,7.10.2013,
-1568,1565,Hrenovka,6b+,Matjaž Klanèar,22.4.2014,
-1569,1565,Hrenovka,6b+,Viktor Bombek,22.7.2015,
-1570,1565,Hrenovka,6b+,Marko Kejžar,19.9.2016,
-1571,1565,Hrenovka,6b+,Tanja Brstilo,18.10.2016,
-1572,1566,Euro,7a+,Bazna ocena,,
-1573,1566,Euro,7a+,selak gregor,17.10.2005,
+1564,1565,Hrenovka,6b+,Danaja vastiè,12.12.2010,invalid
+1565,1565,Hrenovka,6b+,Mitja Predikaka,18.2.2012,invalid
+1566,1565,Hrenovka,6b+,Davide Collini,22.7.2012,invalid
+1567,1565,Hrenovka,6b+,Maja Panèur,7.10.2013,invalid
+1568,1565,Hrenovka,6b+,Matjaž Klanèar,22.4.2014,invalid
+1569,1565,Hrenovka,6b+,Viktor Bombek,22.7.2015,invalid
+1570,1565,Hrenovka,6b+,Marko Kejžar,19.9.2016,invalid
+1571,1565,Hrenovka,6b+,Tanja Brstilo,18.10.2016,invalid
+1572,1566,Euro,7a+,Bazna ocena,,invalid
+1573,1566,Euro,7a+,selak gregor,17.10.2005,invalid
 1574,1566,Euro,7a+,jernej vidmar,15.4.2008,valid
 1575,1566,Euro,7a+,Martin Bombaè,11.11.2009,valid
 1576,1566,Euro,7a+,Rajko Zajc,14.4.2012,valid
 1577,1566,Euro,7a+,Mitja Predikaka,29.12.2012,valid
-1578,1566,Euro,7a+,Damjan Gruden,18.12.2013,
-1579,1566,Euro,7b,JURE FRANKO,29.8.2005,
-1580,1567,Èevapèiè,6b+,Rajko Zajc,19.3.2005,
-1581,1567,Èevapèiè,6b+,jernej vidmar,23.5.2007,
-1582,1567,Èevapèiè,6b+,Mitja Zabukovec,12.11.2008,
-1583,1567,Èevapèiè,6b+,Mitja Predikaka,29.2.2012,
-1584,1567,Èevapèiè,6b+,Ernest Mandelc,20.11.2016,
+1578,1566,Euro,7a+,Damjan Gruden,18.12.2013,invalid
+1579,1566,Euro,7b,JURE FRANKO,29.8.2005,invalid
+1580,1567,Èevapèiè,6b+,Rajko Zajc,19.3.2005,invalid
+1581,1567,Èevapèiè,6b+,jernej vidmar,23.5.2007,invalid
+1582,1567,Èevapèiè,6b+,Mitja Zabukovec,12.11.2008,invalid
+1583,1567,Èevapèiè,6b+,Mitja Predikaka,29.2.2012,invalid
+1584,1567,Èevapèiè,6b+,Ernest Mandelc,20.11.2016,invalid
 1585,1567,Èevapèiè,6b+/c,Dejan P.,31.5.2007,valid
 1586,1567,Èevapèiè,6b+/c,x,19.4.2012,valid
 1587,1567,Èevapèiè,6b+/c,Klemen Peterlin,20.11.2016,valid
@@ -1612,15 +1612,15 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1595,1567,Èevapèiè,6c,Miha Panèur,8.11.2009,valid
 1596,1567,Èevapèiè,6c,Risto Sovèev,26.4.2010,valid
 1597,1567,Èevapèiè,6c,Marko Poženel,7.6.2010,valid
-1598,1567,Èevapèiè,6c,Neda Podergajs,6.8.2011,
-1599,1567,Èevapèiè,6c,Žiga Oražem,5.11.2012,
-1600,1567,Èevapèiè,6c,Urška Cigler,10.10.2015,
-1601,1567,Èevapèiè,6c,Marko Kejžar,2.10.2016,
-1602,1567,Èevapèiè,6c,Tanja Brstilo,18.10.2016,
-1603,1569,Sneguljèica,5c,Rožiè Primož,17.11.2003,
-1604,1569,Sneguljèica,5c,Simon Rutar,18.9.2006,
-1605,1569,Sneguljèica,5c,Ivan Vodopivec,13.1.2007,
-1606,1569,Sneguljèica,5c,Rajko Zajc,21.3.2007,
+1598,1567,Èevapèiè,6c,Neda Podergajs,6.8.2011,invalid
+1599,1567,Èevapèiè,6c,Žiga Oražem,5.11.2012,invalid
+1600,1567,Èevapèiè,6c,Urška Cigler,10.10.2015,invalid
+1601,1567,Èevapèiè,6c,Marko Kejžar,2.10.2016,invalid
+1602,1567,Èevapèiè,6c,Tanja Brstilo,18.10.2016,invalid
+1603,1569,Sneguljèica,5c,Rožiè Primož,17.11.2003,invalid
+1604,1569,Sneguljèica,5c,Simon Rutar,18.9.2006,invalid
+1605,1569,Sneguljèica,5c,Ivan Vodopivec,13.1.2007,invalid
+1606,1569,Sneguljèica,5c,Rajko Zajc,21.3.2007,invalid
 1607,1569,Sneguljèica,5c,Jure Franko,17.4.2008,valid
 1608,1569,Sneguljèica,5c,Damjan Gruden,8.11.2008,valid
 1609,1569,Sneguljèica,5c,Martin Bombaè,16.3.2009,valid
@@ -1632,20 +1632,20 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1615,1569,Sneguljèica,5c+/6a,Grega Soviè,29.9.2013,valid
 1616,1569,Sneguljèica,6a,Bazna ocena,,valid
 1617,1569,Sneguljèica,6a,jernej vidmar,30.6.2009,valid
-1618,1569,Sneguljèica,6a,Lilian Andresen,11.6.2012,
-1619,1569,Sneguljèica,6a,Maja Panèur,7.10.2013,
-1620,1569,Sneguljèica,6a,Martin Zorko,2.11.2014,
-1621,1569,Sneguljèica,6a,Martin Ravnik P,10.1.2015,
-1622,5438,Bedarija,7a,Bazna ocena,,
+1618,1569,Sneguljèica,6a,Lilian Andresen,11.6.2012,invalid
+1619,1569,Sneguljèica,6a,Maja Panèur,7.10.2013,invalid
+1620,1569,Sneguljèica,6a,Martin Zorko,2.11.2014,invalid
+1621,1569,Sneguljèica,6a,Martin Ravnik P,10.1.2015,invalid
+1622,5438,Bedarija,7a,Bazna ocena,,invalid
 1623,5438,Bedarija,7a+,Rajko Zajc,13.4.2008,valid
 1624,5438,Bedarija,7a+,jernej vidmar,28.5.2008,valid
 1625,5438,Bedarija,7a+,Martin Bombaè,19.4.2009,valid
 1626,5438,Bedarija,7a+,Damjan Gruden,8.7.2009,valid
 1627,5438,Bedarija,7a+,Janez Vratanar,15.7.2009,valid
-1628,5438,Bedarija,7b,Luka Pavlovèiè,11.10.2013,
-1629,1570,7 palèkov,6b+,Rožiè Primož,17.11.2003,
-1630,1570,7 palèkov,6b+,Rajko Zajc,18.9.2006,
-1631,1570,7 palèkov,6c,Bazna ocena,,
+1628,5438,Bedarija,7b,Luka Pavlovèiè,11.10.2013,invalid
+1629,1570,7 palèkov,6b+,Rožiè Primož,17.11.2003,invalid
+1630,1570,7 palèkov,6b+,Rajko Zajc,18.9.2006,invalid
+1631,1570,7 palèkov,6c,Bazna ocena,,invalid
 1632,1570,7 palèkov,6c,Martin Bombaè,8.1.2007,valid
 1633,1570,7 palèkov,6c,janko domitroviè,16.10.2007,valid
 1634,1570,7 palèkov,6c,Jure Franko,17.4.2008,valid
@@ -1656,39 +1656,39 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1639,1570,7 palèkov,6c,Grega Soviè,29.9.2013,valid
 1640,1570,7 palèkov,6c,Martin Zorko,2.11.2014,valid
 1641,1570,7 palèkov,6c,Ernest Mandelc,20.11.2016,valid
-1642,1570,7 palèkov,6c,Klemen Peterlin,20.11.2016,
-1643,1570,7 palèkov,6c+,jernej vidmar,23.5.2007,
-1644,1570,7 palèkov,6c+,Martin Ravnik P,25.1.2015,
-1645,1568,Timo,6b+,vodlan klemen,13.12.2000,
-1646,1568,Timo,6c,Zazvonil Luka,9.1.2001,
+1642,1570,7 palèkov,6c,Klemen Peterlin,20.11.2016,invalid
+1643,1570,7 palèkov,6c+,jernej vidmar,23.5.2007,invalid
+1644,1570,7 palèkov,6c+,Martin Ravnik P,25.1.2015,invalid
+1645,1568,Timo,6b+,vodlan klemen,13.12.2000,invalid
+1646,1568,Timo,6c,Zazvonil Luka,9.1.2001,invalid
 1647,1568,Timo,6c,Rajko Zajc,16.10.2005,valid
 1648,1568,Timo,6c,Jure Franko,17.4.2008,valid
 1649,1568,Timo,6c,Damjan Gruden,8.11.2008,valid
 1650,1568,Timo,6c,Martin Bombaè,25.4.2009,valid
-1651,1568,Timo,6c,jernej vidmar,30.6.2009,
-1652,1568,Timo,6c+,Bazna ocena,,
-1653,1571,Truplojedka,8a,vodlan klemen,13.12.2000,
+1651,1568,Timo,6c,jernej vidmar,30.6.2009,invalid
+1652,1568,Timo,6c+,Bazna ocena,,invalid
+1653,1571,Truplojedka,8a,vodlan klemen,13.12.2000,invalid
 1654,1571,Truplojedka,8a+,Bazna ocena,,valid
-1655,1571,Truplojedka,8a+,Zazvonil Luka,9.1.2001,
+1655,1571,Truplojedka,8a+,Zazvonil Luka,9.1.2001,invalid
 1656,1572,Matrix,8b,Bazna ocena,,valid
 1657,1573,Missing drink,8b+,Bazna ocena,,valid
-1658,1574,Missing link,8b+,Bazna ocena,,
+1658,1574,Missing link,8b+,Bazna ocena,,invalid
 1659,1574,Missing link,8b+,vodlan klemen,13.12.2000,valid
-1660,1574,Missing link,8b+,Zazvonil Luka,9.1.2001,
+1660,1574,Missing link,8b+,Zazvonil Luka,9.1.2001,invalid
 1661,1575,Konec mira,8c/c+,Bazna ocena,,valid
 1662,1576,Marjetica,8b/b+,Bazna ocena,,valid
-1663,1576,Marjetica,8b/b+,Zazvonil Luka,9.1.2001,
-1664,1577,Pingvin,8a+,Bazna ocena,,
+1663,1576,Marjetica,8b/b+,Zazvonil Luka,9.1.2001,invalid
+1664,1577,Pingvin,8a+,Bazna ocena,,invalid
 1665,1577,Pingvin,8a+,Zazvonil Luka,9.1.2001,valid
-1666,1577,Pingvin,8a+/b,vodlan klemen,13.12.2000,
-1667,1578,Pingvin a,7c+,Bazna ocena,,
+1666,1577,Pingvin,8a+/b,vodlan klemen,13.12.2000,invalid
+1667,1578,Pingvin a,7c+,Bazna ocena,,invalid
 1668,1578,Pingvin a,7c+,vodlan klemen,13.12.2000,valid
 1669,1578,Pingvin a,7c+,Zazvonil Luka,9.1.2001,valid
 1670,1578,Pingvin a,7c+,Janez Vratanar,18.6.2008,valid
 1671,1578,Pingvin a,7c+,Rajko Zajc,19.4.2009,valid
-1672,1578,Pingvin a,7c+,Martin Bombaè,26.4.2009,
-1673,1579,Sonce v oèeh,8a,Leskošek Bojan,7.12.2000,
-1674,1579,Sonce v oèeh,8a+,Bazna ocena,,
+1672,1578,Pingvin a,7c+,Martin Bombaè,26.4.2009,invalid
+1673,1579,Sonce v oèeh,8a,Leskošek Bojan,7.12.2000,invalid
+1674,1579,Sonce v oèeh,8a+,Bazna ocena,,invalid
 1675,1579,Sonce v oèeh,8a+,vodlan klemen,13.12.2000,valid
 1676,1579,Sonce v oèeh,8a+,Zazvonil Luka,9.1.2001,valid
 1677,1579,Sonce v oèeh,8a+,Ravnik Jurij,9.10.2001,valid
@@ -1696,14 +1696,14 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1679,1579,Sonce v oèeh,8a+,Risto Sovèev,28.11.2009,valid
 1680,1579,Sonce v oèeh,8a+,Rajko Zajc,17.12.2011,valid
 1681,1579,Sonce v oèeh,8a+,Luka Pavlovèiè,25.10.2014,valid
-1682,1579,Sonce v oèeh,8a+,Miha Panèur,19.4.2015,
-1683,1579,Sonce v oèeh,8a+,Saša Vidmar,2.4.2016,
+1682,1579,Sonce v oèeh,8a+,Miha Panèur,19.4.2015,invalid
+1683,1579,Sonce v oèeh,8a+,Saša Vidmar,2.4.2016,invalid
 1684,1580,Martin Krpan,9a,Bazna ocena,,valid
 1685,1581,Strelovod,8c,Bazna ocena,,valid
-1686,1582,Runo,7b,Rajko Zajc,17.4.2006,
-1687,1582,Runo,7b,Mitja Predikaka,15.4.2012,
-1688,1582,Runo,7b/b+,jernej vidmar,23.5.2007,
-1689,1582,Runo,7b/b+,Miha Panèur,23.6.2010,
+1686,1582,Runo,7b,Rajko Zajc,17.4.2006,invalid
+1687,1582,Runo,7b,Mitja Predikaka,15.4.2012,invalid
+1688,1582,Runo,7b/b+,jernej vidmar,23.5.2007,invalid
+1689,1582,Runo,7b/b+,Miha Panèur,23.6.2010,invalid
 1690,1582,Runo,7b/b+,Žiga Oražem,7.1.2012,valid
 1691,1582,Runo,7b+,Bazna ocena,,valid
 1692,1582,Runo,7b+,vodlan klemen,13.12.2000,valid
@@ -1714,14 +1714,14 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1697,1582,Runo,7b+,Vidmar Jernej,4.10.2005,valid
 1698,1582,Runo,7b+,Martin Bombaè,8.1.2007,valid
 1699,1582,Runo,7b+,Damjan Gruden,7.5.2008,valid
-1700,1582,Runo,7b+,Mitja Zabukovec,12.11.2008,
-1701,1582,Runo,7b+,Saša Vidmar,21.5.2012,
-1702,1582,Runo,7b+,Luka Pavlovèiè,11.10.2013,
-1703,1582,Runo,7b+,Sašo Ocvirk,20.3.2015,
-1704,1583,Reksi,7a+,Cikic Cedomir,10.10.2002,
-1705,1583,Reksi,7a+/b,Bazna ocena,,
-1706,1583,Reksi,7a+/b,vodlan klemen,13.12.2000,
-1707,1583,Reksi,7a+/b,Zazvonil Luka,9.1.2001,
+1700,1582,Runo,7b+,Mitja Zabukovec,12.11.2008,invalid
+1701,1582,Runo,7b+,Saša Vidmar,21.5.2012,invalid
+1702,1582,Runo,7b+,Luka Pavlovèiè,11.10.2013,invalid
+1703,1582,Runo,7b+,Sašo Ocvirk,20.3.2015,invalid
+1704,1583,Reksi,7a+,Cikic Cedomir,10.10.2002,invalid
+1705,1583,Reksi,7a+/b,Bazna ocena,,invalid
+1706,1583,Reksi,7a+/b,vodlan klemen,13.12.2000,invalid
+1707,1583,Reksi,7a+/b,Zazvonil Luka,9.1.2001,invalid
 1708,1583,Reksi,7a+/b,Ivan Šolar,14.5.2005,valid
 1709,1583,Reksi,7a+/b,Saša Vidmar,28.3.2011,valid
 1710,1583,Reksi,7a+/b,Jure Franko,14.10.2013,valid
@@ -1736,19 +1736,19 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1719,1583,Reksi,7b,Risto Sovèev,17.10.2009,valid
 1720,1583,Reksi,7b,Miha Panèur,9.5.2010,valid
 1721,1583,Reksi,7b,Neda Podergajs,6.8.2011,valid
-1722,1583,Reksi,7b,Mitja Predikaka,15.11.2012,
-1723,1583,Reksi,7b,Sašo Ocvirk,20.3.2015,
-1724,1583,Reksi,7b/b+,"Kopše, Igor",18.5.2001,
-1725,1583,Reksi,7b/b+,Luka Pavlovèiè,11.10.2013,
-1726,8983,Lesi,7b,Bazna ocena,,
+1722,1583,Reksi,7b,Mitja Predikaka,15.11.2012,invalid
+1723,1583,Reksi,7b,Sašo Ocvirk,20.3.2015,invalid
+1724,1583,Reksi,7b/b+,"Kopše, Igor",18.5.2001,invalid
+1725,1583,Reksi,7b/b+,Luka Pavlovèiè,11.10.2013,invalid
+1726,8983,Lesi,7b,Bazna ocena,,invalid
 1727,8983,Lesi,7b,jernej vidmar,25.3.2008,valid
 1728,8983,Lesi,7b,Rajko Zajc,19.4.2009,valid
 1729,8983,Lesi,7b,Martin Bombaè,18.5.2009,valid
 1730,8983,Lesi,7b,Mitja Zabukovec,28.5.2010,valid
 1731,8983,Lesi,7b,Damjan Gruden,24.3.2012,valid
-1732,8983,Lesi,7b,Miha Panèur,13.4.2015,
-1733,1584,VR6,7b+/c,Rajko Zajc,20.4.2010,
-1734,1584,VR6,7c,Bazna ocena,,
+1732,8983,Lesi,7b,Miha Panèur,13.4.2015,invalid
+1733,1584,VR6,7b+/c,Rajko Zajc,20.4.2010,invalid
+1734,1584,VR6,7c,Bazna ocena,,invalid
 1735,1584,VR6,7c,Zazvonil Luka,11.12.2000,valid
 1736,1584,VR6,7c,vodlan klemen,13.12.2000,valid
 1737,1584,VR6,7c,MARGON SIMON,20.4.2002,valid
@@ -1756,14 +1756,14 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1739,1584,VR6,7c,jernej vidmar,2.11.2007,valid
 1740,1584,VR6,7c,Štefan Wraber,10.2.2010,valid
 1741,1584,VR6,7c,Miha Panèur,25.4.2015,valid
-1742,1584,VR6,7c/c+,Damjan Gruden,1.6.2013,
-1743,1584,VR6,7c/c+,Martin Bombaè,17.11.2014,
-1744,1585,Zajèek,7c+/8a,Rajko Zajc,31.10.2011,
+1742,1584,VR6,7c/c+,Damjan Gruden,1.6.2013,invalid
+1743,1584,VR6,7c/c+,Martin Bombaè,17.11.2014,invalid
+1744,1585,Zajèek,7c+/8a,Rajko Zajc,31.10.2011,invalid
 1745,1585,Zajèek,8a+,Bazna ocena,,valid
-1746,1585,Zajèek,8a+,Zazvonil Luka,9.1.2001,
-1747,1586,Platfus,7a,Mitja Predikaka,13.4.2012,
-1748,1586,Platfus,7a/a+,Sašo Ocvirk,20.3.2015,
-1749,1586,Platfus,7a+,Bazna ocena,,
+1746,1585,Zajèek,8a+,Zazvonil Luka,9.1.2001,invalid
+1747,1586,Platfus,7a,Mitja Predikaka,13.4.2012,invalid
+1748,1586,Platfus,7a/a+,Sašo Ocvirk,20.3.2015,invalid
+1749,1586,Platfus,7a+,Bazna ocena,,invalid
 1750,1586,Platfus,7a+,vodlan klemen,13.12.2000,valid
 1751,1586,Platfus,7a+,Zazvonil Luka,9.1.2001,valid
 1752,1586,Platfus,7a+,Rajko Zajc,2.11.2005,valid
@@ -1774,30 +1774,30 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1757,1586,Platfus,7a+,Mitja Zabukovec,12.11.2008,valid
 1758,1586,Platfus,7a+,Miha Panèur,14.11.2009,valid
 1759,1586,Platfus,7a+,Neda Podergajs,28.9.2010,valid
-1760,1586,Platfus,7a+,Saša Vidmar,4.4.2011,
-1761,1586,Platfus,7a+,Luka Pavlovèiè,11.10.2013,
-1762,1586,Platfus,7a+,Jure Franko,2.3.2014,
-1763,5439,JSKŽ,7a+,Bazna ocena,,
+1760,1586,Platfus,7a+,Saša Vidmar,4.4.2011,invalid
+1761,1586,Platfus,7a+,Luka Pavlovèiè,11.10.2013,invalid
+1762,1586,Platfus,7a+,Jure Franko,2.3.2014,invalid
+1763,5439,JSKŽ,7a+,Bazna ocena,,invalid
 1764,5439,JSKŽ,7a+,Rajko Zajc,18.2.2007,valid
 1765,5439,JSKŽ,7a+,Damjan Gruden,22.10.2007,valid
 1766,5439,JSKŽ,7a+,Martin Bombaè,30.11.2007,valid
 1767,5439,JSKŽ,7a+,jernej vidmar,30.6.2009,valid
 1768,5439,JSKŽ,7a+,Miha Panèur,2.6.2010,valid
-1769,5439,JSKŽ,7a+,Sašo Ocvirk,20.3.2015,
-1770,6561,Afrodita,6a+,Bazna ocena,,
+1769,5439,JSKŽ,7a+,Sašo Ocvirk,20.3.2015,invalid
+1770,6561,Afrodita,6a+,Bazna ocena,,invalid
 1771,6561,Afrodita,6a+,Rajko Zajc,5.10.2006,valid
 1772,6561,Afrodita,6a+,Alen Majcan,14.5.2007,valid
 1773,6561,Afrodita,6a+,Damjan Gruden,12.6.2009,valid
 1774,6561,Afrodita,6a+,Jure Franko,14.10.2013,valid
 1775,6561,Afrodita,6b,jernej vidmar,28.5.2008,valid
-1776,6561,Afrodita,6b,Martin Bombaè,16.3.2009,
-1777,6562,Afrodiziak,6c+,Bazna ocena,,
+1776,6561,Afrodita,6b,Martin Bombaè,16.3.2009,invalid
+1777,6562,Afrodiziak,6c+,Bazna ocena,,invalid
 1778,6562,Afrodiziak,6c+,Rajko Zajc,8.4.2007,valid
 1779,6562,Afrodiziak,6c+,Damjan Gruden,11.7.2009,valid
 1780,6562,Afrodiziak,7a,Martin Bombaè,19.4.2009,valid
-1781,6562,Afrodiziak,7a,jernej vidmar,28.3.2011,
-1782,1587,Švejk,6c/c+,Dejan P.,31.5.2007,
-1783,1587,Švejk,6c+/7a,Martin Bombaè,8.1.2007,
+1781,6562,Afrodiziak,7a,jernej vidmar,28.3.2011,invalid
+1782,1587,Švejk,6c/c+,Dejan P.,31.5.2007,invalid
+1783,1587,Švejk,6c+/7a,Martin Bombaè,8.1.2007,invalid
 1784,1587,Švejk,7a,Bazna ocena,,valid
 1785,1587,Švejk,7a,vodlan klemen,13.12.2000,valid
 1786,1587,Švejk,7a,Zazvonil Luka,9.1.2001,valid
@@ -1805,10 +1805,10 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1788,1587,Švejk,7a,Rajko Zajc,28.3.2005,valid
 1789,1587,Švejk,7a,Mitja Zabukovec,12.11.2008,valid
 1790,1587,Švejk,7a,Damjan Gruden,11.7.2009,valid
-1791,1587,Švejk,7a,jernej vidmar,28.3.2011,
-1792,1587,Švejk,7a,Jure Franko,14.10.2013,
-1793,1588,Krjavelj,6a+,Martin Bombaè,16.3.2009,
-1794,1588,Krjavelj,6a+,Damjan Gruden,11.7.2009,
+1791,1587,Švejk,7a,jernej vidmar,28.3.2011,invalid
+1792,1587,Švejk,7a,Jure Franko,14.10.2013,invalid
+1793,1588,Krjavelj,6a+,Martin Bombaè,16.3.2009,invalid
+1794,1588,Krjavelj,6a+,Damjan Gruden,11.7.2009,invalid
 1795,1588,Krjavelj,6a+,Sašo Poglajen,31.5.2010,valid
 1796,1588,Krjavelj,6a+,Jure Franko,14.10.2013,valid
 1797,1588,Krjavelj,6a+/b,Urška Cigler,2.11.2015,valid
@@ -1816,29 +1816,29 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1799,1588,Krjavelj,6b,Miha Miheliè,5.4.2007,valid
 1800,1588,Krjavelj,6b,Rajko Zajc,8.4.2007,valid
 1801,1588,Krjavelj,6b,Dejan P.,31.5.2007,valid
-1802,1588,Krjavelj,6b,Boris Magdalenc,9.9.2007,
-1803,1588,Krjavelj,6b,Ajda Auersperger,29.3.2014,
-1804,6563,Mišja luknja,5a,Bazna ocena,,
-1805,6563,Mišja luknja,5b,Rajko Zajc,9.9.2007,
+1802,1588,Krjavelj,6b,Boris Magdalenc,9.9.2007,invalid
+1803,1588,Krjavelj,6b,Ajda Auersperger,29.3.2014,invalid
+1804,6563,Mišja luknja,5a,Bazna ocena,,invalid
+1805,6563,Mišja luknja,5b,Rajko Zajc,9.9.2007,invalid
 1806,6563,Mišja luknja,5b,Martin Bombaè,16.3.2009,valid
 1807,6563,Mišja luknja,5b,Damjan Gruden,11.7.2009,valid
 1808,6563,Mišja luknja,5b,Tanja Brstilo,17.5.2015,valid
 1809,6563,Mišja luknja,5b+,Alen Majcan,14.5.2007,valid
 1810,6563,Mišja luknja,5b+,Grega Soviè,29.9.2013,valid
-1811,6563,Mišja luknja,5b+,Martin Ravnik P,25.1.2015,
-1812,6563,Mišja luknja,5b+/c,Sašo Poglajen,31.5.2010,
-1813,6564,Podgana,5c,Alen Majcan,14.5.2007,
-1814,6564,Podgana,6a,Bazna ocena,,
+1811,6563,Mišja luknja,5b+,Martin Ravnik P,25.1.2015,invalid
+1812,6563,Mišja luknja,5b+/c,Sašo Poglajen,31.5.2010,invalid
+1813,6564,Podgana,5c,Alen Majcan,14.5.2007,invalid
+1814,6564,Podgana,6a,Bazna ocena,,invalid
 1815,6564,Podgana,6a,Boris Magdalenc,9.9.2007,valid
 1816,6564,Podgana,6a+,Rajko Zajc,8.4.2007,valid
 1817,6564,Podgana,6a+,Martin Bombaè,16.3.2009,valid
 1818,6564,Podgana,6a+,Damjan Gruden,11.7.2009,valid
 1819,6564,Podgana,6a+,Grega Soviè,29.9.2013,valid
 1820,6564,Podgana,6a+,Ajda Auersperger,29.3.2014,valid
-1821,6564,Podgana,6a+,Urška Cigler,2.11.2015,
-1822,6564,Podgana,6b,jernej vidmar,28.3.2011,
-1823,1589,Prehod za pešce,4a,Bazna ocena,,
-1824,1589,Prehod za pešce,4a,vodlan klemen,13.12.2000,
+1821,6564,Podgana,6a+,Urška Cigler,2.11.2015,invalid
+1822,6564,Podgana,6b,jernej vidmar,28.3.2011,invalid
+1823,1589,Prehod za pešce,4a,Bazna ocena,,invalid
+1824,1589,Prehod za pešce,4a,vodlan klemen,13.12.2000,invalid
 1825,1589,Prehod za pešce,4a,Zazvonil Luka,9.1.2001,valid
 1826,1589,Prehod za pešce,4a,Gašper Potrebuješ,22.1.2005,valid
 1827,1589,Prehod za pešce,4a,Rajko Zajc,28.10.2008,valid
@@ -1847,107 +1847,107 @@ id,smer_id,ime,ocena,plezalec,datum,valid
 1830,1589,Prehod za pešce,4a/a+,JAKOB POGAÈAR,19.9.2015,valid
 1831,1589,Prehod za pešce,4b,Martin Bombaè,16.3.2009,valid
 1832,1589,Prehod za pešce,4b,Žan Auersperger,29.3.2014,valid
-1833,1589,Prehod za pešce,4b,Ajda Auersperger,29.3.2014,
-1834,1589,Prehod za pešce,4b+,Žiga,6.1.2009,
-1835,6565,Prijateljica noèi,6c+,jernej vidmar,4.4.2011,
+1833,1589,Prehod za pešce,4b,Ajda Auersperger,29.3.2014,invalid
+1834,1589,Prehod za pešce,4b+,Žiga,6.1.2009,invalid
+1835,6565,Prijateljica noèi,6c+,jernej vidmar,4.4.2011,invalid
 1836,6565,Prijateljica noèi,6c+/7a,Damjan Gruden,27.4.2010,valid
 1837,6565,Prijateljica noèi,6c+/7a,Martin Bombaè,18.5.2010,valid
 1838,6565,Prijateljica noèi,7a,Mitja Zabukovec,28.5.2010,valid
 1839,6565,Prijateljica noèi,7a/a+,Rajko Zajc,28.10.2008,valid
-1840,6565,Prijateljica noèi,7a+,Bazna ocena,,
-1841,6566,Sovražnica,7b/b+,Miha Panèur,31.5.2010,
+1840,6565,Prijateljica noèi,7a+,Bazna ocena,,invalid
+1841,6566,Sovražnica,7b/b+,Miha Panèur,31.5.2010,invalid
 1842,6566,Sovražnica,7b+,Bazna ocena,,valid
 1843,6566,Sovražnica,7b+,Damjan Gruden,28.5.2010,valid
 1844,6566,Sovražnica,7b+,Martin Bombaè,31.5.2010,valid
 1845,6566,Sovražnica,7b+,Risto Sovèev,21.6.2010,valid
-1846,6566,Sovražnica,7b+,jernej vidmar,21.3.2011,
-1847,6567,Èrna luknja,6c+,Bazna ocena,,
+1846,6566,Sovražnica,7b+,jernej vidmar,21.3.2011,invalid
+1847,6567,Èrna luknja,6c+,Bazna ocena,,invalid
 1848,6567,Èrna luknja,6c+,Damjan Gruden,21.4.2009,valid
 1849,6567,Èrna luknja,6c+,Jure Franko,31.10.2013,valid
 1850,6567,Èrna luknja,6c+/7a,Martin Bombaè,22.4.2009,valid
-1851,6567,Èrna luknja,7a,jernej vidmar,4.4.2011,
-1852,6568,Sexy zajeda,6c/c+,Rajko Zajc,9.3.2014,
+1851,6567,Èrna luknja,7a,jernej vidmar,4.4.2011,invalid
+1852,6568,Sexy zajeda,6c/c+,Rajko Zajc,9.3.2014,invalid
 1853,6568,Sexy zajeda,6c+,Bazna ocena,,valid
 1854,6568,Sexy zajeda,6c+,Damjan Gruden,16.4.2011,valid
-1855,6568,Sexy zajeda,7a+,Martin Bombaè,18.10.2010,
-1856,1590,Za star moped in hudga psa,7a+,Bazna ocena,,
-1857,1590,Za star moped in hudga psa,7a+,vodlan klemen,13.12.2000,
+1855,6568,Sexy zajeda,7a+,Martin Bombaè,18.10.2010,invalid
+1856,1590,Za star moped in hudga psa,7a+,Bazna ocena,,invalid
+1857,1590,Za star moped in hudga psa,7a+,vodlan klemen,13.12.2000,invalid
 1858,1590,Za star moped in hudga psa,7a+,Zazvonil Luka,9.1.2001,valid
 1859,1590,Za star moped in hudga psa,7a+,Martin Bombaè,26.4.2009,valid
 1860,1590,Za star moped in hudga psa,7a+,Damjan Gruden,31.5.2009,valid
 1861,1590,Za star moped in hudga psa,7a+,jernej vidmar,1.4.2012,valid
 1862,1590,Za star moped in hudga psa,7a+,Rajko Zajc,9.3.2014,valid
-1863,1590,Za star moped in hudga psa,7a+/b,Risto Sovèev,26.4.2010,
-1864,1590,Za star moped in hudga psa,7a+/b,Viktor Bombek,22.7.2015,
-1865,6569,Dežela šalc,5a,Bazna ocena,,
-1866,6569,Dežela šalc,5a,Dejan P.,31.5.2007,
+1863,1590,Za star moped in hudga psa,7a+/b,Risto Sovèev,26.4.2010,invalid
+1864,1590,Za star moped in hudga psa,7a+/b,Viktor Bombek,22.7.2015,invalid
+1865,6569,Dežela šalc,5a,Bazna ocena,,invalid
+1866,6569,Dežela šalc,5a,Dejan P.,31.5.2007,invalid
 1867,6569,Dežela šalc,5a+,Robert Lakovnik,2.1.2007,valid
 1868,6569,Dežela šalc,5a+,Ivan Pepelnjak,4.6.2010,valid
 1869,6569,Dežela šalc,5b,Žiga,6.1.2009,valid
 1870,6569,Dežela šalc,5b,Martin Bombaè,16.3.2009,valid
 1871,6569,Dežela šalc,5b,Damjan Gruden,12.6.2009,valid
-1872,6569,Dežela šalc,5b,jernej vidmar,1.4.2012,
-1873,6569,Dežela šalc,5b+,JAKOB POGAÈAR,19.9.2015,
-1874,7145,Igra,7a,Bazna ocena,,
+1872,6569,Dežela šalc,5b,jernej vidmar,1.4.2012,invalid
+1873,6569,Dežela šalc,5b+,JAKOB POGAÈAR,19.9.2015,invalid
+1874,7145,Igra,7a,Bazna ocena,,invalid
 1875,7145,Igra,7b,Damjan Gruden,25.4.2010,valid
-1876,7145,Igra,7b,Martin Bombaè,21.3.2012,
-1877,7146,Grom,5c,Bazna ocena,,
+1876,7145,Igra,7b,Martin Bombaè,21.3.2012,invalid
+1877,7146,Grom,5c,Bazna ocena,,invalid
 1878,7146,Grom,6a,Damjan Gruden,25.6.2009,valid
 1879,7146,Grom,6a,Rajko Zajc,1.11.2015,valid
 1880,7146,Grom,6a+,Martin Bombaè,16.3.2009,valid
-1881,7146,Grom,6a+,Ivan Pepelnjak,4.6.2010,
-1882,7147,Strela,5a,Bazna ocena,,
-1883,7147,Strela,5b,Davor Zupancic,1.5.2008,
+1881,7146,Grom,6a+,Ivan Pepelnjak,4.6.2010,invalid
+1882,7147,Strela,5a,Bazna ocena,,invalid
+1883,7147,Strela,5b,Davor Zupancic,1.5.2008,invalid
 1884,7147,Strela,5b,Martin Bombaè,16.3.2009,valid
 1885,7147,Strela,5b,Rajko Zajc,1.11.2015,valid
 1886,7147,Strela,5b/b+,Grega Soviè,29.9.2013,valid
 1887,7147,Strela,5b+,Robert Lakovnik,21.2.2007,valid
-1888,7147,Strela,5b+,Ivan Pepelnjak,4.6.2010,
-1889,7147,Strela,5c,Damjan Gruden,25.6.2009,
-1890,1591,Milky way,6b,Bazna ocena,,
-1891,1591,Milky way,6b,vodlan klemen,13.12.2000,
+1888,7147,Strela,5b+,Ivan Pepelnjak,4.6.2010,invalid
+1889,7147,Strela,5c,Damjan Gruden,25.6.2009,invalid
+1890,1591,Milky way,6b,Bazna ocena,,invalid
+1891,1591,Milky way,6b,vodlan klemen,13.12.2000,invalid
 1892,1591,Milky way,6b,Zazvonil Luka,9.1.2001,valid
 1893,1591,Milky way,6b+,Damjan Gruden,25.6.2009,valid
 1894,1591,Milky way,6b+,Martin Bombaè,29.6.2009,valid
 1895,1591,Milky way,6b+,Jure Franko,13.3.2010,valid
-1896,1591,Milky way,6b+,Rajko Zajc,1.11.2015,
-1897,1591,Milky way,6c,jernej vidmar,20.4.2016,
-1898,1592,Bounty,6c,Bazna ocena,,
+1896,1591,Milky way,6b+,Rajko Zajc,1.11.2015,invalid
+1897,1591,Milky way,6c,jernej vidmar,20.4.2016,invalid
+1898,1592,Bounty,6c,Bazna ocena,,invalid
 1899,1592,Bounty,6c,vodlan klemen,13.12.2000,valid
 1900,1592,Bounty,6c,Zazvonil Luka,9.1.2001,valid
 1901,1592,Bounty,6c/c+,Rajko Zajc,9.9.2007,valid
 1902,1592,Bounty,7a,Damjan Gruden,25.6.2009,valid
-1903,1592,Bounty,7a,Martin Bombaè,29.6.2009,
-1904,1593,Rest day,7b+,Bazna ocena,,
+1903,1592,Bounty,7a,Martin Bombaè,29.6.2009,invalid
+1904,1593,Rest day,7b+,Bazna ocena,,invalid
 1905,1593,Rest day,7b+,Zazvonil Luka,9.1.2001,valid
-1906,1593,Rest day,7b+,Damjan Gruden,15.7.2012,
-1907,1594,Snickers,6c,Bazna ocena,,
+1906,1593,Rest day,7b+,Damjan Gruden,15.7.2012,invalid
+1907,1594,Snickers,6c,Bazna ocena,,invalid
 1908,1594,Snickers,6c,vodlan klemen,13.12.2000,valid
 1909,1594,Snickers,6c,Zazvonil Luka,9.1.2001,valid
 1910,1594,Snickers,6c,Rajko Zajc,9.9.2007,valid
 1911,1594,Snickers,6c,Damjan Gruden,12.6.2009,valid
-1912,1594,Snickers,6c,Martin Bombaè,26.10.2009,
-1913,7148,Mars,6b,Bazna ocena,,
+1912,1594,Snickers,6c,Martin Bombaè,26.10.2009,invalid
+1913,7148,Mars,6b,Bazna ocena,,invalid
 1914,7148,Mars,6b+,Rajko Zajc,19.4.2009,valid
 1915,7148,Mars,6b+,Martin Bombaè,12.6.2009,valid
-1916,7148,Mars,6b+,Damjan Gruden,12.6.2009,
-1917,7149,Milka,5c,Bazna ocena,,
+1916,7148,Mars,6b+,Damjan Gruden,12.6.2009,invalid
+1917,7149,Milka,5c,Bazna ocena,,invalid
 1918,7149,Milka,6a/a+,Rajko Zajc,19.4.2009,valid
 1919,7149,Milka,6a+,Martin Bombaè,19.4.2009,valid
-1920,7149,Milka,6a+,Damjan Gruden,31.5.2009,
-1921,7150,Gorenjka,6b+/c,Rajko Zajc,19.4.2009,
+1920,7149,Milka,6a+,Damjan Gruden,31.5.2009,invalid
+1921,7150,Gorenjka,6b+/c,Rajko Zajc,19.4.2009,invalid
 1922,7150,Gorenjka,6c,Bazna ocena,,valid
 1923,7150,Gorenjka,6c,Martin Bombaè,19.4.2009,valid
 1924,7150,Gorenjka,6c,Damjan Gruden,31.5.2009,valid
-1925,7150,Gorenjka,6c,Grega Soviè,29.9.2013,
-1926,7151,Raffaelo,6a+,Bazna ocena,,
+1925,7150,Gorenjka,6c,Grega Soviè,29.9.2013,invalid
+1926,7151,Raffaelo,6a+,Bazna ocena,,invalid
 1927,7151,Raffaelo,6a+/b,Grega Soviè,29.9.2013,valid
 1928,7151,Raffaelo,6b,Rajko Zajc,19.4.2009,valid
 1929,7151,Raffaelo,6b,Martin Bombaè,19.4.2009,valid
-1930,7151,Raffaelo,6b,Damjan Gruden,31.5.2009,
-1931,7152,Twix,5b,Bazna ocena,,
+1930,7151,Raffaelo,6b,Damjan Gruden,31.5.2009,invalid
+1931,7152,Twix,5b,Bazna ocena,,invalid
 1932,7152,Twix,5b,Rajko Zajc,19.4.2009,valid
 1933,7152,Twix,5b,Martin Bombaè,19.4.2009,valid
 1934,7152,Twix,5b,Damjan Gruden,31.5.2009,valid
 1935,7152,Twix,5b+,Ajda Auersperger,29.3.2014,valid
-1936,7152,Twix,5c+,Masa Belic,17.6.2016,
+1936,7152,Twix,5c+,Masa Belic,17.6.2016,invalid
